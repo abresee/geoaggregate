@@ -1,0 +1,5 @@
+postgresql
+postgis
+python 3
+django
+psycopg2
