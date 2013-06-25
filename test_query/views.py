@@ -10,10 +10,8 @@ def index(request):
         context_instance=RequestContext(request))
 
 def query(request):
-    post=request.POST
+    post = request.POST
     point = Point(float(post['lng']),float(post['lat']))
-    print(point)
     qs = WorldBorder.objects.filter(geom__contains=point)
-    print(qs)
 
     return HttpResponse("".join([i.name for i in qs])) 
