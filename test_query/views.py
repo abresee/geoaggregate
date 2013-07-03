@@ -13,5 +13,6 @@ def query(request):
     post = request.POST
     point = Point(float(post['lng']),float(post['lat']))
     qs = WorldBorder.objects.filter(geom__contains=point)
+    print(qs)
 
     return HttpResponse("".join([i.name for i in qs])) 

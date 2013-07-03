@@ -64,7 +64,7 @@ function initialize() {
         lng_ = event.latLng.lng();
         $.post("query",{lat: lat_, lng: lng_},
             function(data) {
-                $("#result").text(data)
+                var border=$.parseJSON(data);
             }
         )
     });
