@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-<script src="http://maps.google.com/maps/api/js?key=AIzaSyB_F1CnN0RgU3SbH-j6Mr3LehaB5Sr-DBE&sensor=false"></script>
-<script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
-<script src="/static/test_query/app.js"></script>
-<link rel="stylesheet" type="text/css" href="/static/test_query/style.css">
+    <head>
+        {% load staticfiles %}
 
-</head>
-<body onload='initialize()'>
-    <div id="map"></div>
-    <div id="result"><span>What Country?</span></div>
-</body>
+
+        <script src="//maps.google.com/maps/api/js?key=AIzaSyB_F1CnN0RgU3SbH-j6Mr3LehaB5Sr-DBE&sensor=false"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+        <script src="{% static "test_query/GeoJSON.js" %}"></script>
+        <script src="{% static "test_query/app.js" %}"></script>
+    <link rel="stylesheet" type="text/css" href="/static/test_query/style.css">
+    </head>
+    <body onload='initialize()'>
+        <div class="wrapper" id="foo">
+            <div id="map-canvas"></div>
+        </div>
+        <div id="report">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet pretium justo. Nunc feugiat eros dignissim lectus pretium ullamcorper. Sed ullamcorper commodo ante, at aliquet lacus aliquet ut. Quisque convallis consequat eros, a convallis tellus mollis a. Morbi facilisis nisi sed odio gravida ultricies. Morbi est tortor, commodo sed arcu id, gravida convallis dui. Proin arcu sapien, ultrices ut felis a, ullamcorper pretium elit. Integer vestibulum at augue nec vestibulum. Vestibulum mattis justo nec elementum rutrum. Vestibulum vestibulum arcu nec egestas consequat. Sed venenatis venenatis nulla, ut imperdiet est tristique lobortis.</p>
+            <p>Pellentesque sollicitudin in justo at faucibus. Nulla convallis, lacus in dapibus luctus, magna tortor eleifend sapien, a imperdiet leo purus sed mauris. Etiam vitae laoreet urna. Curabitur fermentum odio ac vulputate rhoncus. Proin eu sapien imperdiet, posuere quam sit amet, varius felis. Mauris quis elementum ligula. Praesent in neque sit amet risus elementum malesuada eget nec magna. Duis gravida eleifend ultrices. Pellentesque nibh mi, laoreet eu tellus non, feugiat suscipit mi. Suspendisse quis eros eu leo luctus vehicula et nec justo. Integer sit amet massa a elit facilisis ultricies vel in arcu. Integer porta nec lorem vel blandit. Pellentesque mollis, sapien in mattis eleifend, odio metus accumsan tellus, at aliquet massa est at sem</p>
+            <p>Donec in diam in nisl condimentum venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel felis metus. Praesent lobortis placerat tincidunt. Nunc dignissim vitae leo quis volutpat. Aenean ut justo metus. Maecenas ac fermentum turpis. Pellentesque non leo ornare, egestas justo at, volutpat ligula. Donec interdum, leo quis convallis pellentesque, augue nibh accumsan mi, sit amet tristique odio enim vitae lectus. Nullam ultrices, leo a lacinia congue, magna est commodo quam, sed ultrices ligula diam eget risus. Sed ac libero ut justo hendrerit sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce dignissim eget lacus ac congue. In at mauris elementum, tempus lectus vitae, convallis sapien. Sed sed aliquam risus. Praesent ultricies odio sit amet hendrerit viverra.</p>
+            <p>Duis sit amet pellentesque lorem, eget lobortis lectus. Aliquam imperdiet erat et ligula vulputate, et ultrices nunc iaculis. Sed pellentesque non mauris nec rutrum. Etiam eget ligula pulvinar, dignissim mauris sed, hendrerit ante. Suspendisse placerat volutpat metus id sodales. Mauris quis dolor sit amet neque facilisis bibendum. Mauris ut dictum eros. Donec dapibus ipsum vel neque porttitor consequat. Cras gravida, velit at fringilla vulputate, est tellus porta risus, sit amet aliquet lectus erat fringilla augue. Duis erat arcu, imperdiet eu convallis vitae, venenatis sit amet ante. Sed imperdiet dui pharetra aliquam fringilla. Sed sed bibendum ante, et pulvinar augue. Curabitur vel convallis magna, quis pharetra justo. Maecenas aliquam tincidunt nunc id tincidunt. Praesent metus lorem, aliquam id libero nec, pellentesque blandit magna</p>
+            <p>Donec vehicula tristique venenatis. Phasellus mollis orci ac varius vehicula. Nam fermentum sed dolor sed pretium. Proin pulvinar pretium nunc iaculis sagittis. Nullam aliquet cursus tempus. Morbi sollicitudin at purus nec dignissim. Sed sodales lacus erat, non aliquam arcu eleifend euismod. Proin in dignissim nisl, quis ultrices enim. Fusce dui mauris, aliquam eu lorem pellentesque, interdum tincidunt tortor. Nam aliquam et mauris eget congue. Cras tincidunt aliquam enim, eget dapibus est pharetra id. Sed posuere sapien et laoreet ultrices. Donec porta rhoncus urna, id suscipit leo. Nullam eget volutpat tellus. Donec auctor sem porta, blandit orci et, rhoncus ante. In hac habitasse platea dictumst.</p>
+    </body>
 </html>

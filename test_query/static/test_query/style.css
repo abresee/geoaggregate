@@ -1,2 +1,25 @@
-body {font-family: sans-serif}
-#map {width: 650px; height: 600px}
+html, body, .wrapper, #map-canvas {
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+
+.wrapper {
+    width: 100%;
+    position: fixed;
+    overflow: hidden
+}
+
+#map-canvas {
+    width: 60%;
+    float: left
+}
+
+#report {
+    float: right;
+    width: 40%
+}
+
+
+
+

@@ -51,8 +51,10 @@ $.ajaxSetup({
 //End AJAX csrf boilerplate
 
 var map;
+var borders;
+var geojson_data;
 function initialize() {
-    map = new google.maps.Map(document.getElementById('map'),
+    map = new google.maps.Map(document.getElementById('map-canvas'),
         {
             zoom: 3,
             center: new google.maps.LatLng(42.358431, -71.059773),
@@ -64,7 +66,12 @@ function initialize() {
         lng_ = event.latLng.lng();
         $.post("query",{lat: lat_, lng: lng_},
             function(data) {
-                var border=$.parseJSON(data);
+                geojson_data = $.parseJSON(data);
+                borders = new GeoJSON(geojson_data);
+                for(var i = 0; i < borders.length; ++i) {
+                    var border = borders[i];
+                    border.setMap(map);
+                }
             }
         )
     });
