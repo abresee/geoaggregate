@@ -16,10 +16,8 @@ class WorldBorder(models.Model):
     geom = models.MultiPolygonField(srid=4326)
     objects = models.GeoManager()
 
-    def __unicode__(self):
-        return self.name
     def __str__(self):
-        return self.__unicode__()
+        return self.name
 
 # Auto-generated `LayerMapping` dictionary for WorldBorder model
 worldborder_mapping = {

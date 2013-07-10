@@ -1,25 +1,27 @@
-html, body, .wrapper, #map-canvas {
+html, body, #map-wrapper, #map-canvas {
     height: 100%;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
-.wrapper {
+#map-wrapper {
     width: 100%;
     position: fixed;
-    overflow: hidden
+    overflow: hidden;
 }
 
 #map-canvas {
     width: 60%;
-    float: left
+    float: left;
 }
 
-#report {
+#side-wrapper {
+    width: 40%;
     float: right;
-    width: 40%
 }
 
-
-
+#clear {
+    position: relative;
+    z-index: 1;
+}
 
