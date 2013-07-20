@@ -35,15 +35,13 @@ worldborder_mapping = {
     'geom' : 'MULTIPOLYGON',
 }
 
-# This is an auto-generated Django model module created by ogrinspect.
-
-class MACensus(models.Model):
+class MACensusTract(models.Model):
     statefp10 = models.CharField(max_length=2)
     countyfp10 = models.CharField(max_length=3)
     tractce10 = models.CharField(max_length=6)
-    blkgrpce10 = models.CharField(max_length=1)
-    geoid10 = models.CharField(max_length=12)
-    namelsad10 = models.CharField(max_length=13)
+    geoid10 = models.CharField(max_length=11)
+    name10 = models.CharField(max_length=7)
+    namelsad10 = models.CharField(max_length=20)
     mtfcc10 = models.CharField(max_length=5)
     aland10 = models.FloatField()
     awater10 = models.FloatField()
@@ -59,16 +57,19 @@ class MACensus(models.Model):
     logsf1c = models.CharField(max_length=10)
     shape_area = models.FloatField()
     shape_len = models.FloatField()
-    geom = models.MultiPolygonField(srid=4326)
+    geom = models.MultiPolygonField(srid=26986)
     objects = models.GeoManager()
 
-# Auto-generated `LayerMapping` dictionary for MACensus model
-macensus_mapping = {
+    def __str__(self):
+        return self.name10
+
+# Auto-generated `LayerMapping` dictionary for MACensusTract model
+macensustract_mapping = {
     'statefp10' : 'STATEFP10',
     'countyfp10' : 'COUNTYFP10',
     'tractce10' : 'TRACTCE10',
-    'blkgrpce10' : 'BLKGRPCE10',
     'geoid10' : 'GEOID10',
+    'name10' : 'NAME10',
     'namelsad10' : 'NAMELSAD10',
     'mtfcc10' : 'MTFCC10',
     'aland10' : 'ALAND10',
