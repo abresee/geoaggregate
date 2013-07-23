@@ -730,10 +730,10 @@ CODE NAME           CODE NAME           CODE NAME
 009  Benton         069  Kittson        129  Renville
 
 011  Big Stone      071  Koochiching    131  Rice
-013  Blue Earth     073  Lac qui Parle   133  Rock  
+013  Blue Earth     073  Lac qui Parle  133  Rock  
 015  Brown          075  Lake           135  Roseau
-017  Carlton        077  Lake of the    
-019  Carver              Woods          137  St. Louis
+017  Carlton        077  Lake of the Woods    
+019  Carver                             137  St. Louis
                     079  Le Sueur       139  Scott
 
 021  Cass           081  Lincoln        141  Sherburne
@@ -926,7 +926,7 @@ CODE NAME           CODE NAME           CODE NAME
 
 051  Dixon          121  Merrick 
 053  Dodge          123  Morrill   
-055   Douglas       125  Nance
+055  Douglas        125  Nance
 057  Dundy          127  Nemaha   
 059  Fillmore       129  Nuckolls   
 
@@ -949,7 +949,7 @@ CODE NAME            CODE NAME            CODE NAME
 011  Eureka          023  Nye
 
 INDEPENDENT CITY
-510 Carson City
+510  Carson City
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Carson City does not include a legal designation
 (such as "city").
@@ -987,17 +987,17 @@ CODE NAME           CODE NAME            CODE NAME
 006* Cibola         033  Mora
 007  Colfax         035  Otero
 
-009  Curry          037 Quay 
-011  De Baca*       039 Rio Arriba
-013  Dona Ana       041 Roosevelt
-015  Eddy           043 Sandoval
-017  Grant          045 San Juan
+009  Curry          037  Quay 
+011  De Baca*       039  Rio Arriba
+013  Dona Ana       041  Roosevelt
+015  Eddy           043  Sandoval
+017  Grant          045  San Juan
 
-019  Guadalupe      047 San Miguel
-021  Harding        049 Santa Fe
-023  Hidalgo        051 Sierra
-025  Lea            053 Socorro
-027  Lincoln        055 Taos
+019  Guadalupe      047  San Miguel
+021  Harding        049  Santa Fe
+023  Hidalgo        051  Sierra
+025  Lea            053  Socorro
+027  Lincoln        055  Taos
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Cibola was established from part of Valencia (1981 June 19).
