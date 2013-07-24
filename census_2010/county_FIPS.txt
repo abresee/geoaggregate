@@ -1574,7 +1574,7 @@ CODE NAME                     CODE NAME
 610  Falls Church (city)      775  Salem (city)
 620  Franklin (city)          780  South Boston (city)  
 
-630  Fredericksburg (city)    790   Staunton (city)
+630  Fredericksburg (city)    790  Staunton (city)
 640  Galax (city)             800  Suffolk (city) 
 650  Hampton (city)           810  Virginia Beach (city)     
 660  Harrisonburg (city)      820  Waynesboro (city)  
