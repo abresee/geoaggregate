@@ -54,7 +54,7 @@ with open('county_FIPS.txt') as instream:
         m = District.regex.match(line)
         if m:
             cur_district = District(**m.groupdict())
-            mapping[cur_district.code]=cur_district
+            mapping[cur_district.code]=(cur_district.name)
             continue
 
         for m in Record.regex.finditer(line): 
@@ -62,7 +62,7 @@ with open('county_FIPS.txt') as instream:
                 raise Exception("found a record but have no district")
             record = Record(cur_district,**m.groupdict())
             cur_district.add_record(record)
-            mapping[cur_district.code+record.code]=(cur_district,record)
+            mapping[cur_district.code+record.code]=(cur_district.name, record.name)
 
 name_scheme = re.compile(r'tl_rd13_(?P<fips_code>\d{2,5})_(?P<feat_kind>[^.]+).zip')
 paths = defaultdict(list)
@@ -85,7 +85,7 @@ for dirpath, dirnames, filenames in walk(start_dir):
                 zipname = path.join(dirpath,filename)
                 zipplace = path.join(working_dir,unzip_dir,basename,name)
                 if path.exists(zipplace):
-                    print("{0} has already been unzipped".format(zipname))
+                    print("{0} {group} has already been unzipped".format(zipname,group=group_name))
                 else:   
                     print("Unzipping {0} to {1}".format(zipname,zipplace))
                     z = ZipFile(zipname)
