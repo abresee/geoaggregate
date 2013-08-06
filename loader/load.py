@@ -1,94 +1,90 @@
 #!/usr/bin/env python
-from os import walk, path, getcwd
+''' 
+lets download, unzip, gen models, and load!
+'''
 from zipfile import ZipFile
 from collections import defaultdict
-import re,string,shutil
+import os
+import re
+import yaml
+import hashlib
 
-
-class District:
-    regex = re.compile(r'(?P<district>[^(]+)\((?P<shortname>\w{2})\)\s\((?P<district_code>\d{2})\)')
-
-    def __init__(self,district,shortname,district_code):
-        shortname_len, code_len = 2,2
-        assert (len(shortname) == shortname_len) and (len(district_code) == code_len)
-        self.name = string.capwords(district.strip().strip('*'))
-        self.shortname = shortname
-        self.code = district_code
-        self.records={}
-    
-    def __lt__(self,other):
-        return self.name < other.name
-
-    def __str__(self):
-        return ", ".join([self.name, self.shortname, self.code])
-    def add_record(self,record):
-        self.records[record.code]=record.name
-
-    def decode(self,code):
-        if code == self.code:
-            return self.name
-        elif code in self.records:
-            return record.name
-
+# TODO: django-ify this!
+# turn classes into models, set up foreign key relationships, set up data 
+# loading script, get basic "manifest" fixture into stable serial format (yaml?)
 
 class Record:
-    regex = re.compile(r'(?P<county_code>\d{3})\s+(?P<county>([^\d]+))')
-    def __init__(self,district,county,county_code):
-        assert len(county_code) == 3
-        self.name=string.capwords(county.strip().strip('*'))
-        self.code=county_code
-        self.district=district
+    def __init__(self, extent, kind, path, prefix=None):
+        self.extent = extent
+        self.kind = kind
+        self.origin = path
+        self.prefix = prefix
 
-    def __lt__(self,other):
-        return self.name < other.name
-    
-    def __str__(self):
-        return ", ".join([self.name, self.code])
+class Manifest:
+
+    with open('fips.yaml') as fips_file:
+        mapping = yaml.load(fips_file)
+
+    def _rel_name(_,dirpath,filename):
+        dirname = os.path.basename(dirpath)
+        rel_name = os.path.join(dirname, filename)
+        return rel_name
+
+    def __init__(self, start_dir=None, prefix=None):
+        if start_dir:
+            scan(start_dir,prefix)
+
+    def _scan(self, star_dir, prefix):
+        if prefix:
+            start_dir = os.path.join(start_dir,prefix)
+        name_scheme = re.compile(
+            r'tl_rd13_(?P<fips_code>\d{2,5})_(?P<feat_kind>[^.]+).zip')
+        self.records = defaultdict(list)
+        self.skipped = set()
+        for dirpath, _, filenames in os.walk(start_dir):
+            for filename in filenames:
+                match = name_scheme.match(filename)
+                if match:
+                    m_dir = match.groupdict()
+                    code = m_dir['fips_code']
+                    if code in self.mapping:
+                        extent = self.mapping[code]
+                        kind = m_dir['feat_kind']
+                        rel_name = self._rel_name(dirpath, filename)
+                        record = Record(extent, kind, rel_name, prefix)
+                        self.records[code].append(record)
+                    else:
+                        self.skipped.add(filename)
+    @classmethod
+    def from_file(cls, instream):
+        return yaml.load(instream)
+    def to_file(
+with open('manifest.yaml') as yamlfile:
+    manifest = Manifest.from_file(yamlfile)
 
 
-mapping = {}
-cur_district=None
-with open('county_FIPS.txt') as instream:
-    for line in instream:
-
-        m = District.regex.match(line)
-        if m:
-            cur_district = District(**m.groupdict())
-            mapping[cur_district.code]=(cur_district.name)
-            continue
-
-        for m in Record.regex.finditer(line): 
-            if not cur_district:
-                raise Exception("found a record but have no district")
-            record = Record(cur_district,**m.groupdict())
-            cur_district.add_record(record)
-            mapping[cur_district.code+record.code]=(cur_district.name, record.name)
-
-name_scheme = re.compile(r'tl_rd13_(?P<fips_code>\d{2,5})_(?P<feat_kind>[^.]+).zip')
-paths = defaultdict(list)
-skipped=[]
-unzip_dir = 'extracted'
-working_dir = getcwd()
-
-start_dir = path.join(working_dir,'data')
-
-for dirpath, dirnames, filenames in walk(start_dir):
-    for filename in filenames:
-        m = name_scheme.match(filename)
-        if m:
-            fips_code=m.group('fips_code')
-            feat_kind=m.group('feat_kind')
-            if fips_code in mapping:
-                group_name = mapping[fips_code] 
-                name,ext=path.splitext(filename)
-                basename = path.basename(dirpath)
-                zipname = path.join(dirpath,filename)
-                zipplace = path.join(working_dir,unzip_dir,basename,name)
-                if path.exists(zipplace):
-                    print("{0} {group} has already been unzipped".format(zipname,group=group_name))
-                else:   
-                    print("Unzipping {0} to {1}".format(zipname,zipplace))
-                    z = ZipFile(zipname)
-                    z.extractall(zipplace)
-            else:
-                skipped.append(filename)   
+#def unzip(verbose=False):
+#    '''
+#    let's unzip
+#    '''
+#    unzip_dir = 'extracted'
+#    working_dir = getcwd()
+#
+#    start_dir = path.join(working_dir,'data')
+#    if True:
+#        group_name = mapping[code] 
+#        name, _ = path.splitext(filename)
+#        zip_place = path.join(
+#            working_dir, unzip_dir, dirname, name)
+#        if path.exists(zip_place):
+#            if verbose:
+#                print(
+#                    "{0} {group} has already been unzipped".format(
+#                zip_name,group=group_name))
+#        else:   
+#            print("Unzipping ", zip_name)
+#            zipfile = ZipFile(zip_name)
+#            zipfile.extractall(zip_place)
+#    else:
+#        skipped.add(filename)   
+#    return (skipped,manifest)
