@@ -1,0 +1,3354 @@
+'01': {region: Alabama}
+'01001': {region: Alabama, sub_region: Autauga}
+'01003': {region: Alabama, sub_region: Baldwin}
+'01005': {region: Alabama, sub_region: Barbour}
+'01007': {region: Alabama, sub_region: Bibb}
+01009: {region: Alabama, sub_region: Blount}
+'01011': {region: Alabama, sub_region: Bullock}
+'01013': {region: Alabama, sub_region: Butler}
+'01015': {region: Alabama, sub_region: Calhoun}
+'01017': {region: Alabama, sub_region: Chambers}
+01019: {region: Alabama, sub_region: Cherokee}
+'01021': {region: Alabama, sub_region: Chilton}
+'01023': {region: Alabama, sub_region: Choctaw}
+'01025': {region: Alabama, sub_region: Clarke}
+'01027': {region: Alabama, sub_region: Clay}
+01029: {region: Alabama, sub_region: Cleburne}
+'01031': {region: Alabama, sub_region: Coffee}
+'01033': {region: Alabama, sub_region: Colbert}
+'01035': {region: Alabama, sub_region: Conecuh}
+'01037': {region: Alabama, sub_region: Coosa}
+01039: {region: Alabama, sub_region: Covington}
+'01041': {region: Alabama, sub_region: Crenshaw}
+'01043': {region: Alabama, sub_region: Cullman}
+'01045': {region: Alabama, sub_region: Dale}
+'01047': {region: Alabama, sub_region: Dallas}
+01049: {region: Alabama, sub_region: Dekalb}
+'01051': {region: Alabama, sub_region: Elmore}
+'01053': {region: Alabama, sub_region: Escambia}
+'01055': {region: Alabama, sub_region: Etowah}
+'01057': {region: Alabama, sub_region: Fayette}
+01059: {region: Alabama, sub_region: Franklin}
+'01061': {region: Alabama, sub_region: Geneva}
+'01063': {region: Alabama, sub_region: Greene}
+'01065': {region: Alabama, sub_region: Hale}
+'01067': {region: Alabama, sub_region: Henry}
+01069: {region: Alabama, sub_region: Houston}
+'01071': {region: Alabama, sub_region: Jackson}
+'01073': {region: Alabama, sub_region: Jefferson}
+'01075': {region: Alabama, sub_region: Lamar}
+'01077': {region: Alabama, sub_region: Lauderdale}
+01079: {region: Alabama, sub_region: Lawrence}
+01081: {region: Alabama, sub_region: Lee}
+01083: {region: Alabama, sub_region: Limestone}
+01085: {region: Alabama, sub_region: Lowndes}
+01087: {region: Alabama, sub_region: Macon}
+01089: {region: Alabama, sub_region: Madison}
+01091: {region: Alabama, sub_region: Marengo}
+01093: {region: Alabama, sub_region: Marion}
+01095: {region: Alabama, sub_region: Marshall}
+01097: {region: Alabama, sub_region: Mobile}
+01099: {region: Alabama, sub_region: Monroe}
+'01101': {region: Alabama, sub_region: Montgomery}
+'01103': {region: Alabama, sub_region: Morgan}
+'01105': {region: Alabama, sub_region: Perry}
+'01107': {region: Alabama, sub_region: Pickens}
+01109: {region: Alabama, sub_region: Pike}
+'01111': {region: Alabama, sub_region: Randolph}
+'01113': {region: Alabama, sub_region: Russell}
+'01115': {region: Alabama, sub_region: St. Clair}
+'01117': {region: Alabama, sub_region: Shelby}
+01119: {region: Alabama, sub_region: Sumter}
+'01121': {region: Alabama, sub_region: Talladega}
+'01123': {region: Alabama, sub_region: Tallapoosa}
+'01125': {region: Alabama, sub_region: Tuscaloosa}
+'01127': {region: Alabama, sub_region: Walker}
+01129: {region: Alabama, sub_region: Washington}
+'01131': {region: Alabama, sub_region: Wilcox}
+'01133': {region: Alabama, sub_region: Winston}
+'02': {region: Alaska}
+'02020': {region: Alaska, sub_region: Anchorage}
+'02050': {region: Alaska, sub_region: Bethel (ca) Wales-outerketchikan (ca)}
+'02060': {region: Alaska, sub_region: Bristol Bay}
+02068: {region: Alaska, sub_region: Denali}
+'02070': {region: Alaska, sub_region: Dillingham (ca)}
+02090: {region: Alaska, sub_region: Fairbanks North Star}
+'02100': {region: Alaska, sub_region: Haines}
+'02110': {region: Alaska, sub_region: Juneau}
+'02122': {region: Alaska, sub_region: Kenai Peninsula}
+'02130': {region: Alaska, sub_region: Ketchikan Gateway}
+'02150': {region: Alaska, sub_region: Kodiak Island}
+'02170': {region: Alaska, sub_region: Matanuska-susitna}
+02180: {region: Alaska, sub_region: Nome (ca)}
+02185: {region: Alaska, sub_region: North Slope}
+'02201': {region: Alaska, sub_region: Prince Of}
+'02220': {region: Alaska, sub_region: Sitka}
+'02231': {region: Alaska, sub_region: Skagway-yakutat-angoon (ca)}
+'02240': {region: Alaska, sub_region: Southeast Fairbanks (ca)}
+'02261': {region: Alaska, sub_region: Valdez-gordova (ca)}
+'02270': {region: Alaska, sub_region: Wade Hampton (ca)}
+02280: {region: Alaska, sub_region: Wrangell-petersburg (ca)}
+02290: {region: Alaska, sub_region: Yukon-koyukuk (ca)}
+02978: {region: Alaska, sub_region: October}
+02986: {region: Alaska, sub_region: June}
+02989: {region: Alaska, sub_region: April}
+02990: {region: Alaska, sub_region: January}
+'04': {region: Arizona}
+'04001': {region: Arizona, sub_region: Apache}
+'04003': {region: Arizona, sub_region: Cochise}
+'04005': {region: Arizona, sub_region: Coconino}
+'04007': {region: Arizona, sub_region: Gila}
+04009: {region: Arizona, sub_region: Graham}
+'04011': {region: Arizona, sub_region: Greenlee}
+'04013': {region: Arizona, sub_region: Maricopa}
+'04015': {region: Arizona, sub_region: Mohave}
+'04017': {region: Arizona, sub_region: Navajo}
+04019: {region: Arizona, sub_region: Pima}
+'04021': {region: Arizona, sub_region: Pinal}
+'04023': {region: Arizona, sub_region: Santa Cruz}
+'04025': {region: Arizona, sub_region: Yavapai}
+'04027': {region: Arizona, sub_region: Yuma}
+'05': {region: Arkansas}
+'05001': {region: Arkansas, sub_region: Arkansas}
+'05003': {region: Arkansas, sub_region: Ashley}
+'05005': {region: Arkansas, sub_region: Baxter}
+'05007': {region: Arkansas, sub_region: Benton}
+05009: {region: Arkansas, sub_region: Boone}
+'05011': {region: Arkansas, sub_region: Bradley}
+'05013': {region: Arkansas, sub_region: Calhoun}
+'05015': {region: Arkansas, sub_region: Carroll}
+'05017': {region: Arkansas, sub_region: Chicot}
+05019: {region: Arkansas, sub_region: Clark}
+'05021': {region: Arkansas, sub_region: Clay}
+'05023': {region: Arkansas, sub_region: Cleburne}
+'05025': {region: Arkansas, sub_region: Cleveland}
+'05027': {region: Arkansas, sub_region: Columbia}
+05029: {region: Arkansas, sub_region: Conway}
+'05031': {region: Arkansas, sub_region: Craighead}
+'05033': {region: Arkansas, sub_region: Crawford}
+'05035': {region: Arkansas, sub_region: Crittenden}
+'05037': {region: Arkansas, sub_region: Cross}
+05039: {region: Arkansas, sub_region: Dallas}
+'05041': {region: Arkansas, sub_region: Desha}
+'05043': {region: Arkansas, sub_region: Drew}
+'05045': {region: Arkansas, sub_region: Faulkner}
+'05047': {region: Arkansas, sub_region: Franklin}
+05049: {region: Arkansas, sub_region: Fulton}
+'05051': {region: Arkansas, sub_region: Garland}
+'05053': {region: Arkansas, sub_region: Grant}
+'05055': {region: Arkansas, sub_region: Greene}
+'05057': {region: Arkansas, sub_region: Hempstead}
+05059: {region: Arkansas, sub_region: Hot Spring}
+'05061': {region: Arkansas, sub_region: Howard}
+'05063': {region: Arkansas, sub_region: Independence}
+'05065': {region: Arkansas, sub_region: Izard}
+'05067': {region: Arkansas, sub_region: Jackson}
+05069: {region: Arkansas, sub_region: Jefferson}
+'05071': {region: Arkansas, sub_region: Johnson}
+'05073': {region: Arkansas, sub_region: Lafayette}
+'05075': {region: Arkansas, sub_region: Lawrence}
+'05077': {region: Arkansas, sub_region: Lee}
+05079: {region: Arkansas, sub_region: Lincoln}
+05081: {region: Arkansas, sub_region: Little River}
+05083: {region: Arkansas, sub_region: Logan}
+05085: {region: Arkansas, sub_region: Lonoke}
+05087: {region: Arkansas, sub_region: Madison}
+05089: {region: Arkansas, sub_region: Marion}
+05091: {region: Arkansas, sub_region: Miller}
+05093: {region: Arkansas, sub_region: Mississippi}
+05095: {region: Arkansas, sub_region: Monroe}
+05097: {region: Arkansas, sub_region: Montgomery}
+05099: {region: Arkansas, sub_region: Nevada}
+'05101': {region: Arkansas, sub_region: Newton}
+'05103': {region: Arkansas, sub_region: Ouachita}
+'05105': {region: Arkansas, sub_region: Perry}
+'05107': {region: Arkansas, sub_region: Phillips}
+05109: {region: Arkansas, sub_region: Pike}
+'05111': {region: Arkansas, sub_region: Poinsett}
+'05113': {region: Arkansas, sub_region: Polk}
+'05115': {region: Arkansas, sub_region: Pope}
+'05117': {region: Arkansas, sub_region: Prairie}
+05119: {region: Arkansas, sub_region: Pulaski}
+'05121': {region: Arkansas, sub_region: Randolph}
+'05123': {region: Arkansas, sub_region: St. Francis}
+'05125': {region: Arkansas, sub_region: Saline}
+'05127': {region: Arkansas, sub_region: Scott}
+05129: {region: Arkansas, sub_region: Searcy}
+'05131': {region: Arkansas, sub_region: Sebastian}
+'05133': {region: Arkansas, sub_region: Sevier}
+'05135': {region: Arkansas, sub_region: Sharp}
+'05137': {region: Arkansas, sub_region: Stone}
+05139: {region: Arkansas, sub_region: Union}
+'05141': {region: Arkansas, sub_region: Van Buren}
+'05143': {region: Arkansas, sub_region: Washington}
+'05145': {region: Arkansas, sub_region: White}
+'05147': {region: Arkansas, sub_region: Woodruff}
+05149: {region: Arkansas, sub_region: Yell}
+'06': {region: California}
+'06001': {region: California, sub_region: Alameda}
+'06003': {region: California, sub_region: Alpine}
+'06005': {region: California, sub_region: Amador}
+'06007': {region: California, sub_region: Butte}
+06009: {region: California, sub_region: Calaveras}
+'06011': {region: California, sub_region: Colusa}
+'06013': {region: California, sub_region: Contra Costa}
+'06015': {region: California, sub_region: Del Norte}
+'06017': {region: California, sub_region: El Dorado}
+06019: {region: California, sub_region: Fresno}
+'06021': {region: California, sub_region: Glenn}
+'06023': {region: California, sub_region: Humboldt}
+'06025': {region: California, sub_region: Imperial}
+'06027': {region: California, sub_region: Inyo}
+06029: {region: California, sub_region: Kern}
+'06031': {region: California, sub_region: Kings}
+'06033': {region: California, sub_region: Lake}
+'06035': {region: California, sub_region: Lassen}
+'06037': {region: California, sub_region: Los Angeles}
+06039: {region: California, sub_region: Madera}
+'06041': {region: California, sub_region: Marin}
+'06043': {region: California, sub_region: Mariposa}
+'06045': {region: California, sub_region: Mendocino}
+'06047': {region: California, sub_region: Merced}
+06049: {region: California, sub_region: Modoc}
+'06051': {region: California, sub_region: Mono}
+'06053': {region: California, sub_region: Monterey}
+'06055': {region: California, sub_region: Napa}
+'06057': {region: California, sub_region: Nevada}
+06059: {region: California, sub_region: Orange}
+'06061': {region: California, sub_region: Placer}
+'06063': {region: California, sub_region: Plumas}
+'06065': {region: California, sub_region: Riverside}
+'06067': {region: California, sub_region: Sacramento}
+06069: {region: California, sub_region: San Benito}
+'06071': {region: California, sub_region: San Bernardino}
+'06073': {region: California, sub_region: San Diego}
+'06075': {region: California, sub_region: San Francisco}
+'06077': {region: California, sub_region: San Joaquin}
+06079: {region: California, sub_region: San Luis Obispo}
+06081: {region: California, sub_region: San Mateo}
+06083: {region: California, sub_region: Santa Barbara}
+06085: {region: California, sub_region: Santa Clara}
+06087: {region: California, sub_region: Santa Cruz}
+06089: {region: California, sub_region: Shasta}
+06091: {region: California, sub_region: Sierra}
+06093: {region: California, sub_region: Siskiyou}
+06095: {region: California, sub_region: Solano}
+06097: {region: California, sub_region: Sonoma}
+06099: {region: California, sub_region: Stanislaus}
+'06101': {region: California, sub_region: Sutter}
+'06103': {region: California, sub_region: Tehama}
+'06105': {region: California, sub_region: Trinity}
+'06107': {region: California, sub_region: Tulare}
+06109: {region: California, sub_region: Tuolumne}
+'06111': {region: California, sub_region: Ventura}
+'06113': {region: California, sub_region: Yolo}
+'06115': {region: California, sub_region: Yuba}
+08: {region: Colorado}
+08001: {region: Colorado, sub_region: Adams}
+08003: {region: Colorado, sub_region: Alamosa}
+08005: {region: Colorado, sub_region: Arapahoe}
+08007: {region: Colorado, sub_region: Archuleta}
+08009: {region: Colorado, sub_region: Baca}
+08011: {region: Colorado, sub_region: Bent}
+08013: {region: Colorado, sub_region: Boulder}
+08015: {region: Colorado, sub_region: Chaffee}
+08017: {region: Colorado, sub_region: Cheyenne}
+08019: {region: Colorado, sub_region: Clear Creek}
+08021: {region: Colorado, sub_region: Conejos}
+08023: {region: Colorado, sub_region: Costilla}
+08025: {region: Colorado, sub_region: Crowley}
+08027: {region: Colorado, sub_region: Custer}
+08029: {region: Colorado, sub_region: Delta}
+08031: {region: Colorado, sub_region: Denver}
+08033: {region: Colorado, sub_region: Dolores}
+08035: {region: Colorado, sub_region: Douglas}
+08037: {region: Colorado, sub_region: Eagle}
+08039: {region: Colorado, sub_region: Elbert}
+08041: {region: Colorado, sub_region: El Paso}
+08043: {region: Colorado, sub_region: Fremont}
+08045: {region: Colorado, sub_region: Garfield}
+08047: {region: Colorado, sub_region: Gilpin}
+08049: {region: Colorado, sub_region: Grand}
+08051: {region: Colorado, sub_region: Gunnison}
+08053: {region: Colorado, sub_region: Hinsdale}
+08055: {region: Colorado, sub_region: Huerfano}
+08057: {region: Colorado, sub_region: Jackson}
+08059: {region: Colorado, sub_region: Jefferson}
+08061: {region: Colorado, sub_region: Kiowa}
+08063: {region: Colorado, sub_region: Kit Carson}
+08065: {region: Colorado, sub_region: Lake}
+08067: {region: Colorado, sub_region: La Plata}
+08069: {region: Colorado, sub_region: Larimer}
+08071: {region: Colorado, sub_region: Las Animas}
+08073: {region: Colorado, sub_region: Lincoln}
+08075: {region: Colorado, sub_region: Logan}
+08077: {region: Colorado, sub_region: Mesa}
+08079: {region: Colorado, sub_region: Mineral}
+08081: {region: Colorado, sub_region: Moffat}
+08083: {region: Colorado, sub_region: Montezuma}
+08085: {region: Colorado, sub_region: Montrose}
+08087: {region: Colorado, sub_region: Morgan}
+08089: {region: Colorado, sub_region: Otero}
+08091: {region: Colorado, sub_region: Ouray}
+08093: {region: Colorado, sub_region: Park}
+08095: {region: Colorado, sub_region: Phillips}
+08097: {region: Colorado, sub_region: Pitkin}
+08099: {region: Colorado, sub_region: Prowers}
+08101: {region: Colorado, sub_region: Pueblo}
+08103: {region: Colorado, sub_region: Rio Blanco}
+08105: {region: Colorado, sub_region: Rio Grande}
+08107: {region: Colorado, sub_region: Routt}
+08109: {region: Colorado, sub_region: Saguache}
+08111: {region: Colorado, sub_region: San Juan}
+08113: {region: Colorado, sub_region: San Miguel}
+08115: {region: Colorado, sub_region: Sedgwick}
+08117: {region: Colorado, sub_region: Summit}
+08119: {region: Colorado, sub_region: Teller}
+08121: {region: Colorado, sub_region: Washington}
+08123: {region: Colorado, sub_region: Weld}
+08125: {region: Colorado, sub_region: Yuma}
+09: {region: Connecticut}
+09001: {region: Connecticut, sub_region: Fairfield}
+09003: {region: Connecticut, sub_region: Hartford}
+09005: {region: Connecticut, sub_region: Litchfield}
+09007: {region: Connecticut, sub_region: Middlesex}
+09009: {region: Connecticut, sub_region: New Haven}
+09011: {region: Connecticut, sub_region: New London}
+09013: {region: Connecticut, sub_region: Tolland}
+09015: {region: Connecticut, sub_region: Windham}
+'10': {region: Delaware}
+'10001': {region: Delaware, sub_region: Kent}
+'10003': {region: Delaware, sub_region: New Castle}
+'10005': {region: Delaware, sub_region: Sussex}
+'11': {region: District Of Columbia}
+'11001': {region: District Of Columbia, sub_region: District Of Columbia}
+'12': {region: Florida}
+'12001': {region: Florida, sub_region: Alachua}
+'12003': {region: Florida, sub_region: Baker}
+'12005': {region: Florida, sub_region: Bay}
+'12007': {region: Florida, sub_region: Bradford}
+'12009': {region: Florida, sub_region: Brevard}
+'12011': {region: Florida, sub_region: Broward}
+'12013': {region: Florida, sub_region: Calhoun}
+'12015': {region: Florida, sub_region: Charlotte}
+'12017': {region: Florida, sub_region: Citrus}
+'12019': {region: Florida, sub_region: Clay}
+'12021': {region: Florida, sub_region: Collier}
+'12023': {region: Florida, sub_region: Columbia}
+'12025': {region: Florida, sub_region: Dade}
+'12027': {region: Florida, sub_region: Desoto}
+'12029': {region: Florida, sub_region: Dixie}
+'12031': {region: Florida, sub_region: Duval}
+'12033': {region: Florida, sub_region: Escambia}
+'12035': {region: Florida, sub_region: Flagler}
+'12037': {region: Florida, sub_region: Franklin}
+'12039': {region: Florida, sub_region: Gadsden}
+'12041': {region: Florida, sub_region: Gilchrist}
+'12043': {region: Florida, sub_region: Glades}
+'12045': {region: Florida, sub_region: Gulf}
+'12047': {region: Florida, sub_region: Hamilton}
+'12049': {region: Florida, sub_region: Hardee}
+'12051': {region: Florida, sub_region: Hendry}
+'12053': {region: Florida, sub_region: Hernando}
+'12055': {region: Florida, sub_region: Highlands}
+'12057': {region: Florida, sub_region: Hillsborough}
+'12059': {region: Florida, sub_region: Holmes}
+'12061': {region: Florida, sub_region: Indian River}
+'12063': {region: Florida, sub_region: Jackson}
+'12065': {region: Florida, sub_region: Jefferson}
+'12067': {region: Florida, sub_region: Lafayette}
+'12069': {region: Florida, sub_region: Lake}
+'12071': {region: Florida, sub_region: Lee}
+'12073': {region: Florida, sub_region: Leon}
+'12075': {region: Florida, sub_region: Levy}
+'12077': {region: Florida, sub_region: Liberty}
+'12079': {region: Florida, sub_region: Madison}
+'12081': {region: Florida, sub_region: Manatee}
+'12083': {region: Florida, sub_region: Marion}
+'12085': {region: Florida, sub_region: Martin}
+'12087': {region: Florida, sub_region: Monroe}
+'12089': {region: Florida, sub_region: Nassau}
+'12091': {region: Florida, sub_region: Okaloosa}
+'12093': {region: Florida, sub_region: Okeechobee}
+'12095': {region: Florida, sub_region: Orange}
+'12097': {region: Florida, sub_region: Osceola}
+'12099': {region: Florida, sub_region: Palm Beach}
+'12101': {region: Florida, sub_region: Pasco}
+'12103': {region: Florida, sub_region: Pinellas}
+'12105': {region: Florida, sub_region: Polk}
+'12107': {region: Florida, sub_region: Putnam}
+'12109': {region: Florida, sub_region: St. Johns}
+'12111': {region: Florida, sub_region: St. Lucie}
+'12113': {region: Florida, sub_region: Santa Rosa}
+'12115': {region: Florida, sub_region: Sarasota}
+'12117': {region: Florida, sub_region: Seminole}
+'12119': {region: Florida, sub_region: Sumter}
+'12121': {region: Florida, sub_region: Suwannee}
+'12123': {region: Florida, sub_region: Taylor}
+'12125': {region: Florida, sub_region: Union}
+'12127': {region: Florida, sub_region: Volusia}
+'12129': {region: Florida, sub_region: Wakulla}
+'12131': {region: Florida, sub_region: Walton}
+'12133': {region: Florida, sub_region: Washington}
+'13': {region: Georgia}
+'13001': {region: Georgia, sub_region: Appling}
+'13003': {region: Georgia, sub_region: Atkinson}
+'13005': {region: Georgia, sub_region: Bacon}
+'13007': {region: Georgia, sub_region: Baker}
+'13009': {region: Georgia, sub_region: Baldwin}
+'13011': {region: Georgia, sub_region: Banks}
+'13013': {region: Georgia, sub_region: Barrow}
+'13015': {region: Georgia, sub_region: Bartow}
+'13017': {region: Georgia, sub_region: Ben Hill}
+'13019': {region: Georgia, sub_region: Berrien}
+'13021': {region: Georgia, sub_region: Bibb}
+'13023': {region: Georgia, sub_region: Bleckley}
+'13025': {region: Georgia, sub_region: Brantley}
+'13027': {region: Georgia, sub_region: Brooks}
+'13029': {region: Georgia, sub_region: Bryan}
+'13031': {region: Georgia, sub_region: Bulloch}
+'13033': {region: Georgia, sub_region: Burke}
+'13035': {region: Georgia, sub_region: Butts}
+'13037': {region: Georgia, sub_region: Calhoun}
+'13039': {region: Georgia, sub_region: Camden}
+'13043': {region: Georgia, sub_region: Candler}
+'13045': {region: Georgia, sub_region: Carroll}
+'13047': {region: Georgia, sub_region: Catoosa}
+'13049': {region: Georgia, sub_region: Charlton}
+'13051': {region: Georgia, sub_region: Chatham}
+'13053': {region: Georgia, sub_region: Chattahoochee}
+'13055': {region: Georgia, sub_region: Chattooga}
+'13057': {region: Georgia, sub_region: Cherokee}
+'13059': {region: Georgia, sub_region: Clarke}
+'13061': {region: Georgia, sub_region: Clay}
+'13063': {region: Georgia, sub_region: Clayton}
+'13065': {region: Georgia, sub_region: Clinch}
+'13067': {region: Georgia, sub_region: Cobb}
+'13069': {region: Georgia, sub_region: Coffee}
+'13071': {region: Georgia, sub_region: Colquitt}
+'13073': {region: Georgia, sub_region: Columbia}
+'13075': {region: Georgia, sub_region: Cook}
+'13077': {region: Georgia, sub_region: Coweta}
+'13079': {region: Georgia, sub_region: Crawford}
+'13081': {region: Georgia, sub_region: Crisp}
+'13083': {region: Georgia, sub_region: Dade}
+'13085': {region: Georgia, sub_region: Dawson}
+'13087': {region: Georgia, sub_region: Decatur}
+'13089': {region: Georgia, sub_region: Dekalb}
+'13091': {region: Georgia, sub_region: Dodge}
+'13093': {region: Georgia, sub_region: Dooly}
+'13095': {region: Georgia, sub_region: Dougherty}
+'13097': {region: Georgia, sub_region: Douglas}
+'13099': {region: Georgia, sub_region: Early}
+'13101': {region: Georgia, sub_region: Echols}
+'13103': {region: Georgia, sub_region: Effingham}
+'13105': {region: Georgia, sub_region: Elbert}
+'13107': {region: Georgia, sub_region: Emanuel}
+'13109': {region: Georgia, sub_region: Evans}
+'13111': {region: Georgia, sub_region: Fannin}
+'13113': {region: Georgia, sub_region: Fayette}
+'13115': {region: Georgia, sub_region: Floyd}
+'13117': {region: Georgia, sub_region: Forsyth}
+'13119': {region: Georgia, sub_region: Franklin}
+'13121': {region: Georgia, sub_region: Fulton}
+'13123': {region: Georgia, sub_region: Gilmer}
+'13125': {region: Georgia, sub_region: Glascock}
+'13127': {region: Georgia, sub_region: Glynn}
+'13129': {region: Georgia, sub_region: Gordon}
+'13131': {region: Georgia, sub_region: Grady}
+'13133': {region: Georgia, sub_region: Greene}
+'13135': {region: Georgia, sub_region: Gwinnett}
+'13137': {region: Georgia, sub_region: Habersham}
+'13139': {region: Georgia, sub_region: Hall}
+'13141': {region: Georgia, sub_region: Hancock}
+'13143': {region: Georgia, sub_region: Haralson}
+'13145': {region: Georgia, sub_region: Harris}
+'13147': {region: Georgia, sub_region: Hart}
+'13149': {region: Georgia, sub_region: Heard}
+'13151': {region: Georgia, sub_region: Henry}
+'13153': {region: Georgia, sub_region: Houston}
+'13155': {region: Georgia, sub_region: Irwin}
+'13157': {region: Georgia, sub_region: Jackson}
+'13159': {region: Georgia, sub_region: Jasper}
+'13161': {region: Georgia, sub_region: Jeff Davis}
+'13163': {region: Georgia, sub_region: Jefferson}
+'13165': {region: Georgia, sub_region: Jenkins}
+'13167': {region: Georgia, sub_region: Johnson}
+'13169': {region: Georgia, sub_region: Jones}
+'13171': {region: Georgia, sub_region: Lamar}
+'13173': {region: Georgia, sub_region: Lanier}
+'13175': {region: Georgia, sub_region: Laurens}
+'13177': {region: Georgia, sub_region: Lee}
+'13179': {region: Georgia, sub_region: Liberty}
+'13181': {region: Georgia, sub_region: Lincoln}
+'13183': {region: Georgia, sub_region: Long}
+'13185': {region: Georgia, sub_region: Lowndes}
+'13187': {region: Georgia, sub_region: Lumpkin}
+'13189': {region: Georgia, sub_region: Mcduffie}
+'13191': {region: Georgia, sub_region: Mclntosh}
+'13193': {region: Georgia, sub_region: Macon}
+'13195': {region: Georgia, sub_region: Madison}
+'13197': {region: Georgia, sub_region: Marion}
+'13199': {region: Georgia, sub_region: Meriwether}
+'13201': {region: Georgia, sub_region: Miller}
+'13205': {region: Georgia, sub_region: Mitchell}
+'13207': {region: Georgia, sub_region: Monroe}
+'13209': {region: Georgia, sub_region: Montgomery}
+'13211': {region: Georgia, sub_region: Morgan}
+'13213': {region: Georgia, sub_region: Murray}
+'13217': {region: Georgia, sub_region: Newton}
+'13219': {region: Georgia, sub_region: Oconee}
+'13221': {region: Georgia, sub_region: Oglethorpe}
+'13223': {region: Georgia, sub_region: Paulding}
+'13225': {region: Georgia, sub_region: Peach}
+'13227': {region: Georgia, sub_region: Pickens}
+'13229': {region: Georgia, sub_region: Pierce}
+'13231': {region: Georgia, sub_region: Pike}
+'13233': {region: Georgia, sub_region: Polk}
+'13235': {region: Georgia, sub_region: Pulaski}
+'13237': {region: Georgia, sub_region: Putnam}
+'13239': {region: Georgia, sub_region: Quitman}
+'13241': {region: Georgia, sub_region: Rabun}
+'13243': {region: Georgia, sub_region: Randolph}
+'13245': {region: Georgia, sub_region: Richmond}
+'13247': {region: Georgia, sub_region: Rockdale}
+'13249': {region: Georgia, sub_region: Schley}
+'13251': {region: Georgia, sub_region: Screven}
+'13253': {region: Georgia, sub_region: Seminole}
+'13255': {region: Georgia, sub_region: Spalding}
+'13257': {region: Georgia, sub_region: Stephens}
+'13259': {region: Georgia, sub_region: Stewart}
+'13261': {region: Georgia, sub_region: Sumter}
+'13263': {region: Georgia, sub_region: Talbot}
+'13265': {region: Georgia, sub_region: Taliaferro}
+'13267': {region: Georgia, sub_region: Tattnall}
+'13269': {region: Georgia, sub_region: Taylor}
+'13271': {region: Georgia, sub_region: Telfair}
+'13273': {region: Georgia, sub_region: Terrell}
+'13275': {region: Georgia, sub_region: Thomas}
+'13277': {region: Georgia, sub_region: Tift}
+'13279': {region: Georgia, sub_region: Toombs}
+'13281': {region: Georgia, sub_region: Towns}
+'13283': {region: Georgia, sub_region: Treutlen}
+'13285': {region: Georgia, sub_region: Troup}
+'13287': {region: Georgia, sub_region: Turner}
+'13289': {region: Georgia, sub_region: Twiggs}
+'13291': {region: Georgia, sub_region: Union}
+'13293': {region: Georgia, sub_region: Upson}
+'13295': {region: Georgia, sub_region: Walker}
+'13297': {region: Georgia, sub_region: Walton}
+'13299': {region: Georgia, sub_region: Ware}
+'13301': {region: Georgia, sub_region: Warren}
+'13303': {region: Georgia, sub_region: Washington}
+'13305': {region: Georgia, sub_region: Wayne}
+'13307': {region: Georgia, sub_region: Webster}
+'13309': {region: Georgia, sub_region: Wheeler}
+'13311': {region: Georgia, sub_region: White}
+'13313': {region: Georgia, sub_region: Whitfield}
+'13315': {region: Georgia, sub_region: Wilcox}
+'13317': {region: Georgia, sub_region: Wilkes}
+'13319': {region: Georgia, sub_region: Wilkinson}
+'13321': {region: Georgia, sub_region: Worth}
+'15': {region: Hawaii}
+'15001': {region: Hawaii, sub_region: Hawaii}
+'15003': {region: Hawaii, sub_region: Honolulu}
+'15005': {region: Hawaii, sub_region: Kalawao}
+'15007': {region: Hawaii, sub_region: Kauai}
+'15009': {region: Hawaii, sub_region: Maui}
+'16': {region: Idaho}
+'16001': {region: Idaho, sub_region: Ada}
+'16003': {region: Idaho, sub_region: Adams}
+'16005': {region: Idaho, sub_region: Bannock}
+'16007': {region: Idaho, sub_region: Bear Lake}
+'16009': {region: Idaho, sub_region: Benewah}
+'16011': {region: Idaho, sub_region: Bingham}
+'16013': {region: Idaho, sub_region: Blaine}
+'16015': {region: Idaho, sub_region: Boise}
+'16017': {region: Idaho, sub_region: Bonner}
+'16019': {region: Idaho, sub_region: Bonneville}
+'16021': {region: Idaho, sub_region: Boundary}
+'16023': {region: Idaho, sub_region: Butte}
+'16025': {region: Idaho, sub_region: Camas}
+'16027': {region: Idaho, sub_region: Canyon}
+'16029': {region: Idaho, sub_region: Caribou}
+'16031': {region: Idaho, sub_region: Cassia}
+'16033': {region: Idaho, sub_region: Clark}
+'16035': {region: Idaho, sub_region: Clearwater}
+'16037': {region: Idaho, sub_region: Custer}
+'16039': {region: Idaho, sub_region: Elmore}
+'16041': {region: Idaho, sub_region: Franklin}
+'16043': {region: Idaho, sub_region: Fremont}
+'16045': {region: Idaho, sub_region: Gem}
+'16047': {region: Idaho, sub_region: Gooding}
+'16049': {region: Idaho, sub_region: Idaho}
+'16051': {region: Idaho, sub_region: Jefferson}
+'16053': {region: Idaho, sub_region: Jerome}
+'16055': {region: Idaho, sub_region: Kootenai}
+'16057': {region: Idaho, sub_region: Latah}
+'16059': {region: Idaho, sub_region: Lemhi}
+'16061': {region: Idaho, sub_region: Lewis}
+'16063': {region: Idaho, sub_region: Lincoln}
+'16065': {region: Idaho, sub_region: Madison}
+'16067': {region: Idaho, sub_region: Minidoka}
+'16069': {region: Idaho, sub_region: Nez Perce}
+'16071': {region: Idaho, sub_region: Oneida}
+'16073': {region: Idaho, sub_region: Owyhee}
+'16075': {region: Idaho, sub_region: Payette}
+'16077': {region: Idaho, sub_region: Power}
+'16079': {region: Idaho, sub_region: Shoshone}
+'16081': {region: Idaho, sub_region: Teton}
+'16083': {region: Idaho, sub_region: Twin Falls}
+'16085': {region: Idaho, sub_region: Valley}
+'16087': {region: Idaho, sub_region: Washington}
+'17': {region: Illinois}
+'17001': {region: Illinois, sub_region: Adams}
+'17003': {region: Illinois, sub_region: Alexander}
+'17005': {region: Illinois, sub_region: Bond}
+'17007': {region: Illinois, sub_region: Boone}
+'17009': {region: Illinois, sub_region: Brown}
+'17011': {region: Illinois, sub_region: Bureau}
+'17013': {region: Illinois, sub_region: Calhoun}
+'17015': {region: Illinois, sub_region: Carroll}
+'17017': {region: Illinois, sub_region: Cass}
+'17019': {region: Illinois, sub_region: Champaign}
+'17021': {region: Illinois, sub_region: Christian}
+'17023': {region: Illinois, sub_region: Clark}
+'17025': {region: Illinois, sub_region: Clay}
+'17027': {region: Illinois, sub_region: Clinton}
+'17029': {region: Illinois, sub_region: Coles}
+'17031': {region: Illinois, sub_region: Cook}
+'17033': {region: Illinois, sub_region: Crawford}
+'17035': {region: Illinois, sub_region: Cumberland}
+'17037': {region: Illinois, sub_region: Dekalb}
+'17039': {region: Illinois, sub_region: De Witt}
+'17041': {region: Illinois, sub_region: Douglas}
+'17043': {region: Illinois, sub_region: Dupage}
+'17045': {region: Illinois, sub_region: Edgar}
+'17047': {region: Illinois, sub_region: Edwards}
+'17049': {region: Illinois, sub_region: Effingham}
+'17051': {region: Illinois, sub_region: Fayette}
+'17053': {region: Illinois, sub_region: Ford}
+'17055': {region: Illinois, sub_region: Franklin}
+'17057': {region: Illinois, sub_region: Fulton}
+'17059': {region: Illinois, sub_region: Gallatin}
+'17061': {region: Illinois, sub_region: Greene}
+'17063': {region: Illinois, sub_region: Grundy}
+'17065': {region: Illinois, sub_region: Hamilton}
+'17067': {region: Illinois, sub_region: Hancock}
+'17069': {region: Illinois, sub_region: Hardin}
+'17071': {region: Illinois, sub_region: Henderson}
+'17073': {region: Illinois, sub_region: Henry}
+'17075': {region: Illinois, sub_region: Iroquois}
+'17077': {region: Illinois, sub_region: Jackson}
+'17079': {region: Illinois, sub_region: Jasper}
+'17081': {region: Illinois, sub_region: Jefferson}
+'17083': {region: Illinois, sub_region: Jersey}
+'17085': {region: Illinois, sub_region: Jo Daviess}
+'17087': {region: Illinois, sub_region: Johnson}
+'17089': {region: Illinois, sub_region: Kane}
+'17091': {region: Illinois, sub_region: Kankakee}
+'17093': {region: Illinois, sub_region: Kendall}
+'17095': {region: Illinois, sub_region: Knox}
+'17097': {region: Illinois, sub_region: Lake}
+'17099': {region: Illinois, sub_region: La Salle}
+'17101': {region: Illinois, sub_region: Lawrence}
+'17103': {region: Illinois, sub_region: Lee}
+'17105': {region: Illinois, sub_region: Livingston}
+'17107': {region: Illinois, sub_region: Logan}
+'17109': {region: Illinois, sub_region: Mcdonough}
+'17111': {region: Illinois, sub_region: Mchenry}
+'17113': {region: Illinois, sub_region: Mclean}
+'17115': {region: Illinois, sub_region: Macon}
+'17117': {region: Illinois, sub_region: Macoupin}
+'17119': {region: Illinois, sub_region: Madison}
+'17121': {region: Illinois, sub_region: Marion}
+'17123': {region: Illinois, sub_region: Marshall}
+'17125': {region: Illinois, sub_region: Mason}
+'17127': {region: Illinois, sub_region: Massac}
+'17129': {region: Illinois, sub_region: Menard}
+'17131': {region: Illinois, sub_region: Mercer}
+'17133': {region: Illinois, sub_region: Monroe}
+'17135': {region: Illinois, sub_region: Montgomery}
+'17137': {region: Illinois, sub_region: Morgan}
+'17139': {region: Illinois, sub_region: Moultrie}
+'17141': {region: Illinois, sub_region: Ogle}
+'17143': {region: Illinois, sub_region: Peoria}
+'17145': {region: Illinois, sub_region: Perry}
+'17147': {region: Illinois, sub_region: Piatt}
+'17149': {region: Illinois, sub_region: Pike}
+'17151': {region: Illinois, sub_region: Pope}
+'17153': {region: Illinois, sub_region: Pulaski}
+'17155': {region: Illinois, sub_region: Putnam}
+'17157': {region: Illinois, sub_region: Randolph}
+'17159': {region: Illinois, sub_region: Richland}
+'17161': {region: Illinois, sub_region: Rock Island}
+'17163': {region: Illinois, sub_region: St. Clair}
+'17165': {region: Illinois, sub_region: Saline}
+'17167': {region: Illinois, sub_region: Sangamon}
+'17169': {region: Illinois, sub_region: Schuyler}
+'17171': {region: Illinois, sub_region: Scott}
+'17173': {region: Illinois, sub_region: Shelby}
+'17175': {region: Illinois, sub_region: Stark}
+'17177': {region: Illinois, sub_region: Stephenson}
+'17179': {region: Illinois, sub_region: Tazewell}
+'17181': {region: Illinois, sub_region: Union}
+'17183': {region: Illinois, sub_region: Vermilion}
+'17185': {region: Illinois, sub_region: Wabash}
+'17187': {region: Illinois, sub_region: Warren}
+'17189': {region: Illinois, sub_region: Washington}
+'17191': {region: Illinois, sub_region: Wayne}
+'17193': {region: Illinois, sub_region: White}
+'17195': {region: Illinois, sub_region: Whiteside}
+'17197': {region: Illinois, sub_region: Will}
+'17199': {region: Illinois, sub_region: Williamson}
+'17201': {region: Illinois, sub_region: Winnebago}
+'17203': {region: Illinois, sub_region: Woodford}
+'18': {region: Indiana}
+'18001': {region: Indiana, sub_region: Adams}
+'18003': {region: Indiana, sub_region: Allen}
+'18005': {region: Indiana, sub_region: Bartholomew}
+'18007': {region: Indiana, sub_region: Benton}
+'18009': {region: Indiana, sub_region: Blackford}
+'18011': {region: Indiana, sub_region: Boone}
+'18013': {region: Indiana, sub_region: Brown}
+'18015': {region: Indiana, sub_region: Carroll}
+'18017': {region: Indiana, sub_region: Cass}
+'18019': {region: Indiana, sub_region: Clark}
+'18021': {region: Indiana, sub_region: Clay}
+'18023': {region: Indiana, sub_region: Clinton}
+'18025': {region: Indiana, sub_region: Crawford}
+'18027': {region: Indiana, sub_region: Daviess}
+'18029': {region: Indiana, sub_region: Dearborn}
+'18031': {region: Indiana, sub_region: Decatur}
+'18033': {region: Indiana, sub_region: De Kalb}
+'18035': {region: Indiana, sub_region: Delaware}
+'18037': {region: Indiana, sub_region: Dubois}
+'18039': {region: Indiana, sub_region: Elkhart}
+'18041': {region: Indiana, sub_region: Fayette}
+'18043': {region: Indiana, sub_region: Floyd}
+'18045': {region: Indiana, sub_region: Fountain}
+'18047': {region: Indiana, sub_region: Franklin}
+'18049': {region: Indiana, sub_region: Fulton}
+'18051': {region: Indiana, sub_region: Gibson}
+'18053': {region: Indiana, sub_region: Grant}
+'18055': {region: Indiana, sub_region: Greene}
+'18057': {region: Indiana, sub_region: Hamilton}
+'18059': {region: Indiana, sub_region: Hancock}
+'18061': {region: Indiana, sub_region: Harrison}
+'18063': {region: Indiana, sub_region: Hendricks}
+'18065': {region: Indiana, sub_region: Henry}
+'18067': {region: Indiana, sub_region: Howard}
+'18069': {region: Indiana, sub_region: Huntington}
+'18071': {region: Indiana, sub_region: Jackson}
+'18073': {region: Indiana, sub_region: Jasper}
+'18075': {region: Indiana, sub_region: Jay}
+'18077': {region: Indiana, sub_region: Jefferson}
+'18079': {region: Indiana, sub_region: Jennings}
+'18081': {region: Indiana, sub_region: Johnson}
+'18083': {region: Indiana, sub_region: Knox}
+'18085': {region: Indiana, sub_region: Kosciusko}
+'18087': {region: Indiana, sub_region: Lagrange}
+'18089': {region: Indiana, sub_region: Lake}
+'18091': {region: Indiana, sub_region: La Porte}
+'18093': {region: Indiana, sub_region: Lawrence}
+'18095': {region: Indiana, sub_region: Madison}
+'18097': {region: Indiana, sub_region: Marion}
+'18099': {region: Indiana, sub_region: Marshall}
+'18101': {region: Indiana, sub_region: Martin}
+'18103': {region: Indiana, sub_region: Miami}
+'18105': {region: Indiana, sub_region: Monroe}
+'18107': {region: Indiana, sub_region: Montgomery}
+'18109': {region: Indiana, sub_region: Morgan}
+'18111': {region: Indiana, sub_region: Newton}
+'18113': {region: Indiana, sub_region: Noble}
+'18115': {region: Indiana, sub_region: Ohio}
+'18117': {region: Indiana, sub_region: Orange}
+'18119': {region: Indiana, sub_region: Owen}
+'18121': {region: Indiana, sub_region: Parke}
+'18123': {region: Indiana, sub_region: Perry}
+'18125': {region: Indiana, sub_region: Pike}
+'18127': {region: Indiana, sub_region: Porter}
+'18129': {region: Indiana, sub_region: Posey}
+'18131': {region: Indiana, sub_region: Pulaski}
+'18133': {region: Indiana, sub_region: Putnam}
+'18135': {region: Indiana, sub_region: Randolph}
+'18137': {region: Indiana, sub_region: Ripley}
+'18139': {region: Indiana, sub_region: Rush}
+'18141': {region: Indiana, sub_region: St. Joseph}
+'18143': {region: Indiana, sub_region: Scott}
+'18145': {region: Indiana, sub_region: Shelby}
+'18147': {region: Indiana, sub_region: Spencer}
+'18149': {region: Indiana, sub_region: Starke}
+'18151': {region: Indiana, sub_region: Steuben}
+'18153': {region: Indiana, sub_region: Sullivan}
+'18155': {region: Indiana, sub_region: Switzerland}
+'18157': {region: Indiana, sub_region: Tippecanoe}
+'18159': {region: Indiana, sub_region: Tipton}
+'18161': {region: Indiana, sub_region: Union}
+'18163': {region: Indiana, sub_region: Vanderburgh}
+'18165': {region: Indiana, sub_region: Vermillion}
+'18167': {region: Indiana, sub_region: Vigo}
+'18169': {region: Indiana, sub_region: Wabash}
+'18171': {region: Indiana, sub_region: Warren}
+'18173': {region: Indiana, sub_region: Warrick}
+'18175': {region: Indiana, sub_region: Washington}
+'18177': {region: Indiana, sub_region: Wayne}
+'18179': {region: Indiana, sub_region: Wells}
+'18181': {region: Indiana, sub_region: White}
+'18183': {region: Indiana, sub_region: Whitley}
+'19': {region: Iowa}
+'19001': {region: Iowa, sub_region: Adair}
+'19003': {region: Iowa, sub_region: Adams}
+'19005': {region: Iowa, sub_region: Allamakee}
+'19007': {region: Iowa, sub_region: Appanoose}
+'19009': {region: Iowa, sub_region: Audubon}
+'19011': {region: Iowa, sub_region: Benton}
+'19013': {region: Iowa, sub_region: Black Hawk}
+'19015': {region: Iowa, sub_region: Boone}
+'19017': {region: Iowa, sub_region: Bremer}
+'19019': {region: Iowa, sub_region: Buchanan}
+'19021': {region: Iowa, sub_region: Buena Vista}
+'19023': {region: Iowa, sub_region: Butler}
+'19025': {region: Iowa, sub_region: Calhoun}
+'19027': {region: Iowa, sub_region: Carroll}
+'19029': {region: Iowa, sub_region: Cass}
+'19031': {region: Iowa, sub_region: Cedar}
+'19033': {region: Iowa, sub_region: Cerro Gordo}
+'19035': {region: Iowa, sub_region: Cherokee}
+'19037': {region: Iowa, sub_region: Chickasaw}
+'19039': {region: Iowa, sub_region: Clarke}
+'19041': {region: Iowa, sub_region: Clay}
+'19043': {region: Iowa, sub_region: Clayton}
+'19045': {region: Iowa, sub_region: Clinton}
+'19047': {region: Iowa, sub_region: Crawford}
+'19049': {region: Iowa, sub_region: Dallas}
+'19051': {region: Iowa, sub_region: Davis}
+'19053': {region: Iowa, sub_region: Decatur}
+'19055': {region: Iowa, sub_region: Delaware}
+'19057': {region: Iowa, sub_region: Des Moines}
+'19059': {region: Iowa, sub_region: Dickinson}
+'19061': {region: Iowa, sub_region: Dubuque}
+'19063': {region: Iowa, sub_region: Emmet}
+'19065': {region: Iowa, sub_region: Fayette}
+'19067': {region: Iowa, sub_region: Floyd}
+'19069': {region: Iowa, sub_region: Franklin}
+'19071': {region: Iowa, sub_region: Fremont}
+'19073': {region: Iowa, sub_region: Greene}
+'19075': {region: Iowa, sub_region: Grundy}
+'19077': {region: Iowa, sub_region: Guthrie}
+'19079': {region: Iowa, sub_region: Hamilton}
+'19081': {region: Iowa, sub_region: Hancock}
+'19083': {region: Iowa, sub_region: Hardin}
+'19085': {region: Iowa, sub_region: Harrison}
+'19087': {region: Iowa, sub_region: Henry}
+'19089': {region: Iowa, sub_region: Howard}
+'19091': {region: Iowa, sub_region: Humboldt}
+'19093': {region: Iowa, sub_region: Ida}
+'19095': {region: Iowa, sub_region: Iowa}
+'19097': {region: Iowa, sub_region: Jackson}
+'19099': {region: Iowa, sub_region: Jasper}
+'19101': {region: Iowa, sub_region: Jefferson}
+'19103': {region: Iowa, sub_region: Johnson}
+'19105': {region: Iowa, sub_region: Jones}
+'19107': {region: Iowa, sub_region: Keokuk}
+'19109': {region: Iowa, sub_region: Kossuth}
+'19111': {region: Iowa, sub_region: Lee}
+'19113': {region: Iowa, sub_region: Linn}
+'19115': {region: Iowa, sub_region: Louisa}
+'19117': {region: Iowa, sub_region: Lucas}
+'19119': {region: Iowa, sub_region: Lyon}
+'19121': {region: Iowa, sub_region: Madison}
+'19123': {region: Iowa, sub_region: Mahaska}
+'19125': {region: Iowa, sub_region: Marion}
+'19127': {region: Iowa, sub_region: Marshall}
+'19129': {region: Iowa, sub_region: Mills}
+'19131': {region: Iowa, sub_region: Mitchell}
+'19133': {region: Iowa, sub_region: Monona}
+'19135': {region: Iowa, sub_region: Monroe}
+'19137': {region: Iowa, sub_region: Montgomery}
+'19139': {region: Iowa, sub_region: Muscatine}
+'19141': {region: Iowa, sub_region: O'brien}
+'19143': {region: Iowa, sub_region: Osceola}
+'19145': {region: Iowa, sub_region: Page}
+'19147': {region: Iowa, sub_region: Palo Alto}
+'19149': {region: Iowa, sub_region: Plymouth}
+'19151': {region: Iowa, sub_region: Pocahontas}
+'19153': {region: Iowa, sub_region: Polk}
+'19155': {region: Iowa, sub_region: Pottawattamie}
+'19157': {region: Iowa, sub_region: Poweshiek}
+'19159': {region: Iowa, sub_region: Ringgold}
+'19161': {region: Iowa, sub_region: Sac}
+'19163': {region: Iowa, sub_region: Scott}
+'19165': {region: Iowa, sub_region: Shelby}
+'19167': {region: Iowa, sub_region: Sioux}
+'19169': {region: Iowa, sub_region: Story}
+'19171': {region: Iowa, sub_region: Tama}
+'19173': {region: Iowa, sub_region: Taylor}
+'19175': {region: Iowa, sub_region: Union}
+'19177': {region: Iowa, sub_region: Van Buren}
+'19179': {region: Iowa, sub_region: Wapello}
+'19181': {region: Iowa, sub_region: Warren}
+'19183': {region: Iowa, sub_region: Washington}
+'19185': {region: Iowa, sub_region: Wayne}
+'19187': {region: Iowa, sub_region: Webster}
+'19189': {region: Iowa, sub_region: Winnebago}
+'19191': {region: Iowa, sub_region: Winneshiek}
+'19193': {region: Iowa, sub_region: Woodbury}
+'19195': {region: Iowa, sub_region: Worth}
+'19197': {region: Iowa, sub_region: Wright}
+'20': {region: Kansas}
+'20001': {region: Kansas, sub_region: Allen}
+'20003': {region: Kansas, sub_region: Anderson}
+'20005': {region: Kansas, sub_region: Atchison}
+'20007': {region: Kansas, sub_region: Barber}
+'20009': {region: Kansas, sub_region: Barton}
+'20011': {region: Kansas, sub_region: Bourbon}
+'20013': {region: Kansas, sub_region: Brown}
+'20015': {region: Kansas, sub_region: Butler}
+'20017': {region: Kansas, sub_region: Chase}
+'20019': {region: Kansas, sub_region: Chautauqua}
+'20021': {region: Kansas, sub_region: Cherokee}
+'20023': {region: Kansas, sub_region: Cheyenne}
+'20025': {region: Kansas, sub_region: Clark}
+'20027': {region: Kansas, sub_region: Clay}
+'20029': {region: Kansas, sub_region: Cloud}
+'20031': {region: Kansas, sub_region: Coffey}
+'20033': {region: Kansas, sub_region: Comanche}
+'20035': {region: Kansas, sub_region: Cowley}
+'20037': {region: Kansas, sub_region: Crawford}
+'20039': {region: Kansas, sub_region: Decatur}
+'20041': {region: Kansas, sub_region: Dickinson}
+'20043': {region: Kansas, sub_region: Doniphan}
+'20045': {region: Kansas, sub_region: Douglas}
+'20047': {region: Kansas, sub_region: Edwards}
+'20049': {region: Kansas, sub_region: Elk}
+'20051': {region: Kansas, sub_region: Ellis}
+'20053': {region: Kansas, sub_region: Ellsworth}
+'20055': {region: Kansas, sub_region: Finney}
+'20057': {region: Kansas, sub_region: Ford}
+'20059': {region: Kansas, sub_region: Franklin}
+'20061': {region: Kansas, sub_region: Geary}
+'20063': {region: Kansas, sub_region: Gove}
+'20065': {region: Kansas, sub_region: Graham}
+'20067': {region: Kansas, sub_region: Grant}
+'20069': {region: Kansas, sub_region: Gray}
+'20071': {region: Kansas, sub_region: Greeley}
+'20073': {region: Kansas, sub_region: Greenwood}
+'20075': {region: Kansas, sub_region: Hamilton}
+'20077': {region: Kansas, sub_region: Harper}
+'20079': {region: Kansas, sub_region: Harvey}
+'20081': {region: Kansas, sub_region: Haskell}
+'20083': {region: Kansas, sub_region: Hodgeman}
+'20085': {region: Kansas, sub_region: Jackson}
+'20087': {region: Kansas, sub_region: Jefferson}
+'20089': {region: Kansas, sub_region: Jewell}
+'20091': {region: Kansas, sub_region: Johnson}
+'20093': {region: Kansas, sub_region: Kearny}
+'20095': {region: Kansas, sub_region: Kingman}
+'20097': {region: Kansas, sub_region: Kiowa}
+'20099': {region: Kansas, sub_region: Labette}
+'20101': {region: Kansas, sub_region: Lane}
+'20103': {region: Kansas, sub_region: Leavenworth}
+'20105': {region: Kansas, sub_region: Lincoln}
+'20107': {region: Kansas, sub_region: Linn}
+'20109': {region: Kansas, sub_region: Logan}
+'20111': {region: Kansas, sub_region: Lyon}
+'20113': {region: Kansas, sub_region: Mcpherson}
+'20115': {region: Kansas, sub_region: Marion}
+'20117': {region: Kansas, sub_region: Marshall}
+'20119': {region: Kansas, sub_region: Meade}
+'20121': {region: Kansas, sub_region: Miami}
+'20123': {region: Kansas, sub_region: Mitchell}
+'20125': {region: Kansas, sub_region: Montgomery}
+'20127': {region: Kansas, sub_region: Morris}
+'20129': {region: Kansas, sub_region: Morton}
+'20131': {region: Kansas, sub_region: Nemaha}
+'20133': {region: Kansas, sub_region: Neosho}
+'20135': {region: Kansas, sub_region: Ness}
+'20137': {region: Kansas, sub_region: Norton}
+'20139': {region: Kansas, sub_region: Osage}
+'20141': {region: Kansas, sub_region: Osborne}
+'20143': {region: Kansas, sub_region: Ottawa}
+'20145': {region: Kansas, sub_region: Pawnee}
+'20147': {region: Kansas, sub_region: Phillips}
+'20149': {region: Kansas, sub_region: Pottawatomie}
+'20151': {region: Kansas, sub_region: Pratt}
+'20153': {region: Kansas, sub_region: Rawlins}
+'20155': {region: Kansas, sub_region: Reno}
+'20157': {region: Kansas, sub_region: Republic}
+'20159': {region: Kansas, sub_region: Rice}
+'20161': {region: Kansas, sub_region: Riley}
+'20163': {region: Kansas, sub_region: Rooks}
+'20165': {region: Kansas, sub_region: Rush}
+'20167': {region: Kansas, sub_region: Russell}
+'20169': {region: Kansas, sub_region: Saline}
+'20171': {region: Kansas, sub_region: Scott}
+'20173': {region: Kansas, sub_region: Sedgwick}
+'20175': {region: Kansas, sub_region: Seward}
+'20177': {region: Kansas, sub_region: Shawnee}
+'20179': {region: Kansas, sub_region: Sheridan}
+'20181': {region: Kansas, sub_region: Sherman}
+'20183': {region: Kansas, sub_region: Smith}
+'20185': {region: Kansas, sub_region: Stafford}
+'20187': {region: Kansas, sub_region: Stanton}
+'20189': {region: Kansas, sub_region: Stevens}
+'20191': {region: Kansas, sub_region: Sumner}
+'20193': {region: Kansas, sub_region: Thomas}
+'20195': {region: Kansas, sub_region: Trego}
+'20197': {region: Kansas, sub_region: Wabaunsee}
+'20199': {region: Kansas, sub_region: Wallace}
+'20201': {region: Kansas, sub_region: Washington}
+'20203': {region: Kansas, sub_region: Wichita}
+'20205': {region: Kansas, sub_region: Wilson}
+'20207': {region: Kansas, sub_region: Woodson}
+'20209': {region: Kansas, sub_region: Wyandotte}
+'21': {region: Kentucky}
+'21001': {region: Kentucky, sub_region: Adair}
+'21003': {region: Kentucky, sub_region: Allen}
+'21005': {region: Kentucky, sub_region: Anderson}
+'21007': {region: Kentucky, sub_region: Ballard}
+'21009': {region: Kentucky, sub_region: Barren}
+'21011': {region: Kentucky, sub_region: Bath}
+'21013': {region: Kentucky, sub_region: Bell}
+'21015': {region: Kentucky, sub_region: Boone}
+'21017': {region: Kentucky, sub_region: Bourbon}
+'21019': {region: Kentucky, sub_region: Boyd}
+'21021': {region: Kentucky, sub_region: Boyle}
+'21023': {region: Kentucky, sub_region: Bracken}
+'21025': {region: Kentucky, sub_region: Breathitt}
+'21027': {region: Kentucky, sub_region: Breckinridge}
+'21029': {region: Kentucky, sub_region: Bullitt}
+'21031': {region: Kentucky, sub_region: Butler}
+'21033': {region: Kentucky, sub_region: Caldwell}
+'21035': {region: Kentucky, sub_region: Calloway}
+'21037': {region: Kentucky, sub_region: Campbell}
+'21039': {region: Kentucky, sub_region: Carlisle}
+'21041': {region: Kentucky, sub_region: Carroll}
+'21043': {region: Kentucky, sub_region: Carter}
+'21045': {region: Kentucky, sub_region: Casey}
+'21047': {region: Kentucky, sub_region: Christian}
+'21049': {region: Kentucky, sub_region: Clark}
+'21051': {region: Kentucky, sub_region: Clay}
+'21053': {region: Kentucky, sub_region: Clinton}
+'21055': {region: Kentucky, sub_region: Crittenden}
+'21057': {region: Kentucky, sub_region: Cumberland}
+'21059': {region: Kentucky, sub_region: Daviess}
+'21061': {region: Kentucky, sub_region: Edmonson}
+'21063': {region: Kentucky, sub_region: Elliott}
+'21065': {region: Kentucky, sub_region: Estill}
+'21067': {region: Kentucky, sub_region: Fayette}
+'21069': {region: Kentucky, sub_region: Fleming}
+'21071': {region: Kentucky, sub_region: Floyd}
+'21073': {region: Kentucky, sub_region: Franklin}
+'21075': {region: Kentucky, sub_region: Fulton}
+'21077': {region: Kentucky, sub_region: Gallatin}
+'21079': {region: Kentucky, sub_region: Garrard}
+'21081': {region: Kentucky, sub_region: Grant}
+'21083': {region: Kentucky, sub_region: Graves}
+'21085': {region: Kentucky, sub_region: Grayson}
+'21087': {region: Kentucky, sub_region: Green}
+'21089': {region: Kentucky, sub_region: Greenup}
+'21091': {region: Kentucky, sub_region: Hancock}
+'21093': {region: Kentucky, sub_region: Hardin}
+'21095': {region: Kentucky, sub_region: Harlan}
+'21097': {region: Kentucky, sub_region: Harrison}
+'21099': {region: Kentucky, sub_region: Hart}
+'21101': {region: Kentucky, sub_region: Henderson}
+'21103': {region: Kentucky, sub_region: Henry}
+'21105': {region: Kentucky, sub_region: Hickman}
+'21107': {region: Kentucky, sub_region: Hopkins}
+'21109': {region: Kentucky, sub_region: Jackson}
+'21111': {region: Kentucky, sub_region: Jefferson}
+'21113': {region: Kentucky, sub_region: Jessamine}
+'21115': {region: Kentucky, sub_region: Johnson}
+'21117': {region: Kentucky, sub_region: Kenton}
+'21119': {region: Kentucky, sub_region: Knott}
+'21121': {region: Kentucky, sub_region: Knox}
+'21123': {region: Kentucky, sub_region: Larue}
+'21125': {region: Kentucky, sub_region: Laurel}
+'21127': {region: Kentucky, sub_region: Lawrence}
+'21129': {region: Kentucky, sub_region: Lee}
+'21131': {region: Kentucky, sub_region: Leslie}
+'21133': {region: Kentucky, sub_region: Letcher}
+'21135': {region: Kentucky, sub_region: Lewis}
+'21137': {region: Kentucky, sub_region: Lincoln}
+'21139': {region: Kentucky, sub_region: Livingston}
+'21141': {region: Kentucky, sub_region: Logan}
+'21143': {region: Kentucky, sub_region: Lyon}
+'21145': {region: Kentucky, sub_region: Mccracken}
+'21147': {region: Kentucky, sub_region: Mccreary}
+'21149': {region: Kentucky, sub_region: Mclean}
+'21151': {region: Kentucky, sub_region: Madison}
+'21153': {region: Kentucky, sub_region: Magoffin}
+'21155': {region: Kentucky, sub_region: Marion}
+'21157': {region: Kentucky, sub_region: Marshall}
+'21159': {region: Kentucky, sub_region: Martin}
+'21161': {region: Kentucky, sub_region: Mason}
+'21163': {region: Kentucky, sub_region: Meade}
+'21165': {region: Kentucky, sub_region: Menifee}
+'21167': {region: Kentucky, sub_region: Mercer}
+'21169': {region: Kentucky, sub_region: Metcalfe}
+'21171': {region: Kentucky, sub_region: Monroe}
+'21173': {region: Kentucky, sub_region: Montgomery}
+'21175': {region: Kentucky, sub_region: Morgan}
+'21177': {region: Kentucky, sub_region: Muhlenberg}
+'21179': {region: Kentucky, sub_region: Nelson}
+'21181': {region: Kentucky, sub_region: Nicholas}
+'21183': {region: Kentucky, sub_region: Ohio}
+'21185': {region: Kentucky, sub_region: Oldham}
+'21187': {region: Kentucky, sub_region: Owen}
+'21189': {region: Kentucky, sub_region: Owsley}
+'21191': {region: Kentucky, sub_region: Pendleton}
+'21193': {region: Kentucky, sub_region: Perry}
+'21195': {region: Kentucky, sub_region: Pike}
+'21197': {region: Kentucky, sub_region: Powell}
+'21199': {region: Kentucky, sub_region: Pulaski}
+'21201': {region: Kentucky, sub_region: Robertson}
+'21203': {region: Kentucky, sub_region: Rockcastle}
+'21205': {region: Kentucky, sub_region: Rowan}
+'21207': {region: Kentucky, sub_region: Russell}
+'21209': {region: Kentucky, sub_region: Scott}
+'21211': {region: Kentucky, sub_region: Shelby}
+'21213': {region: Kentucky, sub_region: Simpson}
+'21215': {region: Kentucky, sub_region: Spencer}
+'21217': {region: Kentucky, sub_region: Taylor}
+'21219': {region: Kentucky, sub_region: Todd}
+'21221': {region: Kentucky, sub_region: Trigg}
+'21223': {region: Kentucky, sub_region: Trimble}
+'21225': {region: Kentucky, sub_region: Union}
+'21227': {region: Kentucky, sub_region: Warren}
+'21229': {region: Kentucky, sub_region: Washington}
+'21231': {region: Kentucky, sub_region: Wayne}
+'21233': {region: Kentucky, sub_region: Webster}
+'21235': {region: Kentucky, sub_region: Whitley}
+'21237': {region: Kentucky, sub_region: Wolfe}
+'21239': {region: Kentucky, sub_region: Woodford}
+'22': {region: Louisiana}
+'22001': {region: Louisiana, sub_region: Acadia}
+'22003': {region: Louisiana, sub_region: Allen}
+'22005': {region: Louisiana, sub_region: Ascension}
+'22007': {region: Louisiana, sub_region: Assumption}
+'22009': {region: Louisiana, sub_region: Avoyelles}
+'22011': {region: Louisiana, sub_region: Beauregard}
+'22013': {region: Louisiana, sub_region: Bienville}
+'22015': {region: Louisiana, sub_region: Bossier}
+'22017': {region: Louisiana, sub_region: Caddo}
+'22019': {region: Louisiana, sub_region: Calcasieu}
+'22021': {region: Louisiana, sub_region: Caldwell}
+'22023': {region: Louisiana, sub_region: Cameron}
+'22025': {region: Louisiana, sub_region: Catahoula}
+'22027': {region: Louisiana, sub_region: Claiborne}
+'22029': {region: Louisiana, sub_region: Concordia}
+'22031': {region: Louisiana, sub_region: De Soto}
+'22033': {region: Louisiana, sub_region: E. Baton Rouge}
+'22035': {region: Louisiana, sub_region: E. Carroll}
+'22037': {region: Louisiana, sub_region: E. Feliciana}
+'22039': {region: Louisiana, sub_region: Evangeline}
+'22041': {region: Louisiana, sub_region: Franklin}
+'22043': {region: Louisiana, sub_region: Grant}
+'22045': {region: Louisiana, sub_region: Iberia}
+'22047': {region: Louisiana, sub_region: Iberville}
+'22049': {region: Louisiana, sub_region: Jackson}
+'22051': {region: Louisiana, sub_region: Jefferson}
+'22053': {region: Louisiana, sub_region: Jefferson Davis}
+'22055': {region: Louisiana, sub_region: Lafayette}
+'22057': {region: Louisiana, sub_region: Lafourche}
+'22059': {region: Louisiana, sub_region: La Salle}
+'22061': {region: Louisiana, sub_region: Lincoln}
+'22063': {region: Louisiana, sub_region: Livingston}
+'22065': {region: Louisiana, sub_region: Madison}
+'22067': {region: Louisiana, sub_region: Morehouse}
+'22069': {region: Louisiana, sub_region: Natchitoches}
+'22071': {region: Louisiana, sub_region: Orleans}
+'22073': {region: Louisiana, sub_region: Ouachita}
+'22075': {region: Louisiana, sub_region: Plaquemines}
+'22077': {region: Louisiana, sub_region: Pointe Coupee}
+'22079': {region: Louisiana, sub_region: Rapides}
+'22081': {region: Louisiana, sub_region: Red River}
+'22083': {region: Louisiana, sub_region: Richland}
+'22085': {region: Louisiana, sub_region: Sabine}
+'22087': {region: Louisiana, sub_region: St. Bernard}
+'22089': {region: Louisiana, sub_region: St. Charles}
+'22091': {region: Louisiana, sub_region: St. Helena}
+'22093': {region: Louisiana, sub_region: St. James}
+'22095': {region: Louisiana, sub_region: St. John The Baptist}
+'22097': {region: Louisiana, sub_region: St. Landry}
+'22099': {region: Louisiana, sub_region: St. Martin}
+'22101': {region: Louisiana, sub_region: St. Mary}
+'22103': {region: Louisiana, sub_region: St. Tammany}
+'22105': {region: Louisiana, sub_region: Tangipahoa}
+'22107': {region: Louisiana, sub_region: Tensas}
+'22109': {region: Louisiana, sub_region: Terrebonne}
+'22111': {region: Louisiana, sub_region: Union}
+'22113': {region: Louisiana, sub_region: Vermilion}
+'22115': {region: Louisiana, sub_region: Vernon}
+'22117': {region: Louisiana, sub_region: Washington}
+'22119': {region: Louisiana, sub_region: Webster}
+'22121': {region: Louisiana, sub_region: W. Baton Rouge}
+'22123': {region: Louisiana, sub_region: W. Carroll}
+'22125': {region: Louisiana, sub_region: W. Feliciana}
+'22127': {region: Louisiana, sub_region: Winn}
+'23': {region: Maine}
+'23001': {region: Maine, sub_region: Androscoggin}
+'23003': {region: Maine, sub_region: Aroostook}
+'23005': {region: Maine, sub_region: Cumberland}
+'23007': {region: Maine, sub_region: Franklin}
+'23009': {region: Maine, sub_region: Hancock}
+'23011': {region: Maine, sub_region: Kennebec}
+'23013': {region: Maine, sub_region: Knox}
+'23015': {region: Maine, sub_region: Lincoln}
+'23017': {region: Maine, sub_region: Oxford}
+'23019': {region: Maine, sub_region: Penobscot}
+'23021': {region: Maine, sub_region: Piscataquis}
+'23023': {region: Maine, sub_region: Sagadahoc}
+'23025': {region: Maine, sub_region: Somerset}
+'23027': {region: Maine, sub_region: Waldo}
+'23029': {region: Maine, sub_region: Washington}
+'23031': {region: Maine, sub_region: York}
+'24': {region: Maryland}
+'24001': {region: Maryland, sub_region: Allegany}
+'24003': {region: Maryland, sub_region: Anne Arundel}
+'24005': {region: Maryland, sub_region: Baltimore}
+'24009': {region: Maryland, sub_region: Calvert}
+'24011': {region: Maryland, sub_region: Caroline}
+'24013': {region: Maryland, sub_region: Carroll}
+'24015': {region: Maryland, sub_region: Cecil}
+'24017': {region: Maryland, sub_region: Charles}
+'24019': {region: Maryland, sub_region: Dorchester}
+'24021': {region: Maryland, sub_region: Frederick}
+'24023': {region: Maryland, sub_region: Garrett}
+'24025': {region: Maryland, sub_region: Harford}
+'24027': {region: Maryland, sub_region: Howard}
+'24029': {region: Maryland, sub_region: Kent}
+'24031': {region: Maryland, sub_region: Montgomery}
+'24033': {region: Maryland, sub_region: Prince George's}
+'24035': {region: Maryland, sub_region: Queen Anne's}
+'24037': {region: Maryland, sub_region: St. Mary's}
+'24039': {region: Maryland, sub_region: Somerset}
+'24041': {region: Maryland, sub_region: Talbot}
+'24043': {region: Maryland, sub_region: Washington}
+'24045': {region: Maryland, sub_region: Wicomico}
+'24047': {region: Maryland, sub_region: Worcester}
+'24510': {region: Maryland, sub_region: Baltimore (city)}
+'25': {region: Massachusetts}
+'25001': {region: Massachusetts, sub_region: Barnstable}
+'25003': {region: Massachusetts, sub_region: Berkshire}
+'25005': {region: Massachusetts, sub_region: Bristol}
+'25007': {region: Massachusetts, sub_region: Dukes}
+'25009': {region: Massachusetts, sub_region: Essex}
+'25011': {region: Massachusetts, sub_region: Franklin}
+'25013': {region: Massachusetts, sub_region: Hampden}
+'25015': {region: Massachusetts, sub_region: Hampshire}
+'25017': {region: Massachusetts, sub_region: Middlesex}
+'25019': {region: Massachusetts, sub_region: Nantucket}
+'25021': {region: Massachusetts, sub_region: Norfolk}
+'25023': {region: Massachusetts, sub_region: Plymouth}
+'25025': {region: Massachusetts, sub_region: Suffolk}
+'25027': {region: Massachusetts, sub_region: Worcester}
+'26': {region: Michigan}
+'26001': {region: Michigan, sub_region: Alcona}
+'26003': {region: Michigan, sub_region: Alger}
+'26005': {region: Michigan, sub_region: Allegan}
+'26007': {region: Michigan, sub_region: Alpena}
+'26009': {region: Michigan, sub_region: Antrim}
+'26011': {region: Michigan, sub_region: Arenac}
+'26013': {region: Michigan, sub_region: Baraga}
+'26015': {region: Michigan, sub_region: Barry}
+'26017': {region: Michigan, sub_region: Bay}
+'26019': {region: Michigan, sub_region: Benzie}
+'26021': {region: Michigan, sub_region: Berrien}
+'26023': {region: Michigan, sub_region: Branch}
+'26025': {region: Michigan, sub_region: Calhoun}
+'26027': {region: Michigan, sub_region: Cass}
+'26029': {region: Michigan, sub_region: Charlevoix}
+'26031': {region: Michigan, sub_region: Cheboygan}
+'26033': {region: Michigan, sub_region: Chippewa}
+'26035': {region: Michigan, sub_region: Clare}
+'26037': {region: Michigan, sub_region: Clinton}
+'26039': {region: Michigan, sub_region: Crawford}
+'26041': {region: Michigan, sub_region: Delta}
+'26043': {region: Michigan, sub_region: Dickinson}
+'26045': {region: Michigan, sub_region: Eaton}
+'26047': {region: Michigan, sub_region: Emmet}
+'26049': {region: Michigan, sub_region: Genesee}
+'26051': {region: Michigan, sub_region: Gladwin}
+'26053': {region: Michigan, sub_region: Gogebic}
+'26055': {region: Michigan, sub_region: Grand Traverse}
+'26057': {region: Michigan, sub_region: Gratiot}
+'26059': {region: Michigan, sub_region: Hillsdale}
+'26061': {region: Michigan, sub_region: Houghton}
+'26063': {region: Michigan, sub_region: Huron}
+'26065': {region: Michigan, sub_region: Ingham}
+'26067': {region: Michigan, sub_region: Ionia}
+'26069': {region: Michigan, sub_region: Iosco}
+'26071': {region: Michigan, sub_region: Iron}
+'26073': {region: Michigan, sub_region: Isabelia}
+'26075': {region: Michigan, sub_region: Jackson}
+'26077': {region: Michigan, sub_region: Kalamazoo}
+'26079': {region: Michigan, sub_region: Kalkaska}
+'26081': {region: Michigan, sub_region: Kent}
+'26083': {region: Michigan, sub_region: Keweenaw}
+'26085': {region: Michigan, sub_region: Lake}
+'26087': {region: Michigan, sub_region: Lapeer}
+'26089': {region: Michigan, sub_region: Leelanau}
+'26091': {region: Michigan, sub_region: Lenawee}
+'26093': {region: Michigan, sub_region: Livingston}
+'26095': {region: Michigan, sub_region: Luce}
+'26097': {region: Michigan, sub_region: Mackinac}
+'26099': {region: Michigan, sub_region: Macomb}
+'26101': {region: Michigan, sub_region: Manistee}
+'26103': {region: Michigan, sub_region: Marquette}
+'26105': {region: Michigan, sub_region: Mason}
+'26107': {region: Michigan, sub_region: Mecosta}
+'26109': {region: Michigan, sub_region: Menominee}
+'26111': {region: Michigan, sub_region: Midland}
+'26113': {region: Michigan, sub_region: Missaukee}
+'26115': {region: Michigan, sub_region: Monroe}
+'26117': {region: Michigan, sub_region: Montcalm}
+'26119': {region: Michigan, sub_region: Montmorency}
+'26121': {region: Michigan, sub_region: Muskegon}
+'26123': {region: Michigan, sub_region: Newaygo}
+'26125': {region: Michigan, sub_region: Oakland}
+'26127': {region: Michigan, sub_region: Oceana}
+'26129': {region: Michigan, sub_region: Ogemaw}
+'26131': {region: Michigan, sub_region: Ontonagon}
+'26133': {region: Michigan, sub_region: Osceola}
+'26135': {region: Michigan, sub_region: Oscoda}
+'26137': {region: Michigan, sub_region: Otsego}
+'26139': {region: Michigan, sub_region: Ottawa}
+'26141': {region: Michigan, sub_region: Presque Isle}
+'26143': {region: Michigan, sub_region: Roscommon}
+'26145': {region: Michigan, sub_region: Saginaw}
+'26147': {region: Michigan, sub_region: St. Clair}
+'26149': {region: Michigan, sub_region: St. Joseph}
+'26151': {region: Michigan, sub_region: Sanilac}
+'26153': {region: Michigan, sub_region: Schoolcraft}
+'26155': {region: Michigan, sub_region: Shiawassee}
+'26157': {region: Michigan, sub_region: Tuscola}
+'26159': {region: Michigan, sub_region: Van Buren}
+'26161': {region: Michigan, sub_region: Washtenaw}
+'26163': {region: Michigan, sub_region: Wayne}
+'26165': {region: Michigan, sub_region: Wexford}
+'27': {region: Minnesota}
+'27001': {region: Minnesota, sub_region: Aitkin}
+'27003': {region: Minnesota, sub_region: Anoka}
+'27005': {region: Minnesota, sub_region: Becker}
+'27007': {region: Minnesota, sub_region: Beltrami}
+'27009': {region: Minnesota, sub_region: Benton}
+'27011': {region: Minnesota, sub_region: Big Stone}
+'27013': {region: Minnesota, sub_region: Blue Earth}
+'27015': {region: Minnesota, sub_region: Brown}
+'27017': {region: Minnesota, sub_region: Carlton}
+'27019': {region: Minnesota, sub_region: Carver}
+'27021': {region: Minnesota, sub_region: Cass}
+'27023': {region: Minnesota, sub_region: Chippewa}
+'27025': {region: Minnesota, sub_region: Chisago}
+'27027': {region: Minnesota, sub_region: Clay}
+'27029': {region: Minnesota, sub_region: Clearwater}
+'27031': {region: Minnesota, sub_region: Cook}
+'27033': {region: Minnesota, sub_region: Cottonwood}
+'27035': {region: Minnesota, sub_region: Crow Wing}
+'27037': {region: Minnesota, sub_region: Dakota}
+'27039': {region: Minnesota, sub_region: Dodge}
+'27041': {region: Minnesota, sub_region: Douglas}
+'27043': {region: Minnesota, sub_region: Faribault}
+'27045': {region: Minnesota, sub_region: Fillmore}
+'27047': {region: Minnesota, sub_region: Freeborn}
+'27049': {region: Minnesota, sub_region: Goodhue}
+'27051': {region: Minnesota, sub_region: Grant}
+'27053': {region: Minnesota, sub_region: Hennepin}
+'27055': {region: Minnesota, sub_region: Houston}
+'27057': {region: Minnesota, sub_region: Hubbard}
+'27059': {region: Minnesota, sub_region: Isanti}
+'27061': {region: Minnesota, sub_region: Itasca}
+'27063': {region: Minnesota, sub_region: Jackson}
+'27065': {region: Minnesota, sub_region: Kanabec}
+'27067': {region: Minnesota, sub_region: Kandiyohi}
+'27069': {region: Minnesota, sub_region: Kittson}
+'27071': {region: Minnesota, sub_region: Koochiching}
+'27073': {region: Minnesota, sub_region: Lac Qui Parle}
+'27075': {region: Minnesota, sub_region: Lake}
+'27077': {region: Minnesota, sub_region: Lake Of The Woods}
+'27079': {region: Minnesota, sub_region: Le Sueur}
+'27081': {region: Minnesota, sub_region: Lincoln}
+'27083': {region: Minnesota, sub_region: Lyon}
+'27085': {region: Minnesota, sub_region: Mcleod}
+'27087': {region: Minnesota, sub_region: Mahnomen}
+'27089': {region: Minnesota, sub_region: Marshall}
+'27091': {region: Minnesota, sub_region: Martin}
+'27093': {region: Minnesota, sub_region: Meeker}
+'27095': {region: Minnesota, sub_region: Mille Lacs}
+'27097': {region: Minnesota, sub_region: Morrison}
+'27099': {region: Minnesota, sub_region: Mower}
+'27101': {region: Minnesota, sub_region: Murray}
+'27103': {region: Minnesota, sub_region: Nicollet}
+'27105': {region: Minnesota, sub_region: Nobles}
+'27107': {region: Minnesota, sub_region: Norman}
+'27109': {region: Minnesota, sub_region: Olmsted}
+'27111': {region: Minnesota, sub_region: Otter Tail}
+'27113': {region: Minnesota, sub_region: Pennington}
+'27115': {region: Minnesota, sub_region: Pine}
+'27117': {region: Minnesota, sub_region: Pipestone}
+'27119': {region: Minnesota, sub_region: Polk}
+'27121': {region: Minnesota, sub_region: Pope}
+'27123': {region: Minnesota, sub_region: Ramsey}
+'27125': {region: Minnesota, sub_region: Red Lake}
+'27127': {region: Minnesota, sub_region: Redwood}
+'27129': {region: Minnesota, sub_region: Renville}
+'27131': {region: Minnesota, sub_region: Rice}
+'27133': {region: Minnesota, sub_region: Rock}
+'27135': {region: Minnesota, sub_region: Roseau}
+'27137': {region: Minnesota, sub_region: St. Louis}
+'27139': {region: Minnesota, sub_region: Scott}
+'27141': {region: Minnesota, sub_region: Sherburne}
+'27143': {region: Minnesota, sub_region: Sibley}
+'27145': {region: Minnesota, sub_region: Stearns}
+'27147': {region: Minnesota, sub_region: Steele}
+'27149': {region: Minnesota, sub_region: Stevens}
+'27151': {region: Minnesota, sub_region: Swift}
+'27153': {region: Minnesota, sub_region: Todd}
+'27155': {region: Minnesota, sub_region: Traverse}
+'27157': {region: Minnesota, sub_region: Wabasha}
+'27159': {region: Minnesota, sub_region: Wadena}
+'27161': {region: Minnesota, sub_region: Waseca}
+'27163': {region: Minnesota, sub_region: Washington}
+'27165': {region: Minnesota, sub_region: Watonwan}
+'27167': {region: Minnesota, sub_region: Wilkin}
+'27169': {region: Minnesota, sub_region: Winona}
+'27171': {region: Minnesota, sub_region: Wright}
+'27173': {region: Minnesota, sub_region: Yellow Medicine}
+'28': {region: Mississippi}
+'28001': {region: Mississippi, sub_region: Adams}
+'28003': {region: Mississippi, sub_region: Alcorn}
+'28005': {region: Mississippi, sub_region: Amite}
+'28007': {region: Mississippi, sub_region: Attala}
+'28009': {region: Mississippi, sub_region: Benton}
+'28011': {region: Mississippi, sub_region: Bolivar}
+'28013': {region: Mississippi, sub_region: Calhoun}
+'28015': {region: Mississippi, sub_region: Carroll}
+'28017': {region: Mississippi, sub_region: Chickasaw}
+'28019': {region: Mississippi, sub_region: Choctaw}
+'28021': {region: Mississippi, sub_region: Claiborne}
+'28023': {region: Mississippi, sub_region: Clarke}
+'28025': {region: Mississippi, sub_region: Clay}
+'28027': {region: Mississippi, sub_region: Coahoma}
+'28029': {region: Mississippi, sub_region: Copiah}
+'28031': {region: Mississippi, sub_region: Covington}
+'28033': {region: Mississippi, sub_region: Desoto}
+'28035': {region: Mississippi, sub_region: Forrest}
+'28037': {region: Mississippi, sub_region: Franklin}
+'28039': {region: Mississippi, sub_region: George}
+'28041': {region: Mississippi, sub_region: Greene}
+'28043': {region: Mississippi, sub_region: Grenada}
+'28045': {region: Mississippi, sub_region: Hancock}
+'28047': {region: Mississippi, sub_region: Harrison}
+'28049': {region: Mississippi, sub_region: Hinds}
+'28051': {region: Mississippi, sub_region: Holmes}
+'28053': {region: Mississippi, sub_region: Humphreys}
+'28055': {region: Mississippi, sub_region: Issaquena}
+'28057': {region: Mississippi, sub_region: Itawamba}
+'28059': {region: Mississippi, sub_region: Jackson}
+'28061': {region: Mississippi, sub_region: Jasper}
+'28063': {region: Mississippi, sub_region: Jefferson}
+'28065': {region: Mississippi, sub_region: Jefferson Davis}
+'28067': {region: Mississippi, sub_region: Jones}
+'28069': {region: Mississippi, sub_region: Kemper}
+'28071': {region: Mississippi, sub_region: Lafayette}
+'28073': {region: Mississippi, sub_region: Lamar}
+'28075': {region: Mississippi, sub_region: Lauderdale}
+'28077': {region: Mississippi, sub_region: Lawrence}
+'28079': {region: Mississippi, sub_region: Leake}
+'28081': {region: Mississippi, sub_region: Lee}
+'28083': {region: Mississippi, sub_region: Leflore}
+'28085': {region: Mississippi, sub_region: Lincoln}
+'28087': {region: Mississippi, sub_region: Lowndes}
+'28089': {region: Mississippi, sub_region: Madison}
+'28091': {region: Mississippi, sub_region: Marion}
+'28093': {region: Mississippi, sub_region: Marshall}
+'28095': {region: Mississippi, sub_region: Monroe}
+'28097': {region: Mississippi, sub_region: Montgomery}
+'28099': {region: Mississippi, sub_region: Neshoba}
+'28101': {region: Mississippi, sub_region: Newton}
+'28103': {region: Mississippi, sub_region: Noxubee}
+'28105': {region: Mississippi, sub_region: Oktibbeha}
+'28107': {region: Mississippi, sub_region: Panola}
+'28109': {region: Mississippi, sub_region: Pearl River}
+'28111': {region: Mississippi, sub_region: Perry}
+'28113': {region: Mississippi, sub_region: Pike}
+'28115': {region: Mississippi, sub_region: Pontotoc}
+'28117': {region: Mississippi, sub_region: Prentiss}
+'28119': {region: Mississippi, sub_region: Quitman}
+'28121': {region: Mississippi, sub_region: Rankin}
+'28123': {region: Mississippi, sub_region: Scott}
+'28125': {region: Mississippi, sub_region: Sharkey}
+'28127': {region: Mississippi, sub_region: Simpson}
+'28129': {region: Mississippi, sub_region: Smith}
+'28131': {region: Mississippi, sub_region: Stone}
+'28133': {region: Mississippi, sub_region: Sunflower}
+'28135': {region: Mississippi, sub_region: Tallahatchie}
+'28137': {region: Mississippi, sub_region: Tate}
+'28139': {region: Mississippi, sub_region: Tippah}
+'28141': {region: Mississippi, sub_region: Tishomingo}
+'28143': {region: Mississippi, sub_region: Tunica}
+'28145': {region: Mississippi, sub_region: Union}
+'28147': {region: Mississippi, sub_region: Walthall}
+'28149': {region: Mississippi, sub_region: Warren}
+'28151': {region: Mississippi, sub_region: Washington}
+'28153': {region: Mississippi, sub_region: Wayne}
+'28155': {region: Mississippi, sub_region: Webster}
+'28157': {region: Mississippi, sub_region: Wilkinson}
+'28159': {region: Mississippi, sub_region: Winston}
+'28161': {region: Mississippi, sub_region: Yalobusha}
+'28163': {region: Mississippi, sub_region: Yazoo}
+'29': {region: Missouri}
+'29001': {region: Missouri, sub_region: Adair}
+'29003': {region: Missouri, sub_region: Andrew}
+'29005': {region: Missouri, sub_region: Atchison}
+'29007': {region: Missouri, sub_region: Audrain}
+'29009': {region: Missouri, sub_region: Barry}
+'29011': {region: Missouri, sub_region: Barton}
+'29013': {region: Missouri, sub_region: Bates}
+'29015': {region: Missouri, sub_region: Benton}
+'29017': {region: Missouri, sub_region: Bollinger}
+'29019': {region: Missouri, sub_region: Boone}
+'29021': {region: Missouri, sub_region: Buchanan}
+'29023': {region: Missouri, sub_region: Butler}
+'29025': {region: Missouri, sub_region: Caldwell}
+'29027': {region: Missouri, sub_region: Callaway}
+'29029': {region: Missouri, sub_region: Camden}
+'29031': {region: Missouri, sub_region: Cape Girardeau}
+'29033': {region: Missouri, sub_region: Carroll}
+'29035': {region: Missouri, sub_region: Carter}
+'29037': {region: Missouri, sub_region: Cass}
+'29039': {region: Missouri, sub_region: Cedar}
+'29041': {region: Missouri, sub_region: Chariton}
+'29043': {region: Missouri, sub_region: Christian}
+'29045': {region: Missouri, sub_region: Clark}
+'29047': {region: Missouri, sub_region: Clay}
+'29049': {region: Missouri, sub_region: Clinton}
+'29051': {region: Missouri, sub_region: Cole}
+'29053': {region: Missouri, sub_region: Cooper}
+'29055': {region: Missouri, sub_region: Crawford}
+'29057': {region: Missouri, sub_region: Dade}
+'29059': {region: Missouri, sub_region: Dallas}
+'29061': {region: Missouri, sub_region: Daviess}
+'29063': {region: Missouri, sub_region: Dekalb}
+'29065': {region: Missouri, sub_region: Dent}
+'29067': {region: Missouri, sub_region: Douglas}
+'29069': {region: Missouri, sub_region: Dunklin}
+'29071': {region: Missouri, sub_region: Franklin}
+'29073': {region: Missouri, sub_region: Gasconade}
+'29075': {region: Missouri, sub_region: Gentry}
+'29077': {region: Missouri, sub_region: Greene}
+'29079': {region: Missouri, sub_region: Grundy}
+'29081': {region: Missouri, sub_region: Harrison}
+'29083': {region: Missouri, sub_region: Henry}
+'29085': {region: Missouri, sub_region: Hickory}
+'29087': {region: Missouri, sub_region: Holt}
+'29089': {region: Missouri, sub_region: Howard}
+'29091': {region: Missouri, sub_region: Howell}
+'29093': {region: Missouri, sub_region: Iron}
+'29095': {region: Missouri, sub_region: Jackson}
+'29097': {region: Missouri, sub_region: Jasper}
+'29099': {region: Missouri, sub_region: Jefferson}
+'29101': {region: Missouri, sub_region: Johnson}
+'29103': {region: Missouri, sub_region: Knox}
+'29105': {region: Missouri, sub_region: Laclede}
+'29107': {region: Missouri, sub_region: Lafayette}
+'29109': {region: Missouri, sub_region: Lawrence}
+'29111': {region: Missouri, sub_region: Lewis}
+'29113': {region: Missouri, sub_region: Lincoln}
+'29115': {region: Missouri, sub_region: Linn}
+'29117': {region: Missouri, sub_region: Livingston}
+'29119': {region: Missouri, sub_region: Mcdonald}
+'29121': {region: Missouri, sub_region: Macon}
+'29123': {region: Missouri, sub_region: Madison}
+'29125': {region: Missouri, sub_region: Maries}
+'29127': {region: Missouri, sub_region: Marion}
+'29129': {region: Missouri, sub_region: Mercer}
+'29131': {region: Missouri, sub_region: Miller}
+'29133': {region: Missouri, sub_region: Mississippi}
+'29135': {region: Missouri, sub_region: Moniteau}
+'29137': {region: Missouri, sub_region: Monroe}
+'29139': {region: Missouri, sub_region: Montgomery}
+'29141': {region: Missouri, sub_region: Morgan}
+'29143': {region: Missouri, sub_region: New Madrid}
+'29145': {region: Missouri, sub_region: Newton}
+'29147': {region: Missouri, sub_region: Nodaway}
+'29149': {region: Missouri, sub_region: Oregon}
+'29151': {region: Missouri, sub_region: Osage}
+'29153': {region: Missouri, sub_region: Ozark}
+'29155': {region: Missouri, sub_region: Pemiscot}
+'29157': {region: Missouri, sub_region: Perry}
+'29159': {region: Missouri, sub_region: Pettis}
+'29161': {region: Missouri, sub_region: Phelps}
+'29163': {region: Missouri, sub_region: Pike}
+'29165': {region: Missouri, sub_region: Platte}
+'29167': {region: Missouri, sub_region: Polk}
+'29169': {region: Missouri, sub_region: Pulaski}
+'29171': {region: Missouri, sub_region: Putnam}
+'29173': {region: Missouri, sub_region: Ralls}
+'29175': {region: Missouri, sub_region: Randolph}
+'29177': {region: Missouri, sub_region: Ray}
+'29179': {region: Missouri, sub_region: Reynolds}
+'29181': {region: Missouri, sub_region: Ripley}
+'29183': {region: Missouri, sub_region: St. Charles}
+'29185': {region: Missouri, sub_region: St. Clair}
+'29186': {region: Missouri, sub_region: To}
+'29187': {region: Missouri, sub_region: St. Francois}
+'29189': {region: Missouri, sub_region: St. Louis}
+'29193': {region: Missouri, sub_region: To}
+'29195': {region: Missouri, sub_region: Saline}
+'29197': {region: Missouri, sub_region: Schuyler}
+'29199': {region: Missouri, sub_region: Scotland}
+'29201': {region: Missouri, sub_region: Scott}
+'29203': {region: Missouri, sub_region: Shannon}
+'29205': {region: Missouri, sub_region: Shelby}
+'29207': {region: Missouri, sub_region: Stoddard}
+'29209': {region: Missouri, sub_region: Stone}
+'29211': {region: Missouri, sub_region: Sullivan}
+'29213': {region: Missouri, sub_region: Taney}
+'29215': {region: Missouri, sub_region: Texas}
+'29217': {region: Missouri, sub_region: Vernon}
+'29219': {region: Missouri, sub_region: Warren}
+'29221': {region: Missouri, sub_region: Washington}
+'29223': {region: Missouri, sub_region: Wayne}
+'29225': {region: Missouri, sub_region: Webster}
+'29227': {region: Missouri, sub_region: Worth}
+'29229': {region: Missouri, sub_region: Wright}
+'29510': {region: Missouri, sub_region: St. Louis (city)}
+'29979': {region: Missouri, sub_region: December}
+'30': {region: Montana}
+'30001': {region: Montana, sub_region: Beaverhead}
+'30003': {region: Montana, sub_region: Big Horn}
+'30005': {region: Montana, sub_region: Blaine}
+'30007': {region: Montana, sub_region: Broadwater}
+'30009': {region: Montana, sub_region: Carbon}
+'30011': {region: Montana, sub_region: Carter}
+'30013': {region: Montana, sub_region: Cascade}
+'30015': {region: Montana, sub_region: Chouteau}
+'30017': {region: Montana, sub_region: Custer}
+'30019': {region: Montana, sub_region: Daniels}
+'30021': {region: Montana, sub_region: Dawson}
+'30023': {region: Montana, sub_region: Deer Lodge}
+'30025': {region: Montana, sub_region: Fallon}
+'30027': {region: Montana, sub_region: Fergus}
+'30029': {region: Montana, sub_region: Flathead}
+'30031': {region: Montana, sub_region: Gallatin}
+'30033': {region: Montana, sub_region: Garfield}
+'30035': {region: Montana, sub_region: Glacier}
+'30037': {region: Montana, sub_region: Golden Valley}
+'30039': {region: Montana, sub_region: Granite}
+'30041': {region: Montana, sub_region: Hill}
+'30043': {region: Montana, sub_region: Jefferson}
+'30045': {region: Montana, sub_region: Judith Basin}
+'30047': {region: Montana, sub_region: Lake}
+'30049': {region: Montana, sub_region: Lewis & Clark}
+'30051': {region: Montana, sub_region: Liberty}
+'30053': {region: Montana, sub_region: Lincoln}
+'30055': {region: Montana, sub_region: Mccone}
+'30057': {region: Montana, sub_region: Madison}
+'30059': {region: Montana, sub_region: Meagher}
+'30061': {region: Montana, sub_region: Mineral}
+'30063': {region: Montana, sub_region: Missoula}
+'30065': {region: Montana, sub_region: Musselshell}
+'30067': {region: Montana, sub_region: Park}
+'30069': {region: Montana, sub_region: Petroleum}
+'30071': {region: Montana, sub_region: Phillips}
+'30073': {region: Montana, sub_region: Pondera}
+'30075': {region: Montana, sub_region: Powder River}
+'30077': {region: Montana, sub_region: Powell}
+'30079': {region: Montana, sub_region: Prairie}
+'30081': {region: Montana, sub_region: Ravalli}
+'30083': {region: Montana, sub_region: Richland}
+'30085': {region: Montana, sub_region: Roosevelt}
+'30087': {region: Montana, sub_region: Rosebud}
+'30089': {region: Montana, sub_region: Sanders}
+'30091': {region: Montana, sub_region: Sheridan}
+'30093': {region: Montana, sub_region: Silver Bow}
+'30095': {region: Montana, sub_region: Stillwater}
+'30097': {region: Montana, sub_region: Sweet Grass}
+'30099': {region: Montana, sub_region: Teton}
+'30101': {region: Montana, sub_region: Toole}
+'30103': {region: Montana, sub_region: Treasure}
+'30105': {region: Montana, sub_region: Valley}
+'30107': {region: Montana, sub_region: Wheatland}
+'30109': {region: Montana, sub_region: Wibaux}
+'30111': {region: Montana, sub_region: Yellowstone}
+'31': {region: Nebraska}
+'31001': {region: Nebraska, sub_region: Adams}
+'31003': {region: Nebraska, sub_region: Antelope}
+'31005': {region: Nebraska, sub_region: Arthur}
+'31007': {region: Nebraska, sub_region: Banner}
+'31009': {region: Nebraska, sub_region: Blaine}
+'31011': {region: Nebraska, sub_region: Boone}
+'31013': {region: Nebraska, sub_region: Box Butte}
+'31015': {region: Nebraska, sub_region: Boyd}
+'31017': {region: Nebraska, sub_region: Brown}
+'31019': {region: Nebraska, sub_region: Buffalo}
+'31021': {region: Nebraska, sub_region: Burt}
+'31023': {region: Nebraska, sub_region: Butler}
+'31025': {region: Nebraska, sub_region: Cass}
+'31027': {region: Nebraska, sub_region: Cedar}
+'31029': {region: Nebraska, sub_region: Chase}
+'31031': {region: Nebraska, sub_region: Cherry}
+'31033': {region: Nebraska, sub_region: Cheyenne}
+'31035': {region: Nebraska, sub_region: Clay}
+'31037': {region: Nebraska, sub_region: Colfax}
+'31039': {region: Nebraska, sub_region: Cuming}
+'31041': {region: Nebraska, sub_region: Custer}
+'31043': {region: Nebraska, sub_region: Dakota}
+'31045': {region: Nebraska, sub_region: Dawes}
+'31047': {region: Nebraska, sub_region: Dawson}
+'31049': {region: Nebraska, sub_region: Deuel}
+'31051': {region: Nebraska, sub_region: Dixon}
+'31053': {region: Nebraska, sub_region: Dodge}
+'31055': {region: Nebraska, sub_region: Douglas}
+'31057': {region: Nebraska, sub_region: Dundy}
+'31059': {region: Nebraska, sub_region: Fillmore}
+'31061': {region: Nebraska, sub_region: Franklin}
+'31063': {region: Nebraska, sub_region: Frontier}
+'31065': {region: Nebraska, sub_region: Furnas}
+'31067': {region: Nebraska, sub_region: Gage}
+'31069': {region: Nebraska, sub_region: Garden}
+'31071': {region: Nebraska, sub_region: Garfield}
+'31073': {region: Nebraska, sub_region: Gosper}
+'31075': {region: Nebraska, sub_region: Grant}
+'31077': {region: Nebraska, sub_region: Greeley}
+'31079': {region: Nebraska, sub_region: Hall}
+'31081': {region: Nebraska, sub_region: Hamilton}
+'31083': {region: Nebraska, sub_region: Harlan}
+'31085': {region: Nebraska, sub_region: Hayes}
+'31087': {region: Nebraska, sub_region: Hitchcock}
+'31089': {region: Nebraska, sub_region: Holt}
+'31091': {region: Nebraska, sub_region: Hooker}
+'31093': {region: Nebraska, sub_region: Howard}
+'31095': {region: Nebraska, sub_region: Jefferson}
+'31097': {region: Nebraska, sub_region: Johnson}
+'31099': {region: Nebraska, sub_region: Kearney}
+'31101': {region: Nebraska, sub_region: Keith}
+'31103': {region: Nebraska, sub_region: Keya Paha}
+'31105': {region: Nebraska, sub_region: Kimball}
+'31107': {region: Nebraska, sub_region: Knox}
+'31109': {region: Nebraska, sub_region: Lancaster}
+'31111': {region: Nebraska, sub_region: Lincoln}
+'31113': {region: Nebraska, sub_region: Logan}
+'31115': {region: Nebraska, sub_region: Loup}
+'31117': {region: Nebraska, sub_region: Mcpherson}
+'31119': {region: Nebraska, sub_region: Madison}
+'31121': {region: Nebraska, sub_region: Merrick}
+'31123': {region: Nebraska, sub_region: Morrill}
+'31125': {region: Nebraska, sub_region: Nance}
+'31127': {region: Nebraska, sub_region: Nemaha}
+'31129': {region: Nebraska, sub_region: Nuckolls}
+'31131': {region: Nebraska, sub_region: Otoe}
+'31133': {region: Nebraska, sub_region: Pawnee}
+'31135': {region: Nebraska, sub_region: Perkins}
+'31137': {region: Nebraska, sub_region: Phelps}
+'31139': {region: Nebraska, sub_region: Pierce}
+'31141': {region: Nebraska, sub_region: Platte}
+'31143': {region: Nebraska, sub_region: Polk}
+'31145': {region: Nebraska, sub_region: Red Willow}
+'31147': {region: Nebraska, sub_region: Richardson}
+'31149': {region: Nebraska, sub_region: Rock}
+'31151': {region: Nebraska, sub_region: Saline}
+'31153': {region: Nebraska, sub_region: Sarpy}
+'31155': {region: Nebraska, sub_region: Saunders}
+'31157': {region: Nebraska, sub_region: Scotts Bluff}
+'31159': {region: Nebraska, sub_region: Seward}
+'31161': {region: Nebraska, sub_region: Sheridan}
+'31163': {region: Nebraska, sub_region: Sherman}
+'31165': {region: Nebraska, sub_region: Sioux}
+'31167': {region: Nebraska, sub_region: Stanton}
+'31169': {region: Nebraska, sub_region: Thayer}
+'31171': {region: Nebraska, sub_region: Thomas}
+'31173': {region: Nebraska, sub_region: Thurston}
+'31175': {region: Nebraska, sub_region: Valley}
+'31177': {region: Nebraska, sub_region: Washington}
+'31179': {region: Nebraska, sub_region: Wayne}
+'31181': {region: Nebraska, sub_region: Webster}
+'31183': {region: Nebraska, sub_region: Wheeler}
+'31185': {region: Nebraska, sub_region: York}
+'32': {region: Nevada}
+'32001': {region: Nevada, sub_region: Churchill}
+'32003': {region: Nevada, sub_region: Clark}
+'32005': {region: Nevada, sub_region: Douglas}
+'32007': {region: Nevada, sub_region: Elko}
+'32009': {region: Nevada, sub_region: Esmeralda}
+'32011': {region: Nevada, sub_region: Eureka}
+'32013': {region: Nevada, sub_region: Humboldt}
+'32015': {region: Nevada, sub_region: Lander}
+'32017': {region: Nevada, sub_region: Lincoln}
+'32019': {region: Nevada, sub_region: Lyon}
+'32021': {region: Nevada, sub_region: Mineral}
+'32023': {region: Nevada, sub_region: Nye}
+'32027': {region: Nevada, sub_region: Pershing}
+'32029': {region: Nevada, sub_region: Storey}
+'32031': {region: Nevada, sub_region: Washoe}
+'32033': {region: Nevada, sub_region: White Pine}
+'32510': {region: Nevada, sub_region: Carson City}
+'33': {region: New Hampshire}
+'33001': {region: New Hampshire, sub_region: Belknap}
+'33003': {region: New Hampshire, sub_region: Carroll}
+'33005': {region: New Hampshire, sub_region: Cheshire}
+'33007': {region: New Hampshire, sub_region: Coos}
+'33009': {region: New Hampshire, sub_region: Grafton}
+'33011': {region: New Hampshire, sub_region: Hillsborough}
+'33013': {region: New Hampshire, sub_region: Merrimack}
+'33015': {region: New Hampshire, sub_region: Rockingham}
+'33017': {region: New Hampshire, sub_region: Strafford}
+'33019': {region: New Hampshire, sub_region: Sullivan}
+'34': {region: New Jersey}
+'34001': {region: New Jersey, sub_region: Atlantic}
+'34003': {region: New Jersey, sub_region: Bergen}
+'34005': {region: New Jersey, sub_region: Burlington}
+'34007': {region: New Jersey, sub_region: Camden}
+'34009': {region: New Jersey, sub_region: Cape May}
+'34011': {region: New Jersey, sub_region: Cumberland}
+'34013': {region: New Jersey, sub_region: Essex}
+'34015': {region: New Jersey, sub_region: Gloucester}
+'34017': {region: New Jersey, sub_region: Hudson}
+'34019': {region: New Jersey, sub_region: Hunterdon}
+'34021': {region: New Jersey, sub_region: Mercer}
+'34023': {region: New Jersey, sub_region: Middlesex}
+'34025': {region: New Jersey, sub_region: Monmouth}
+'34027': {region: New Jersey, sub_region: Morris}
+'34029': {region: New Jersey, sub_region: Ocean}
+'34031': {region: New Jersey, sub_region: Passaic}
+'34033': {region: New Jersey, sub_region: Salem}
+'34035': {region: New Jersey, sub_region: Somerset}
+'34037': {region: New Jersey, sub_region: Sussex}
+'34039': {region: New Jersey, sub_region: Union}
+'34041': {region: New Jersey, sub_region: Warren}
+'35': {region: New Mexico}
+'35001': {region: New Mexico, sub_region: Bernalillo}
+'35003': {region: New Mexico, sub_region: Catron}
+'35005': {region: New Mexico, sub_region: Chaves}
+'35007': {region: New Mexico, sub_region: Colfax}
+'35009': {region: New Mexico, sub_region: Curry}
+'35011': {region: New Mexico, sub_region: De Baca}
+'35013': {region: New Mexico, sub_region: Dona Ana}
+'35015': {region: New Mexico, sub_region: Eddy}
+'35017': {region: New Mexico, sub_region: Grant}
+'35019': {region: New Mexico, sub_region: Guadalupe}
+'35021': {region: New Mexico, sub_region: Harding}
+'35023': {region: New Mexico, sub_region: Hidalgo}
+'35025': {region: New Mexico, sub_region: Lea}
+'35027': {region: New Mexico, sub_region: Lincoln}
+'35028': {region: New Mexico, sub_region: Los Alamos}
+'35029': {region: New Mexico, sub_region: Luna}
+'35031': {region: New Mexico, sub_region: Mckinley}
+'35033': {region: New Mexico, sub_region: Mora}
+'35035': {region: New Mexico, sub_region: Otero}
+'35037': {region: New Mexico, sub_region: Quay}
+'35039': {region: New Mexico, sub_region: Rio Arriba}
+'35041': {region: New Mexico, sub_region: Roosevelt}
+'35043': {region: New Mexico, sub_region: Sandoval}
+'35045': {region: New Mexico, sub_region: San Juan}
+'35047': {region: New Mexico, sub_region: San Miguel}
+'35049': {region: New Mexico, sub_region: Santa Fe}
+'35051': {region: New Mexico, sub_region: Sierra}
+'35053': {region: New Mexico, sub_region: Socorro}
+'35055': {region: New Mexico, sub_region: Taos}
+'35057': {region: New Mexico, sub_region: Torrance}
+'35059': {region: New Mexico, sub_region: Union}
+'35061': {region: New Mexico, sub_region: Valencia}
+'35981': {region: New Mexico, sub_region: June}
+'36': {region: New York}
+'36001': {region: New York, sub_region: Albany}
+'36003': {region: New York, sub_region: Allegany}
+'36005': {region: New York, sub_region: Bronx}
+'36007': {region: New York, sub_region: Broome}
+'36009': {region: New York, sub_region: Cattaraugus}
+'36011': {region: New York, sub_region: Cayuga}
+'36013': {region: New York, sub_region: Chautauqua}
+'36015': {region: New York, sub_region: Chemung}
+'36017': {region: New York, sub_region: Chenango}
+'36019': {region: New York, sub_region: Clinton}
+'36021': {region: New York, sub_region: Columbia}
+'36023': {region: New York, sub_region: Cortland}
+'36025': {region: New York, sub_region: Delaware}
+'36027': {region: New York, sub_region: Dutchess}
+'36029': {region: New York, sub_region: Erie}
+'36031': {region: New York, sub_region: Essex}
+'36033': {region: New York, sub_region: Franklin}
+'36035': {region: New York, sub_region: Fulton}
+'36037': {region: New York, sub_region: Genesee}
+'36039': {region: New York, sub_region: Greene}
+'36041': {region: New York, sub_region: Hamilton}
+'36043': {region: New York, sub_region: Herkimer}
+'36045': {region: New York, sub_region: Jefferson}
+'36047': {region: New York, sub_region: Kings}
+'36049': {region: New York, sub_region: Lewis}
+'36051': {region: New York, sub_region: Livingston}
+'36053': {region: New York, sub_region: Madison}
+'36055': {region: New York, sub_region: Monroe}
+'36057': {region: New York, sub_region: Montgomery}
+'36059': {region: New York, sub_region: Nassau}
+'36061': {region: New York, sub_region: New York}
+'36063': {region: New York, sub_region: Niagara}
+'36065': {region: New York, sub_region: Oneida}
+'36067': {region: New York, sub_region: Onondaga}
+'36069': {region: New York, sub_region: Ontario}
+'36071': {region: New York, sub_region: Orange}
+'36073': {region: New York, sub_region: Orleans}
+'36075': {region: New York, sub_region: Oswego}
+'36077': {region: New York, sub_region: Otsego}
+'36079': {region: New York, sub_region: Putnam}
+'36081': {region: New York, sub_region: Queens}
+'36083': {region: New York, sub_region: Rensselaer}
+'36085': {region: New York, sub_region: Richmond}
+'36087': {region: New York, sub_region: Rockland}
+'36089': {region: New York, sub_region: St. Lawrence}
+'36091': {region: New York, sub_region: Saratoga}
+'36093': {region: New York, sub_region: Schenectady}
+'36095': {region: New York, sub_region: Schoharie}
+'36097': {region: New York, sub_region: Schuyler}
+'36099': {region: New York, sub_region: Seneca}
+'36101': {region: New York, sub_region: Steuben}
+'36103': {region: New York, sub_region: Suffolk}
+'36105': {region: New York, sub_region: Sullivan}
+'36107': {region: New York, sub_region: Tioga}
+'36109': {region: New York, sub_region: Tompkins}
+'36111': {region: New York, sub_region: Ulster}
+'36113': {region: New York, sub_region: Warren}
+'36115': {region: New York, sub_region: Washington}
+'36117': {region: New York, sub_region: Wayne}
+'36119': {region: New York, sub_region: Westchester}
+'36121': {region: New York, sub_region: Wyoming}
+'36123': {region: New York, sub_region: Yates}
+'37': {region: North Carolina}
+'37001': {region: North Carolina, sub_region: Alamance}
+'37003': {region: North Carolina, sub_region: Alexander}
+'37005': {region: North Carolina, sub_region: Alleghany}
+'37007': {region: North Carolina, sub_region: Anson}
+'37009': {region: North Carolina, sub_region: Ashe}
+'37011': {region: North Carolina, sub_region: Avery}
+'37013': {region: North Carolina, sub_region: Beaufort}
+'37015': {region: North Carolina, sub_region: Bertie}
+'37017': {region: North Carolina, sub_region: Bladen}
+'37019': {region: North Carolina, sub_region: Brunswick}
+'37021': {region: North Carolina, sub_region: Buncombe}
+'37023': {region: North Carolina, sub_region: Burke}
+'37025': {region: North Carolina, sub_region: Cabarrus}
+'37027': {region: North Carolina, sub_region: Caldwell}
+'37029': {region: North Carolina, sub_region: Camden}
+'37031': {region: North Carolina, sub_region: Carteret}
+'37033': {region: North Carolina, sub_region: Caswell}
+'37035': {region: North Carolina, sub_region: Catawba}
+'37037': {region: North Carolina, sub_region: Chatham}
+'37039': {region: North Carolina, sub_region: Cherokee}
+'37041': {region: North Carolina, sub_region: Chowan}
+'37043': {region: North Carolina, sub_region: Clay}
+'37045': {region: North Carolina, sub_region: Cleveland}
+'37047': {region: North Carolina, sub_region: Columbus}
+'37049': {region: North Carolina, sub_region: Craven}
+'37051': {region: North Carolina, sub_region: Cumberland}
+'37053': {region: North Carolina, sub_region: Currituck}
+'37055': {region: North Carolina, sub_region: Dare}
+'37057': {region: North Carolina, sub_region: Davidson}
+'37059': {region: North Carolina, sub_region: Davie}
+'37061': {region: North Carolina, sub_region: Duplin}
+'37063': {region: North Carolina, sub_region: Durham}
+'37065': {region: North Carolina, sub_region: Edgecombe}
+'37067': {region: North Carolina, sub_region: Forsyth}
+'37069': {region: North Carolina, sub_region: Franklin}
+'37071': {region: North Carolina, sub_region: Gaston}
+'37073': {region: North Carolina, sub_region: Gates}
+'37075': {region: North Carolina, sub_region: Graham}
+'37077': {region: North Carolina, sub_region: Granville}
+'37079': {region: North Carolina, sub_region: Greene}
+'37081': {region: North Carolina, sub_region: Guilford}
+'37083': {region: North Carolina, sub_region: Halifax}
+'37085': {region: North Carolina, sub_region: Harnett}
+'37087': {region: North Carolina, sub_region: Haywood}
+'37089': {region: North Carolina, sub_region: Henderson}
+'37091': {region: North Carolina, sub_region: Hertford}
+'37093': {region: North Carolina, sub_region: Hoke}
+'37095': {region: North Carolina, sub_region: Hyde}
+'37097': {region: North Carolina, sub_region: Iredell}
+'37099': {region: North Carolina, sub_region: Jackson}
+'37101': {region: North Carolina, sub_region: Johnston}
+'37103': {region: North Carolina, sub_region: Jones}
+'37105': {region: North Carolina, sub_region: Lee}
+'37107': {region: North Carolina, sub_region: Lenoir}
+'37109': {region: North Carolina, sub_region: Lincoln}
+'37111': {region: North Carolina, sub_region: Mcdowell}
+'37113': {region: North Carolina, sub_region: Macon}
+'37115': {region: North Carolina, sub_region: Madison}
+'37117': {region: North Carolina, sub_region: Martin}
+'37119': {region: North Carolina, sub_region: Mecklenburg}
+'37121': {region: North Carolina, sub_region: Mitchell}
+'37123': {region: North Carolina, sub_region: Montgomery}
+'37125': {region: North Carolina, sub_region: Moore}
+'37127': {region: North Carolina, sub_region: Nash}
+'37129': {region: North Carolina, sub_region: New Hanover}
+'37131': {region: North Carolina, sub_region: Northampton}
+'37133': {region: North Carolina, sub_region: Onslow}
+'37135': {region: North Carolina, sub_region: Orange}
+'37137': {region: North Carolina, sub_region: Pamlico}
+'37139': {region: North Carolina, sub_region: Pasquotank}
+'37141': {region: North Carolina, sub_region: Pender}
+'37143': {region: North Carolina, sub_region: Perquimans}
+'37145': {region: North Carolina, sub_region: Person}
+'37147': {region: North Carolina, sub_region: Pitt}
+'37149': {region: North Carolina, sub_region: Polk}
+'37151': {region: North Carolina, sub_region: Randolph}
+'37153': {region: North Carolina, sub_region: Richmond}
+'37155': {region: North Carolina, sub_region: Robeson}
+'37157': {region: North Carolina, sub_region: Rockingham}
+'37159': {region: North Carolina, sub_region: Rowan}
+'37161': {region: North Carolina, sub_region: Rutherford}
+'37163': {region: North Carolina, sub_region: Sampson}
+'37165': {region: North Carolina, sub_region: Scotland}
+'37167': {region: North Carolina, sub_region: Stanly}
+'37169': {region: North Carolina, sub_region: Stokes}
+'37171': {region: North Carolina, sub_region: Surry}
+'37173': {region: North Carolina, sub_region: Swain}
+'37175': {region: North Carolina, sub_region: Transylvania}
+'37177': {region: North Carolina, sub_region: Tyrrell}
+'37179': {region: North Carolina, sub_region: Union}
+'37181': {region: North Carolina, sub_region: Vance}
+'37183': {region: North Carolina, sub_region: Wake}
+'37185': {region: North Carolina, sub_region: Warren}
+'37187': {region: North Carolina, sub_region: Washington}
+'37189': {region: North Carolina, sub_region: Watauga}
+'37191': {region: North Carolina, sub_region: Wayne}
+'37193': {region: North Carolina, sub_region: Wilkes}
+'37195': {region: North Carolina, sub_region: Wilson}
+'37197': {region: North Carolina, sub_region: Yadkin}
+'37199': {region: North Carolina, sub_region: Yancey}
+'38': {region: North Dakota}
+'38001': {region: North Dakota, sub_region: Adams}
+'38003': {region: North Dakota, sub_region: Barnes}
+'38005': {region: North Dakota, sub_region: Benson}
+'38007': {region: North Dakota, sub_region: Billings}
+'38009': {region: North Dakota, sub_region: Bottineau}
+'38011': {region: North Dakota, sub_region: Bowman}
+'38013': {region: North Dakota, sub_region: Burke}
+'38015': {region: North Dakota, sub_region: Burleigh}
+'38017': {region: North Dakota, sub_region: Cass}
+'38019': {region: North Dakota, sub_region: Cavalier}
+'38021': {region: North Dakota, sub_region: Dickey}
+'38023': {region: North Dakota, sub_region: Divide}
+'38025': {region: North Dakota, sub_region: Dunn}
+'38027': {region: North Dakota, sub_region: Eddy}
+'38029': {region: North Dakota, sub_region: Emmons}
+'38031': {region: North Dakota, sub_region: Foster}
+'38033': {region: North Dakota, sub_region: Golden Valley}
+'38035': {region: North Dakota, sub_region: Grand Forks}
+'38037': {region: North Dakota, sub_region: Grant}
+'38039': {region: North Dakota, sub_region: Griggs}
+'38041': {region: North Dakota, sub_region: Hettinger}
+'38043': {region: North Dakota, sub_region: Kidder}
+'38045': {region: North Dakota, sub_region: Lamoure}
+'38047': {region: North Dakota, sub_region: Logan}
+'38049': {region: North Dakota, sub_region: Mchenry}
+'38051': {region: North Dakota, sub_region: Mcintosh}
+'38053': {region: North Dakota, sub_region: Mckenzie}
+'38055': {region: North Dakota, sub_region: Mclean}
+'38057': {region: North Dakota, sub_region: Mercer}
+'38059': {region: North Dakota, sub_region: Morton}
+'38061': {region: North Dakota, sub_region: Mountrail}
+'38063': {region: North Dakota, sub_region: Nelson}
+'38065': {region: North Dakota, sub_region: Oliver}
+'38067': {region: North Dakota, sub_region: Pembina}
+'38069': {region: North Dakota, sub_region: Pierce}
+'38071': {region: North Dakota, sub_region: Ramsey}
+'38073': {region: North Dakota, sub_region: Ransom}
+'38075': {region: North Dakota, sub_region: Renville}
+'38077': {region: North Dakota, sub_region: Richland}
+'38079': {region: North Dakota, sub_region: Rolette}
+'38081': {region: North Dakota, sub_region: Sargent}
+'38083': {region: North Dakota, sub_region: Sheridan}
+'38085': {region: North Dakota, sub_region: Sioux}
+'38087': {region: North Dakota, sub_region: Slope}
+'38089': {region: North Dakota, sub_region: Stark}
+'38091': {region: North Dakota, sub_region: Steele}
+'38093': {region: North Dakota, sub_region: Stutsman}
+'38095': {region: North Dakota, sub_region: Towner}
+'38097': {region: North Dakota, sub_region: Traill}
+'38099': {region: North Dakota, sub_region: Walsh}
+'38101': {region: North Dakota, sub_region: Ward}
+'38103': {region: North Dakota, sub_region: Wells}
+'38105': {region: North Dakota, sub_region: Williams}
+'39': {region: Ohio}
+'39001': {region: Ohio, sub_region: Adams}
+'39003': {region: Ohio, sub_region: Allen}
+'39005': {region: Ohio, sub_region: Ashland}
+'39007': {region: Ohio, sub_region: Ashtabula}
+'39009': {region: Ohio, sub_region: Athens}
+'39011': {region: Ohio, sub_region: Auglaize}
+'39013': {region: Ohio, sub_region: Belmont}
+'39015': {region: Ohio, sub_region: Brown}
+'39017': {region: Ohio, sub_region: Butler}
+'39019': {region: Ohio, sub_region: Carroll}
+'39021': {region: Ohio, sub_region: Champaign}
+'39023': {region: Ohio, sub_region: Clark}
+'39025': {region: Ohio, sub_region: Clermont}
+'39027': {region: Ohio, sub_region: Clinton}
+'39029': {region: Ohio, sub_region: Columbiana}
+'39031': {region: Ohio, sub_region: Coshocton}
+'39033': {region: Ohio, sub_region: Crawford}
+'39035': {region: Ohio, sub_region: Cuyahoga}
+'39037': {region: Ohio, sub_region: Darke}
+'39039': {region: Ohio, sub_region: Defiance}
+'39041': {region: Ohio, sub_region: Delaware}
+'39043': {region: Ohio, sub_region: Erie}
+'39045': {region: Ohio, sub_region: Fairfield}
+'39049': {region: Ohio, sub_region: Franklin}
+'39051': {region: Ohio, sub_region: Fulton}
+'39053': {region: Ohio, sub_region: Gallia}
+'39055': {region: Ohio, sub_region: Geauga}
+'39057': {region: Ohio, sub_region: Greene}
+'39059': {region: Ohio, sub_region: Guernsey}
+'39061': {region: Ohio, sub_region: Hamilton}
+'39063': {region: Ohio, sub_region: Hancock}
+'39065': {region: Ohio, sub_region: Hardin}
+'39067': {region: Ohio, sub_region: Harrison}
+'39069': {region: Ohio, sub_region: Henry}
+'39071': {region: Ohio, sub_region: Highland}
+'39073': {region: Ohio, sub_region: Hocking}
+'39075': {region: Ohio, sub_region: Holmes}
+'39077': {region: Ohio, sub_region: Huron}
+'39079': {region: Ohio, sub_region: Jackson}
+'39081': {region: Ohio, sub_region: Jefferson}
+'39083': {region: Ohio, sub_region: Knox}
+'39085': {region: Ohio, sub_region: Lake}
+'39087': {region: Ohio, sub_region: Lawrence}
+'39089': {region: Ohio, sub_region: Licking}
+'39091': {region: Ohio, sub_region: Logan}
+'39093': {region: Ohio, sub_region: Lorain}
+'39095': {region: Ohio, sub_region: Lucas}
+'39097': {region: Ohio, sub_region: Madison}
+'39099': {region: Ohio, sub_region: Mahoning}
+'39101': {region: Ohio, sub_region: Marion}
+'39103': {region: Ohio, sub_region: Medina}
+'39105': {region: Ohio, sub_region: Meigs}
+'39107': {region: Ohio, sub_region: Mercer}
+'39109': {region: Ohio, sub_region: Miami}
+'39111': {region: Ohio, sub_region: Monroe}
+'39113': {region: Ohio, sub_region: Montgomery}
+'39115': {region: Ohio, sub_region: Morgan}
+'39117': {region: Ohio, sub_region: Morrow}
+'39119': {region: Ohio, sub_region: Muskingum}
+'39121': {region: Ohio, sub_region: Noble}
+'39123': {region: Ohio, sub_region: Ottawa}
+'39125': {region: Ohio, sub_region: Paulding}
+'39127': {region: Ohio, sub_region: Perry}
+'39129': {region: Ohio, sub_region: Pickaway}
+'39131': {region: Ohio, sub_region: Pike}
+'39133': {region: Ohio, sub_region: Portage}
+'39135': {region: Ohio, sub_region: Preble}
+'39137': {region: Ohio, sub_region: Putnam}
+'39139': {region: Ohio, sub_region: Richland}
+'39141': {region: Ohio, sub_region: Ross}
+'39143': {region: Ohio, sub_region: Sandusky}
+'39145': {region: Ohio, sub_region: Scioto}
+'39147': {region: Ohio, sub_region: Seneca}
+'39149': {region: Ohio, sub_region: Shelby}
+'39151': {region: Ohio, sub_region: Stark}
+'39153': {region: Ohio, sub_region: Summit}
+'39155': {region: Ohio, sub_region: Trumbull}
+'39157': {region: Ohio, sub_region: Tuscarawas}
+'39159': {region: Ohio, sub_region: Union}
+'39161': {region: Ohio, sub_region: Van Wert}
+'39163': {region: Ohio, sub_region: Vinton}
+'39165': {region: Ohio, sub_region: Warren}
+'39167': {region: Ohio, sub_region: Washington}
+'39169': {region: Ohio, sub_region: Wayne}
+'39171': {region: Ohio, sub_region: Williams}
+'39173': {region: Ohio, sub_region: Wood}
+'39175': {region: Ohio, sub_region: Wyandot}
+'40': {region: Oklahoma}
+'40001': {region: Oklahoma, sub_region: Adair}
+'40003': {region: Oklahoma, sub_region: Alfalfa}
+'40005': {region: Oklahoma, sub_region: Atoka}
+'40007': {region: Oklahoma, sub_region: Beaver}
+'40009': {region: Oklahoma, sub_region: Beckham}
+'40011': {region: Oklahoma, sub_region: Blaine}
+'40013': {region: Oklahoma, sub_region: Bryan}
+'40015': {region: Oklahoma, sub_region: Caddo}
+'40017': {region: Oklahoma, sub_region: Canadian}
+'40019': {region: Oklahoma, sub_region: Carter}
+'40021': {region: Oklahoma, sub_region: Cherokee}
+'40023': {region: Oklahoma, sub_region: Choctaw}
+'40025': {region: Oklahoma, sub_region: Cimarron}
+'40027': {region: Oklahoma, sub_region: Cleveland}
+'40029': {region: Oklahoma, sub_region: Coal}
+'40031': {region: Oklahoma, sub_region: Comanche}
+'40033': {region: Oklahoma, sub_region: Cotton}
+'40035': {region: Oklahoma, sub_region: Craig}
+'40037': {region: Oklahoma, sub_region: Creek}
+'40039': {region: Oklahoma, sub_region: Custer}
+'40041': {region: Oklahoma, sub_region: Delaware}
+'40043': {region: Oklahoma, sub_region: Dewey}
+'40045': {region: Oklahoma, sub_region: Ellis}
+'40047': {region: Oklahoma, sub_region: Garfield}
+'40049': {region: Oklahoma, sub_region: Garvin}
+'40051': {region: Oklahoma, sub_region: Grady}
+'40053': {region: Oklahoma, sub_region: Grant}
+'40055': {region: Oklahoma, sub_region: Greer}
+'40057': {region: Oklahoma, sub_region: Harmon}
+'40059': {region: Oklahoma, sub_region: Harper}
+'40061': {region: Oklahoma, sub_region: Haskell}
+'40063': {region: Oklahoma, sub_region: Hughes}
+'40065': {region: Oklahoma, sub_region: Jackson}
+'40067': {region: Oklahoma, sub_region: Jefferson}
+'40069': {region: Oklahoma, sub_region: Johnston}
+'40071': {region: Oklahoma, sub_region: Kay}
+'40073': {region: Oklahoma, sub_region: Kingfisher}
+'40075': {region: Oklahoma, sub_region: Kiowa}
+'40077': {region: Oklahoma, sub_region: Latimer}
+'40079': {region: Oklahoma, sub_region: Le Flore}
+'40081': {region: Oklahoma, sub_region: Lincoln}
+'40083': {region: Oklahoma, sub_region: Logan}
+'40085': {region: Oklahoma, sub_region: Love}
+'40087': {region: Oklahoma, sub_region: Mcclain}
+'40089': {region: Oklahoma, sub_region: Mccurtain}
+'40091': {region: Oklahoma, sub_region: Mcintosh}
+'40093': {region: Oklahoma, sub_region: Major}
+'40095': {region: Oklahoma, sub_region: Marshall}
+'40097': {region: Oklahoma, sub_region: Mayes}
+'40099': {region: Oklahoma, sub_region: Murray}
+'40101': {region: Oklahoma, sub_region: Muskogee}
+'40103': {region: Oklahoma, sub_region: Noble}
+'40105': {region: Oklahoma, sub_region: Nowata}
+'40107': {region: Oklahoma, sub_region: Okfuskee}
+'40109': {region: Oklahoma, sub_region: Oklahoma}
+'40111': {region: Oklahoma, sub_region: Okmulgee}
+'40113': {region: Oklahoma, sub_region: Osage}
+'40115': {region: Oklahoma, sub_region: Ottawa}
+'40117': {region: Oklahoma, sub_region: Pawnee}
+'40119': {region: Oklahoma, sub_region: Payne}
+'40121': {region: Oklahoma, sub_region: Pittsburg}
+'40123': {region: Oklahoma, sub_region: Pontotoc}
+'40125': {region: Oklahoma, sub_region: Pottawatomie}
+'40127': {region: Oklahoma, sub_region: Pushmataha}
+'40129': {region: Oklahoma, sub_region: Roger Mills}
+'40131': {region: Oklahoma, sub_region: Rogers}
+'40133': {region: Oklahoma, sub_region: Seminole}
+'40135': {region: Oklahoma, sub_region: Sequoyah}
+'40137': {region: Oklahoma, sub_region: Stephens}
+'40139': {region: Oklahoma, sub_region: Texas}
+'40141': {region: Oklahoma, sub_region: Tillman}
+'40143': {region: Oklahoma, sub_region: Tulsa}
+'40145': {region: Oklahoma, sub_region: Wagoner}
+'40147': {region: Oklahoma, sub_region: Washington}
+'40149': {region: Oklahoma, sub_region: Washita}
+'40151': {region: Oklahoma, sub_region: Woods}
+'40153': {region: Oklahoma, sub_region: Woodward}
+'41': {region: Oregon}
+'41001': {region: Oregon, sub_region: Baker}
+'41003': {region: Oregon, sub_region: Benton}
+'41005': {region: Oregon, sub_region: Clackamas}
+'41007': {region: Oregon, sub_region: Clatsop}
+'41009': {region: Oregon, sub_region: Columbia}
+'41011': {region: Oregon, sub_region: Coos}
+'41013': {region: Oregon, sub_region: Crook}
+'41015': {region: Oregon, sub_region: Curry}
+'41017': {region: Oregon, sub_region: Deschutes}
+'41019': {region: Oregon, sub_region: Douglas}
+'41021': {region: Oregon, sub_region: Gilliam}
+'41023': {region: Oregon, sub_region: Grant}
+'41025': {region: Oregon, sub_region: Harney}
+'41027': {region: Oregon, sub_region: Hood River}
+'41029': {region: Oregon, sub_region: Jackson}
+'41031': {region: Oregon, sub_region: Jefferson}
+'41033': {region: Oregon, sub_region: Josephine}
+'41035': {region: Oregon, sub_region: Klamath}
+'41037': {region: Oregon, sub_region: Lake}
+'41039': {region: Oregon, sub_region: Lane}
+'41041': {region: Oregon, sub_region: Lincoln}
+'41043': {region: Oregon, sub_region: Linn}
+'41045': {region: Oregon, sub_region: Malheur}
+'41047': {region: Oregon, sub_region: Marion}
+'41049': {region: Oregon, sub_region: Morrow}
+'41051': {region: Oregon, sub_region: Multnomah}
+'41053': {region: Oregon, sub_region: Polk}
+'41055': {region: Oregon, sub_region: Sherman}
+'41057': {region: Oregon, sub_region: Tillamook}
+'41059': {region: Oregon, sub_region: Umatilla}
+'41061': {region: Oregon, sub_region: Union}
+'41063': {region: Oregon, sub_region: Wallowa}
+'41065': {region: Oregon, sub_region: Wasco}
+'41067': {region: Oregon, sub_region: Washington}
+'41069': {region: Oregon, sub_region: Wheeler}
+'41071': {region: Oregon, sub_region: Yamhill}
+'42': {region: Pennsylvania}
+'42001': {region: Pennsylvania, sub_region: Adams}
+'42003': {region: Pennsylvania, sub_region: Allegheny}
+'42005': {region: Pennsylvania, sub_region: Armstrong}
+'42007': {region: Pennsylvania, sub_region: Beaver}
+'42009': {region: Pennsylvania, sub_region: Bedford}
+'42011': {region: Pennsylvania, sub_region: Berks}
+'42013': {region: Pennsylvania, sub_region: Blair}
+'42015': {region: Pennsylvania, sub_region: Bradford}
+'42017': {region: Pennsylvania, sub_region: Bucks}
+'42019': {region: Pennsylvania, sub_region: Butler}
+'42021': {region: Pennsylvania, sub_region: Cambria}
+'42023': {region: Pennsylvania, sub_region: Cameron}
+'42025': {region: Pennsylvania, sub_region: Carbon}
+'42027': {region: Pennsylvania, sub_region: Centre}
+'42029': {region: Pennsylvania, sub_region: Chester}
+'42031': {region: Pennsylvania, sub_region: Clarion}
+'42033': {region: Pennsylvania, sub_region: Clearfield}
+'42035': {region: Pennsylvania, sub_region: Clinton}
+'42037': {region: Pennsylvania, sub_region: Columbia}
+'42039': {region: Pennsylvania, sub_region: Crawford}
+'42041': {region: Pennsylvania, sub_region: Cumberland}
+'42043': {region: Pennsylvania, sub_region: Dauphin}
+'42045': {region: Pennsylvania, sub_region: Delaware}
+'42047': {region: Pennsylvania, sub_region: Elk}
+'42049': {region: Pennsylvania, sub_region: Erie}
+'42051': {region: Pennsylvania, sub_region: Fayette}
+'42053': {region: Pennsylvania, sub_region: Forest}
+'42055': {region: Pennsylvania, sub_region: Franklin}
+'42057': {region: Pennsylvania, sub_region: Fulton}
+'42059': {region: Pennsylvania, sub_region: Greene}
+'42061': {region: Pennsylvania, sub_region: Huntingdon}
+'42063': {region: Pennsylvania, sub_region: Indiana}
+'42065': {region: Pennsylvania, sub_region: Jefferson}
+'42067': {region: Pennsylvania, sub_region: Juniata}
+'42069': {region: Pennsylvania, sub_region: Lackawanna}
+'42071': {region: Pennsylvania, sub_region: Lancaster}
+'42073': {region: Pennsylvania, sub_region: Lawrence}
+'42075': {region: Pennsylvania, sub_region: Lebanon}
+'42077': {region: Pennsylvania, sub_region: Lehigh}
+'42079': {region: Pennsylvania, sub_region: Luzerne}
+'42081': {region: Pennsylvania, sub_region: Lycoming}
+'42083': {region: Pennsylvania, sub_region: Mckean}
+'42085': {region: Pennsylvania, sub_region: Mercer}
+'42087': {region: Pennsylvania, sub_region: Mifflin}
+'42089': {region: Pennsylvania, sub_region: Monroe}
+'42091': {region: Pennsylvania, sub_region: Montgomery}
+'42093': {region: Pennsylvania, sub_region: Montour}
+'42095': {region: Pennsylvania, sub_region: Northampton}
+'42097': {region: Pennsylvania, sub_region: Northumberland}
+'42099': {region: Pennsylvania, sub_region: Perry}
+'42101': {region: Pennsylvania, sub_region: Philadelphia}
+'42103': {region: Pennsylvania, sub_region: Pike}
+'42105': {region: Pennsylvania, sub_region: Potter}
+'42107': {region: Pennsylvania, sub_region: Schuylkill}
+'42109': {region: Pennsylvania, sub_region: Snyder}
+'42111': {region: Pennsylvania, sub_region: Somerset}
+'42113': {region: Pennsylvania, sub_region: Sullivan}
+'42115': {region: Pennsylvania, sub_region: Susquehanna}
+'42117': {region: Pennsylvania, sub_region: Tioga}
+'42119': {region: Pennsylvania, sub_region: Union}
+'42121': {region: Pennsylvania, sub_region: Venango}
+'42123': {region: Pennsylvania, sub_region: Warren}
+'42125': {region: Pennsylvania, sub_region: Washington}
+'42127': {region: Pennsylvania, sub_region: Wayne}
+'42129': {region: Pennsylvania, sub_region: Westmoreland}
+'42131': {region: Pennsylvania, sub_region: Wyoming}
+'42133': {region: Pennsylvania, sub_region: York}
+'44': {region: Rhode Island}
+'44001': {region: Rhode Island, sub_region: Bristol}
+'44003': {region: Rhode Island, sub_region: Kent}
+'44005': {region: Rhode Island, sub_region: Newport}
+'44007': {region: Rhode Island, sub_region: Providence}
+'44009': {region: Rhode Island, sub_region: Washington}
+'45': {region: South Carolina}
+'45001': {region: South Carolina, sub_region: Abbeville}
+'45003': {region: South Carolina, sub_region: Aiken}
+'45005': {region: South Carolina, sub_region: Allendale}
+'45007': {region: South Carolina, sub_region: Anderson}
+'45009': {region: South Carolina, sub_region: Bamberg}
+'45011': {region: South Carolina, sub_region: Barnwell}
+'45013': {region: South Carolina, sub_region: Beaufort}
+'45015': {region: South Carolina, sub_region: Berkeley}
+'45017': {region: South Carolina, sub_region: Calhoun}
+'45019': {region: South Carolina, sub_region: Charleston}
+'45021': {region: South Carolina, sub_region: Cherokee}
+'45023': {region: South Carolina, sub_region: Chester}
+'45025': {region: South Carolina, sub_region: Chesterfield}
+'45027': {region: South Carolina, sub_region: Clarendon}
+'45029': {region: South Carolina, sub_region: Colleton}
+'45031': {region: South Carolina, sub_region: Darlington}
+'45033': {region: South Carolina, sub_region: Dillon}
+'45035': {region: South Carolina, sub_region: Dorchester}
+'45037': {region: South Carolina, sub_region: Edgefield}
+'45039': {region: South Carolina, sub_region: Fairfield}
+'45041': {region: South Carolina, sub_region: Florence}
+'45043': {region: South Carolina, sub_region: Georgetown}
+'45045': {region: South Carolina, sub_region: Greenville}
+'45047': {region: South Carolina, sub_region: Greenwood}
+'45049': {region: South Carolina, sub_region: Hampton}
+'45051': {region: South Carolina, sub_region: Horry}
+'45053': {region: South Carolina, sub_region: Jasper}
+'45055': {region: South Carolina, sub_region: Kershaw}
+'45057': {region: South Carolina, sub_region: Lancaster}
+'45059': {region: South Carolina, sub_region: Laurens}
+'45061': {region: South Carolina, sub_region: Lee}
+'45063': {region: South Carolina, sub_region: Lexington}
+'45065': {region: South Carolina, sub_region: Mccormick}
+'45067': {region: South Carolina, sub_region: Marion}
+'45069': {region: South Carolina, sub_region: Marlboro}
+'45071': {region: South Carolina, sub_region: Newberry}
+'45073': {region: South Carolina, sub_region: Oconee}
+'45075': {region: South Carolina, sub_region: Orangeburg}
+'45077': {region: South Carolina, sub_region: Pickens}
+'45079': {region: South Carolina, sub_region: Richland}
+'45081': {region: South Carolina, sub_region: Saluda}
+'45083': {region: South Carolina, sub_region: Spartanburg}
+'45085': {region: South Carolina, sub_region: Sumter}
+'45087': {region: South Carolina, sub_region: Union}
+'45089': {region: South Carolina, sub_region: Williamsburg}
+'45091': {region: South Carolina, sub_region: York}
+'46': {region: South Dakota}
+'46003': {region: South Dakota, sub_region: Aurora}
+'46005': {region: South Dakota, sub_region: Beadle}
+'46007': {region: South Dakota, sub_region: Bennett}
+'46009': {region: South Dakota, sub_region: Bon Homme}
+'46011': {region: South Dakota, sub_region: Brookings}
+'46013': {region: South Dakota, sub_region: Brown}
+'46015': {region: South Dakota, sub_region: Brule}
+'46017': {region: South Dakota, sub_region: Buffalo}
+'46019': {region: South Dakota, sub_region: Butte}
+'46021': {region: South Dakota, sub_region: Campbell}
+'46023': {region: South Dakota, sub_region: Charles Mix}
+'46025': {region: South Dakota, sub_region: Clark}
+'46027': {region: South Dakota, sub_region: Clay}
+'46029': {region: South Dakota, sub_region: Codington}
+'46031': {region: South Dakota, sub_region: Corson}
+'46033': {region: South Dakota, sub_region: Custer}
+'46035': {region: South Dakota, sub_region: Davison}
+'46037': {region: South Dakota, sub_region: Day}
+'46039': {region: South Dakota, sub_region: Deuel}
+'46041': {region: South Dakota, sub_region: Dewey}
+'46043': {region: South Dakota, sub_region: Douglas}
+'46045': {region: South Dakota, sub_region: Edmunds}
+'46047': {region: South Dakota, sub_region: Fall River}
+'46049': {region: South Dakota, sub_region: Faulk}
+'46051': {region: South Dakota, sub_region: Grant}
+'46053': {region: South Dakota, sub_region: Gregory}
+'46055': {region: South Dakota, sub_region: Haakon}
+'46057': {region: South Dakota, sub_region: Hamlin}
+'46059': {region: South Dakota, sub_region: Hand}
+'46061': {region: South Dakota, sub_region: Hanson}
+'46063': {region: South Dakota, sub_region: Harding}
+'46065': {region: South Dakota, sub_region: Hughes}
+'46067': {region: South Dakota, sub_region: Hutchinson}
+'46069': {region: South Dakota, sub_region: Hyde}
+'46071': {region: South Dakota, sub_region: Jackson}
+'46073': {region: South Dakota, sub_region: Jerauld}
+'46075': {region: South Dakota, sub_region: Jones}
+'46077': {region: South Dakota, sub_region: Kingsbury}
+'46079': {region: South Dakota, sub_region: Lake}
+'46081': {region: South Dakota, sub_region: Lawrence}
+'46083': {region: South Dakota, sub_region: Lincoln}
+'46085': {region: South Dakota, sub_region: Lyman}
+'46087': {region: South Dakota, sub_region: Mccook}
+'46089': {region: South Dakota, sub_region: Mcpherson}
+'46091': {region: South Dakota, sub_region: Marshall}
+'46093': {region: South Dakota, sub_region: Meade}
+'46095': {region: South Dakota, sub_region: Mellette}
+'46097': {region: South Dakota, sub_region: Miner}
+'46099': {region: South Dakota, sub_region: Minnehaha}
+'46101': {region: South Dakota, sub_region: Moody}
+'46103': {region: South Dakota, sub_region: Pennington}
+'46105': {region: South Dakota, sub_region: Perkins}
+'46107': {region: South Dakota, sub_region: Potter}
+'46109': {region: South Dakota, sub_region: Roberts}
+'46111': {region: South Dakota, sub_region: Sanborn}
+'46113': {region: South Dakota, sub_region: Shannon}
+'46115': {region: South Dakota, sub_region: Spink}
+'46117': {region: South Dakota, sub_region: Stanley}
+'46119': {region: South Dakota, sub_region: Sully}
+'46121': {region: South Dakota, sub_region: Todd}
+'46123': {region: South Dakota, sub_region: Tripp}
+'46125': {region: South Dakota, sub_region: Turner}
+'46127': {region: South Dakota, sub_region: Union}
+'46129': {region: South Dakota, sub_region: Walworth}
+'46135': {region: South Dakota, sub_region: Yankton}
+'46137': {region: South Dakota, sub_region: Ziebach}
+'47': {region: Tennessee}
+'47001': {region: Tennessee, sub_region: Anderson}
+'47003': {region: Tennessee, sub_region: Bedford}
+'47005': {region: Tennessee, sub_region: Benton}
+'47007': {region: Tennessee, sub_region: Bledsoe}
+'47009': {region: Tennessee, sub_region: Blount}
+'47011': {region: Tennessee, sub_region: Bradley}
+'47013': {region: Tennessee, sub_region: Campbell}
+'47015': {region: Tennessee, sub_region: Cannon}
+'47017': {region: Tennessee, sub_region: Carroll}
+'47019': {region: Tennessee, sub_region: Carter}
+'47021': {region: Tennessee, sub_region: Cheatham}
+'47023': {region: Tennessee, sub_region: Chester}
+'47025': {region: Tennessee, sub_region: Claiborne}
+'47027': {region: Tennessee, sub_region: Clay}
+'47029': {region: Tennessee, sub_region: Cocke}
+'47031': {region: Tennessee, sub_region: Coffee}
+'47033': {region: Tennessee, sub_region: Crockett}
+'47035': {region: Tennessee, sub_region: Cumberland}
+'47037': {region: Tennessee, sub_region: Davidson}
+'47039': {region: Tennessee, sub_region: Decatur}
+'47041': {region: Tennessee, sub_region: Dekalb}
+'47043': {region: Tennessee, sub_region: Dickson}
+'47045': {region: Tennessee, sub_region: Dyer}
+'47047': {region: Tennessee, sub_region: Fayette}
+'47049': {region: Tennessee, sub_region: Fentress}
+'47051': {region: Tennessee, sub_region: Franklin}
+'47053': {region: Tennessee, sub_region: Gibson}
+'47055': {region: Tennessee, sub_region: Giles}
+'47057': {region: Tennessee, sub_region: Grainger}
+'47059': {region: Tennessee, sub_region: Greene}
+'47061': {region: Tennessee, sub_region: Grundy}
+'47063': {region: Tennessee, sub_region: Hamblen}
+'47065': {region: Tennessee, sub_region: Hamilton}
+'47067': {region: Tennessee, sub_region: Hancock}
+'47069': {region: Tennessee, sub_region: Hardeman}
+'47071': {region: Tennessee, sub_region: Hardin}
+'47073': {region: Tennessee, sub_region: Hawkins}
+'47075': {region: Tennessee, sub_region: Haywood}
+'47077': {region: Tennessee, sub_region: Henderson}
+'47079': {region: Tennessee, sub_region: Henry}
+'47081': {region: Tennessee, sub_region: Hickman}
+'47083': {region: Tennessee, sub_region: Houston}
+'47085': {region: Tennessee, sub_region: Humphreys}
+'47087': {region: Tennessee, sub_region: Jackson}
+'47089': {region: Tennessee, sub_region: Jefferson}
+'47091': {region: Tennessee, sub_region: Johnson}
+'47093': {region: Tennessee, sub_region: Knox}
+'47095': {region: Tennessee, sub_region: Lake}
+'47097': {region: Tennessee, sub_region: Lauderdale}
+'47099': {region: Tennessee, sub_region: Lawrence}
+'47101': {region: Tennessee, sub_region: Lewis}
+'47103': {region: Tennessee, sub_region: Lincoln}
+'47105': {region: Tennessee, sub_region: Loudon}
+'47107': {region: Tennessee, sub_region: Mcminn}
+'47109': {region: Tennessee, sub_region: Mcnairy}
+'47111': {region: Tennessee, sub_region: Macon}
+'47113': {region: Tennessee, sub_region: Madison}
+'47115': {region: Tennessee, sub_region: Marion}
+'47117': {region: Tennessee, sub_region: Marshall}
+'47119': {region: Tennessee, sub_region: Maury}
+'47121': {region: Tennessee, sub_region: Meigs}
+'47123': {region: Tennessee, sub_region: Monroe}
+'47125': {region: Tennessee, sub_region: Montgomery}
+'47127': {region: Tennessee, sub_region: Moore}
+'47129': {region: Tennessee, sub_region: Morgan}
+'47131': {region: Tennessee, sub_region: Obion}
+'47133': {region: Tennessee, sub_region: Overton}
+'47135': {region: Tennessee, sub_region: Perry}
+'47137': {region: Tennessee, sub_region: Pickett}
+'47139': {region: Tennessee, sub_region: Polk}
+'47141': {region: Tennessee, sub_region: Putnam}
+'47143': {region: Tennessee, sub_region: Rhea}
+'47145': {region: Tennessee, sub_region: Roane}
+'47147': {region: Tennessee, sub_region: Robertson}
+'47149': {region: Tennessee, sub_region: Rutherford}
+'47151': {region: Tennessee, sub_region: Scott}
+'47153': {region: Tennessee, sub_region: Sequatchie}
+'47155': {region: Tennessee, sub_region: Sevier}
+'47157': {region: Tennessee, sub_region: Shelby}
+'47159': {region: Tennessee, sub_region: Smith}
+'47161': {region: Tennessee, sub_region: Stewart}
+'47163': {region: Tennessee, sub_region: Sullivan}
+'47165': {region: Tennessee, sub_region: Sumner}
+'47167': {region: Tennessee, sub_region: Tipton}
+'47169': {region: Tennessee, sub_region: Trousdale}
+'47171': {region: Tennessee, sub_region: Unicoi}
+'47173': {region: Tennessee, sub_region: Union}
+'47175': {region: Tennessee, sub_region: Van Buren}
+'47177': {region: Tennessee, sub_region: Warren}
+'47179': {region: Tennessee, sub_region: Washington}
+'47181': {region: Tennessee, sub_region: Wayne}
+'47183': {region: Tennessee, sub_region: Weakley}
+'47185': {region: Tennessee, sub_region: White}
+'47187': {region: Tennessee, sub_region: Williamson}
+'47189': {region: Tennessee, sub_region: Wilson}
+'48': {region: Texas}
+'48001': {region: Texas, sub_region: Anderson}
+'48003': {region: Texas, sub_region: Andrews}
+'48005': {region: Texas, sub_region: Angelina}
+'48007': {region: Texas, sub_region: Aransas}
+'48009': {region: Texas, sub_region: Archer}
+'48011': {region: Texas, sub_region: Armstrong}
+'48013': {region: Texas, sub_region: Atascosa}
+'48015': {region: Texas, sub_region: Austin}
+'48017': {region: Texas, sub_region: Bailey}
+'48019': {region: Texas, sub_region: Bandera}
+'48021': {region: Texas, sub_region: Bastrop}
+'48023': {region: Texas, sub_region: Baylor}
+'48025': {region: Texas, sub_region: Bee}
+'48027': {region: Texas, sub_region: Bell}
+'48029': {region: Texas, sub_region: Bexar}
+'48031': {region: Texas, sub_region: Blanco}
+'48033': {region: Texas, sub_region: Borden}
+'48035': {region: Texas, sub_region: Bosque}
+'48037': {region: Texas, sub_region: Bowie}
+'48039': {region: Texas, sub_region: Brazoria}
+'48041': {region: Texas, sub_region: Brazos}
+'48043': {region: Texas, sub_region: Brewster}
+'48045': {region: Texas, sub_region: Briscoe}
+'48047': {region: Texas, sub_region: Brooks}
+'48049': {region: Texas, sub_region: Brown}
+'48051': {region: Texas, sub_region: Burleson}
+'48053': {region: Texas, sub_region: Burnet}
+'48055': {region: Texas, sub_region: Caldwell}
+'48057': {region: Texas, sub_region: Calhoun}
+'48059': {region: Texas, sub_region: Callahan}
+'48061': {region: Texas, sub_region: Cameron}
+'48063': {region: Texas, sub_region: Camp}
+'48065': {region: Texas, sub_region: Carson}
+'48067': {region: Texas, sub_region: Cass}
+'48069': {region: Texas, sub_region: Castro}
+'48071': {region: Texas, sub_region: Chambers}
+'48073': {region: Texas, sub_region: Cherokee}
+'48075': {region: Texas, sub_region: Childress}
+'48077': {region: Texas, sub_region: Clay}
+'48079': {region: Texas, sub_region: Cochran}
+'48081': {region: Texas, sub_region: Coke}
+'48083': {region: Texas, sub_region: Coleman}
+'48085': {region: Texas, sub_region: Collin}
+'48087': {region: Texas, sub_region: Collingsworth}
+'48089': {region: Texas, sub_region: Colorado}
+'48091': {region: Texas, sub_region: Comal}
+'48093': {region: Texas, sub_region: Comanche}
+'48095': {region: Texas, sub_region: Concho}
+'48097': {region: Texas, sub_region: Cooke}
+'48099': {region: Texas, sub_region: Coryell}
+'48101': {region: Texas, sub_region: Cottle}
+'48103': {region: Texas, sub_region: Crane}
+'48105': {region: Texas, sub_region: Crockett}
+'48107': {region: Texas, sub_region: Crosby}
+'48109': {region: Texas, sub_region: Culberson}
+'48111': {region: Texas, sub_region: Dallam}
+'48113': {region: Texas, sub_region: Dallas}
+'48115': {region: Texas, sub_region: Dawson}
+'48117': {region: Texas, sub_region: Deaf Smith}
+'48119': {region: Texas, sub_region: Delta}
+'48121': {region: Texas, sub_region: Denton}
+'48123': {region: Texas, sub_region: Dewitt}
+'48125': {region: Texas, sub_region: Dickens}
+'48127': {region: Texas, sub_region: Dimmit}
+'48129': {region: Texas, sub_region: Donley}
+'48131': {region: Texas, sub_region: Duval}
+'48133': {region: Texas, sub_region: Eastland}
+'48135': {region: Texas, sub_region: Ector}
+'48137': {region: Texas, sub_region: Edwards}
+'48139': {region: Texas, sub_region: Ellis}
+'48141': {region: Texas, sub_region: El Paso}
+'48143': {region: Texas, sub_region: Erath}
+'48145': {region: Texas, sub_region: Falls}
+'48147': {region: Texas, sub_region: Fannin}
+'48149': {region: Texas, sub_region: Fayette}
+'48151': {region: Texas, sub_region: Fisher}
+'48153': {region: Texas, sub_region: Floyd}
+'48155': {region: Texas, sub_region: Foard}
+'48157': {region: Texas, sub_region: Fort Bend}
+'48159': {region: Texas, sub_region: Franklin}
+'48161': {region: Texas, sub_region: Freestone}
+'48163': {region: Texas, sub_region: Frio}
+'48165': {region: Texas, sub_region: Gaines}
+'48167': {region: Texas, sub_region: Galveston}
+'48169': {region: Texas, sub_region: Garza}
+'48171': {region: Texas, sub_region: Gillespie}
+'48173': {region: Texas, sub_region: Glasscock}
+'48175': {region: Texas, sub_region: Goliad}
+'48177': {region: Texas, sub_region: Gonzales}
+'48179': {region: Texas, sub_region: Gray}
+'48181': {region: Texas, sub_region: Grayson}
+'48183': {region: Texas, sub_region: Gregg}
+'48185': {region: Texas, sub_region: Grimes}
+'48187': {region: Texas, sub_region: Guadalupe}
+'48189': {region: Texas, sub_region: Hale}
+'48191': {region: Texas, sub_region: Hall}
+'48193': {region: Texas, sub_region: Hamilton}
+'48195': {region: Texas, sub_region: Hansford}
+'48197': {region: Texas, sub_region: Hardeman}
+'48199': {region: Texas, sub_region: Hardin}
+'48201': {region: Texas, sub_region: Harris}
+'48203': {region: Texas, sub_region: Harrison}
+'48205': {region: Texas, sub_region: Hartley}
+'48207': {region: Texas, sub_region: Haskell}
+'48209': {region: Texas, sub_region: Hays}
+'48211': {region: Texas, sub_region: Hemphill}
+'48213': {region: Texas, sub_region: Henderson}
+'48215': {region: Texas, sub_region: Hidalgo}
+'48217': {region: Texas, sub_region: Hill}
+'48219': {region: Texas, sub_region: Hockley}
+'48221': {region: Texas, sub_region: Hood}
+'48223': {region: Texas, sub_region: Hopkins}
+'48225': {region: Texas, sub_region: Houston}
+'48227': {region: Texas, sub_region: Howard}
+'48229': {region: Texas, sub_region: Hudspeth}
+'48231': {region: Texas, sub_region: Hunt}
+'48233': {region: Texas, sub_region: Hutchinson}
+'48235': {region: Texas, sub_region: Irion}
+'48237': {region: Texas, sub_region: Jack}
+'48239': {region: Texas, sub_region: Jackson}
+'48241': {region: Texas, sub_region: Jasper}
+'48243': {region: Texas, sub_region: Jeff Davis}
+'48245': {region: Texas, sub_region: Jefferson}
+'48247': {region: Texas, sub_region: Jim Hogg}
+'48249': {region: Texas, sub_region: Jim Wells}
+'48251': {region: Texas, sub_region: Johnson}
+'48253': {region: Texas, sub_region: Jones}
+'48255': {region: Texas, sub_region: Karnes}
+'48257': {region: Texas, sub_region: Kaufman}
+'48259': {region: Texas, sub_region: Kendall}
+'48261': {region: Texas, sub_region: Kenedy}
+'48263': {region: Texas, sub_region: Kent}
+'48265': {region: Texas, sub_region: Kerr}
+'48267': {region: Texas, sub_region: Kimble}
+'48269': {region: Texas, sub_region: King}
+'48271': {region: Texas, sub_region: Kinney}
+'48273': {region: Texas, sub_region: Kleberg}
+'48275': {region: Texas, sub_region: Knox}
+'48277': {region: Texas, sub_region: Lamar}
+'48279': {region: Texas, sub_region: Lamb}
+'48281': {region: Texas, sub_region: Lampasas}
+'48283': {region: Texas, sub_region: La Salle}
+'48285': {region: Texas, sub_region: Lavaca}
+'48287': {region: Texas, sub_region: Lee}
+'48289': {region: Texas, sub_region: Leon}
+'48291': {region: Texas, sub_region: Liberty}
+'48293': {region: Texas, sub_region: Limestone}
+'48295': {region: Texas, sub_region: Lipscomb}
+'48297': {region: Texas, sub_region: Live Oak}
+'48299': {region: Texas, sub_region: Llano}
+'48301': {region: Texas, sub_region: Loving}
+'48303': {region: Texas, sub_region: Lubbock}
+'48305': {region: Texas, sub_region: Lynn}
+'48307': {region: Texas, sub_region: Mcculloch}
+'48309': {region: Texas, sub_region: Mclennan}
+'48311': {region: Texas, sub_region: Mcmullen}
+'48313': {region: Texas, sub_region: Madison}
+'48315': {region: Texas, sub_region: Marion}
+'48317': {region: Texas, sub_region: Martin}
+'48319': {region: Texas, sub_region: Mason}
+'48321': {region: Texas, sub_region: Matagorda}
+'48323': {region: Texas, sub_region: Maverick}
+'48325': {region: Texas, sub_region: Medina}
+'48327': {region: Texas, sub_region: Menard}
+'48329': {region: Texas, sub_region: Midland}
+'48331': {region: Texas, sub_region: Milam}
+'48333': {region: Texas, sub_region: Mills}
+'48335': {region: Texas, sub_region: Mitchell}
+'48337': {region: Texas, sub_region: Montague}
+'48339': {region: Texas, sub_region: Montgomery}
+'48341': {region: Texas, sub_region: Moore}
+'48343': {region: Texas, sub_region: Morris}
+'48345': {region: Texas, sub_region: Motley}
+'48347': {region: Texas, sub_region: Nacogdoches}
+'48349': {region: Texas, sub_region: Navarro}
+'48351': {region: Texas, sub_region: Newton}
+'48353': {region: Texas, sub_region: Nolan}
+'48355': {region: Texas, sub_region: Nueces}
+'48357': {region: Texas, sub_region: Ochiltree}
+'48359': {region: Texas, sub_region: Oldham}
+'48361': {region: Texas, sub_region: Orange}
+'48363': {region: Texas, sub_region: Palo Pinto}
+'48365': {region: Texas, sub_region: Panola}
+'48367': {region: Texas, sub_region: Parker}
+'48369': {region: Texas, sub_region: Parmer}
+'48371': {region: Texas, sub_region: Pecos}
+'48373': {region: Texas, sub_region: Polk}
+'48375': {region: Texas, sub_region: Potter}
+'48377': {region: Texas, sub_region: Presidio}
+'48379': {region: Texas, sub_region: Rains}
+'48381': {region: Texas, sub_region: Randall}
+'48383': {region: Texas, sub_region: Reagan}
+'48385': {region: Texas, sub_region: Real}
+'48387': {region: Texas, sub_region: Red River}
+'48389': {region: Texas, sub_region: Reeves}
+'48391': {region: Texas, sub_region: Refugio}
+'48393': {region: Texas, sub_region: Roberts}
+'48395': {region: Texas, sub_region: Robertson}
+'48397': {region: Texas, sub_region: Rockwall}
+'48399': {region: Texas, sub_region: Runnels}
+'48401': {region: Texas, sub_region: Rusk}
+'48403': {region: Texas, sub_region: Sabine}
+'48405': {region: Texas, sub_region: San Augustine}
+'48407': {region: Texas, sub_region: San Jacinto}
+'48409': {region: Texas, sub_region: San Patricio}
+'48411': {region: Texas, sub_region: San Saba}
+'48413': {region: Texas, sub_region: Schleicher}
+'48415': {region: Texas, sub_region: Scurry}
+'48417': {region: Texas, sub_region: Shackelford}
+'48419': {region: Texas, sub_region: Shelby}
+'48421': {region: Texas, sub_region: Sherman}
+'48423': {region: Texas, sub_region: Smith}
+'48425': {region: Texas, sub_region: Somervell}
+'48427': {region: Texas, sub_region: Starr}
+'48429': {region: Texas, sub_region: Stephens}
+'48431': {region: Texas, sub_region: Sterling}
+'48433': {region: Texas, sub_region: Stonewall}
+'48435': {region: Texas, sub_region: Sutton}
+'48437': {region: Texas, sub_region: Swisher}
+'48439': {region: Texas, sub_region: Tarrant}
+'48441': {region: Texas, sub_region: Taylor}
+'48443': {region: Texas, sub_region: Terrell}
+'48445': {region: Texas, sub_region: Terry}
+'48447': {region: Texas, sub_region: Throckmorton}
+'48449': {region: Texas, sub_region: Titus}
+'48451': {region: Texas, sub_region: Tom Green}
+'48453': {region: Texas, sub_region: Travis}
+'48455': {region: Texas, sub_region: Trinity}
+'48457': {region: Texas, sub_region: Tyler}
+'48459': {region: Texas, sub_region: Upshur}
+'48461': {region: Texas, sub_region: Upton}
+'48463': {region: Texas, sub_region: Uvalde}
+'48465': {region: Texas, sub_region: Val Verde}
+'48467': {region: Texas, sub_region: Van Zandt}
+'48469': {region: Texas, sub_region: Victoria}
+'48471': {region: Texas, sub_region: Walker}
+'48473': {region: Texas, sub_region: Waller}
+'48475': {region: Texas, sub_region: Ward}
+'48477': {region: Texas, sub_region: Washington}
+'48479': {region: Texas, sub_region: Webb}
+'48481': {region: Texas, sub_region: Wharton}
+'48483': {region: Texas, sub_region: Wheeler}
+'48485': {region: Texas, sub_region: Wichita}
+'48487': {region: Texas, sub_region: Wilbarger}
+'48489': {region: Texas, sub_region: Willacy}
+'48491': {region: Texas, sub_region: Williamson}
+'48493': {region: Texas, sub_region: Wilson}
+'48495': {region: Texas, sub_region: Winkler}
+'48497': {region: Texas, sub_region: Wise}
+'48499': {region: Texas, sub_region: Wood}
+'48501': {region: Texas, sub_region: Yoakum}
+'48503': {region: Texas, sub_region: Young}
+'48505': {region: Texas, sub_region: Zapata}
+'48507': {region: Texas, sub_region: Zavala}
+'49': {region: Utah}
+'49001': {region: Utah, sub_region: Beaver}
+'49003': {region: Utah, sub_region: Box Elder}
+'49005': {region: Utah, sub_region: Cache}
+'49007': {region: Utah, sub_region: Carbon}
+'49009': {region: Utah, sub_region: Daggett}
+'49011': {region: Utah, sub_region: Davis}
+'49013': {region: Utah, sub_region: Duchesne}
+'49015': {region: Utah, sub_region: Emery}
+'49017': {region: Utah, sub_region: Garfield}
+'49019': {region: Utah, sub_region: Grand}
+'49021': {region: Utah, sub_region: Iron}
+'49023': {region: Utah, sub_region: Juab}
+'49025': {region: Utah, sub_region: Kane}
+'49027': {region: Utah, sub_region: Millard}
+'49029': {region: Utah, sub_region: Morgan}
+'49031': {region: Utah, sub_region: Piute}
+'49033': {region: Utah, sub_region: Rich}
+'49035': {region: Utah, sub_region: Salt Lake}
+'49037': {region: Utah, sub_region: San Juan}
+'49039': {region: Utah, sub_region: Sanpete}
+'49041': {region: Utah, sub_region: Sevier}
+'49043': {region: Utah, sub_region: Summit}
+'49045': {region: Utah, sub_region: Tooele}
+'49047': {region: Utah, sub_region: Uintah}
+'49049': {region: Utah, sub_region: Utah}
+'49051': {region: Utah, sub_region: Wasatch}
+'49053': {region: Utah, sub_region: Washington}
+'49055': {region: Utah, sub_region: Wayne}
+'49057': {region: Utah, sub_region: Weber}
+'50': {region: Vermont}
+'50001': {region: Vermont, sub_region: Addison}
+'50003': {region: Vermont, sub_region: Bennington}
+'50005': {region: Vermont, sub_region: Caledonia}
+'50007': {region: Vermont, sub_region: Chittenden}
+'50009': {region: Vermont, sub_region: Essex}
+'50011': {region: Vermont, sub_region: Franklin}
+'50013': {region: Vermont, sub_region: Grand Isle}
+'50015': {region: Vermont, sub_region: Lamoille}
+'50017': {region: Vermont, sub_region: Orange}
+'50019': {region: Vermont, sub_region: Orleans}
+'50021': {region: Vermont, sub_region: Rutland}
+'50023': {region: Vermont, sub_region: Washington}
+'50025': {region: Vermont, sub_region: Windham}
+'50027': {region: Vermont, sub_region: Windsor}
+'51': {region: Virginia}
+'51001': {region: Virginia, sub_region: Accomack}
+'51003': {region: Virginia, sub_region: Albemarle}
+'51005': {region: Virginia, sub_region: Alleghany}
+'51007': {region: Virginia, sub_region: Amelia}
+'51009': {region: Virginia, sub_region: Amherst}
+'51011': {region: Virginia, sub_region: Appomattox}
+'51013': {region: Virginia, sub_region: Arlington}
+'51015': {region: Virginia, sub_region: Augusta}
+'51017': {region: Virginia, sub_region: Bath}
+'51019': {region: Virginia, sub_region: Bedford}
+'51021': {region: Virginia, sub_region: Bland}
+'51023': {region: Virginia, sub_region: Botetourt}
+'51025': {region: Virginia, sub_region: Brunswick}
+'51027': {region: Virginia, sub_region: Buchanan}
+'51029': {region: Virginia, sub_region: Buckingham}
+'51031': {region: Virginia, sub_region: Campbell}
+'51033': {region: Virginia, sub_region: Caroline}
+'51035': {region: Virginia, sub_region: Carroll}
+'51037': {region: Virginia, sub_region: And}
+'51039': {region: Virginia, sub_region: In Fips Pub}
+'51041': {region: Virginia, sub_region: Chesterfield}
+'51043': {region: Virginia, sub_region: Clarke}
+'51045': {region: Virginia, sub_region: Craig}
+'51047': {region: Virginia, sub_region: Culpeper}
+'51049': {region: Virginia, sub_region: Cumberland}
+'51051': {region: Virginia, sub_region: Dickenson}
+'51053': {region: Virginia, sub_region: Dinwiddie}
+'51057': {region: Virginia, sub_region: Essex}
+'51059': {region: Virginia, sub_region: Fairfax}
+'51061': {region: Virginia, sub_region: Fauquier}
+'51063': {region: Virginia, sub_region: Floyd}
+'51065': {region: Virginia, sub_region: Fluvanna}
+'51067': {region: Virginia, sub_region: Franklin}
+'51069': {region: Virginia, sub_region: Frederick}
+'51071': {region: Virginia, sub_region: Giles}
+'51073': {region: Virginia, sub_region: Gloucester}
+'51075': {region: Virginia, sub_region: Goochland}
+'51077': {region: Virginia, sub_region: Grayson}
+'51079': {region: Virginia, sub_region: Greene}
+'51081': {region: Virginia, sub_region: Greensville}
+'51083': {region: Virginia, sub_region: Halifax}
+'51085': {region: Virginia, sub_region: Hanover}
+'51087': {region: Virginia, sub_region: Henrico}
+'51089': {region: Virginia, sub_region: Henry}
+'51091': {region: Virginia, sub_region: Highland}
+'51093': {region: Virginia, sub_region: Isle Of Wight}
+'51095': {region: Virginia, sub_region: James City}
+'51097': {region: Virginia, sub_region: King And Queen}
+'51099': {region: Virginia, sub_region: King George}
+'51101': {region: Virginia, sub_region: King William}
+'51103': {region: Virginia, sub_region: Lancaster}
+'51105': {region: Virginia, sub_region: Lee}
+'51107': {region: Virginia, sub_region: Loudoun}
+'51109': {region: Virginia, sub_region: Louisa}
+'51111': {region: Virginia, sub_region: Lunenburg}
+'51113': {region: Virginia, sub_region: Madison}
+'51115': {region: Virginia, sub_region: Mathews}
+'51117': {region: Virginia, sub_region: Mecklenburg}
+'51119': {region: Virginia, sub_region: Middlesex}
+'51121': {region: Virginia, sub_region: Montgomery}
+'51125': {region: Virginia, sub_region: Nelson}
+'51127': {region: Virginia, sub_region: New Kent}
+'51131': {region: Virginia, sub_region: Northampton}
+'51133': {region: Virginia, sub_region: Northumberland}
+'51135': {region: Virginia, sub_region: Nottoway}
+'51137': {region: Virginia, sub_region: Orange}
+'51139': {region: Virginia, sub_region: Page}
+'51141': {region: Virginia, sub_region: Patrick}
+'51143': {region: Virginia, sub_region: Pittsylvania}
+'51145': {region: Virginia, sub_region: Powhatan}
+'51147': {region: Virginia, sub_region: Prince Edward}
+'51149': {region: Virginia, sub_region: Prince George}
+'51153': {region: Virginia, sub_region: Prince William}
+'51155': {region: Virginia, sub_region: Pulaski}
+'51157': {region: Virginia, sub_region: Rappahannock}
+'51159': {region: Virginia, sub_region: Richmond}
+'51161': {region: Virginia, sub_region: Roanoke}
+'51163': {region: Virginia, sub_region: Rockbridge}
+'51165': {region: Virginia, sub_region: Rockingham}
+'51167': {region: Virginia, sub_region: Russell}
+'51169': {region: Virginia, sub_region: Scott}
+'51171': {region: Virginia, sub_region: Shenandoah}
+'51173': {region: Virginia, sub_region: Smyth}
+'51175': {region: Virginia, sub_region: Southampton}
+'51177': {region: Virginia, sub_region: Spotsylvania}
+'51179': {region: Virginia, sub_region: Stafford}
+'51181': {region: Virginia, sub_region: Surry}
+'51183': {region: Virginia, sub_region: Sussex}
+'51185': {region: Virginia, sub_region: Tazewell}
+'51187': {region: Virginia, sub_region: Warren}
+'51191': {region: Virginia, sub_region: Washington}
+'51193': {region: Virginia, sub_region: Westmoreland}
+'51195': {region: Virginia, sub_region: Wise}
+'51197': {region: Virginia, sub_region: Wythe}
+'51199': {region: Virginia, sub_region: York}
+'51510': {region: Virginia, sub_region: Alexandria (city)}
+'51515': {region: Virginia, sub_region: Bedford (city)}
+'51520': {region: Virginia, sub_region: Bristol (city)}
+'51530': {region: Virginia, sub_region: Buena Vista (city)}
+'51540': {region: Virginia, sub_region: Charlottesville (city)}
+'51550': {region: Virginia, sub_region: Chesapeake (city)}
+'51560': {region: Virginia, sub_region: Clifton Forge (city)}
+'51570': {region: Virginia, sub_region: Colonial Heights (city)}
+'51580': {region: Virginia, sub_region: Covington (city)}
+'51590': {region: Virginia, sub_region: Danville (city)}
+'51595': {region: Virginia, sub_region: Emporia (city)}
+'51600': {region: Virginia, sub_region: Fairfax (city)}
+'51610': {region: Virginia, sub_region: Falls Church (city)}
+'51620': {region: Virginia, sub_region: Franklin (city)}
+'51630': {region: Virginia, sub_region: Fredericksburg (city)}
+'51640': {region: Virginia, sub_region: Galax (city)}
+'51650': {region: Virginia, sub_region: Hampton (city)}
+'51660': {region: Virginia, sub_region: Harrisonburg (city)}
+'51670': {region: Virginia, sub_region: Hopewell (city)}
+'51678': {region: Virginia, sub_region: Lexington (city)}
+'51680': {region: Virginia, sub_region: Lynchburg (city)}
+'51683': {region: Virginia, sub_region: Manassas (city)}
+'51685': {region: Virginia, sub_region: Manassas Park (city)}
+'51690': {region: Virginia, sub_region: Martinsville (city)}
+'51700': {region: Virginia, sub_region: Newport News (city)}
+'51710': {region: Virginia, sub_region: Norfolk (city)}
+'51720': {region: Virginia, sub_region: Norton (city)}
+'51730': {region: Virginia, sub_region: Petersburg (city)}
+'51735': {region: Virginia, sub_region: Poquoson (city)}
+'51740': {region: Virginia, sub_region: Portsmouth (city)}
+'51750': {region: Virginia, sub_region: Radford (city)}
+'51760': {region: Virginia, sub_region: Richmond (city)}
+'51770': {region: Virginia, sub_region: Roanoke (city)}
+'51775': {region: Virginia, sub_region: Salem (city)}
+'51780': {region: Virginia, sub_region: South Boston (city)}
+'51790': {region: Virginia, sub_region: Staunton (city)}
+'51800': {region: Virginia, sub_region: Suffolk (city)}
+'51810': {region: Virginia, sub_region: Virginia Beach (city)}
+'51820': {region: Virginia, sub_region: Waynesboro (city)}
+'51830': {region: Virginia, sub_region: Williamsburg (city)}
+'51840': {region: Virginia, sub_region: Winchester (city)}
+'51900': {region: Virginia, sub_region: Series To Represent County/independent City
+    Combinations In Virginia.}
+'53': {region: Washington}
+'53001': {region: Washington, sub_region: Adams}
+'53003': {region: Washington, sub_region: Asotin}
+'53005': {region: Washington, sub_region: Benton}
+'53007': {region: Washington, sub_region: Chelan}
+'53009': {region: Washington, sub_region: Clallam}
+'53011': {region: Washington, sub_region: Clark}
+'53013': {region: Washington, sub_region: Columbia}
+'53015': {region: Washington, sub_region: Cowlitz}
+'53017': {region: Washington, sub_region: Douglas}
+'53019': {region: Washington, sub_region: Ferry}
+'53021': {region: Washington, sub_region: Franklin}
+'53023': {region: Washington, sub_region: Garfield}
+'53025': {region: Washington, sub_region: Grant}
+'53027': {region: Washington, sub_region: Grays Harbor}
+'53029': {region: Washington, sub_region: Island}
+'53031': {region: Washington, sub_region: Jefferson}
+'53033': {region: Washington, sub_region: King}
+'53035': {region: Washington, sub_region: Kitsap}
+'53037': {region: Washington, sub_region: Kittitas}
+'53039': {region: Washington, sub_region: Klickitat}
+'53041': {region: Washington, sub_region: Lewis}
+'53043': {region: Washington, sub_region: Lincoln}
+'53045': {region: Washington, sub_region: Mason}
+'53047': {region: Washington, sub_region: Okanogan}
+'53049': {region: Washington, sub_region: Pacific}
+'53051': {region: Washington, sub_region: Pend Oreille}
+'53053': {region: Washington, sub_region: Pierce}
+'53055': {region: Washington, sub_region: San Juan}
+'53057': {region: Washington, sub_region: Skagit}
+'53059': {region: Washington, sub_region: Skamania}
+'53061': {region: Washington, sub_region: Snohomish}
+'53063': {region: Washington, sub_region: Spokane}
+'53065': {region: Washington, sub_region: Stevens}
+'53067': {region: Washington, sub_region: Thurston}
+'53069': {region: Washington, sub_region: Wahkiakum}
+'53071': {region: Washington, sub_region: Walla Walla}
+'53073': {region: Washington, sub_region: Whatcom}
+'53075': {region: Washington, sub_region: Whitman}
+'53077': {region: Washington, sub_region: Yakima}
+'54': {region: West Virginia}
+'54001': {region: West Virginia, sub_region: Barbour}
+'54003': {region: West Virginia, sub_region: Berkeley}
+'54005': {region: West Virginia, sub_region: Boone}
+'54007': {region: West Virginia, sub_region: Braxton}
+'54009': {region: West Virginia, sub_region: Brooke}
+'54011': {region: West Virginia, sub_region: Cabell}
+'54013': {region: West Virginia, sub_region: Calhoun}
+'54015': {region: West Virginia, sub_region: Clay}
+'54017': {region: West Virginia, sub_region: Doddridge}
+'54019': {region: West Virginia, sub_region: Fayette}
+'54021': {region: West Virginia, sub_region: Gilmer}
+'54023': {region: West Virginia, sub_region: Grant}
+'54025': {region: West Virginia, sub_region: Greenbrier}
+'54027': {region: West Virginia, sub_region: Hampshire}
+'54029': {region: West Virginia, sub_region: Hancock}
+'54031': {region: West Virginia, sub_region: Hardy}
+'54033': {region: West Virginia, sub_region: Harrison}
+'54035': {region: West Virginia, sub_region: Jackson}
+'54037': {region: West Virginia, sub_region: Jefferson}
+'54039': {region: West Virginia, sub_region: Kanawha}
+'54041': {region: West Virginia, sub_region: Lewis}
+'54043': {region: West Virginia, sub_region: Lincoln}
+'54045': {region: West Virginia, sub_region: Logan}
+'54047': {region: West Virginia, sub_region: Mcdowell}
+'54049': {region: West Virginia, sub_region: Marion}
+'54051': {region: West Virginia, sub_region: Marshall}
+'54053': {region: West Virginia, sub_region: Mason}
+'54055': {region: West Virginia, sub_region: Mercer}
+'54057': {region: West Virginia, sub_region: Mineral}
+'54059': {region: West Virginia, sub_region: Mingo}
+'54061': {region: West Virginia, sub_region: Monongalia}
+'54063': {region: West Virginia, sub_region: Monroe}
+'54065': {region: West Virginia, sub_region: Morgan}
+'54067': {region: West Virginia, sub_region: Nicholas}
+'54069': {region: West Virginia, sub_region: Ohio}
+'54071': {region: West Virginia, sub_region: Pendleton}
+'54073': {region: West Virginia, sub_region: Pleasants}
+'54075': {region: West Virginia, sub_region: Pocahontas}
+'54077': {region: West Virginia, sub_region: Preston}
+'54079': {region: West Virginia, sub_region: Putnam}
+'54081': {region: West Virginia, sub_region: Raleigh}
+'54083': {region: West Virginia, sub_region: Randolph}
+'54085': {region: West Virginia, sub_region: Ritchie}
+'54087': {region: West Virginia, sub_region: Roane}
+'54089': {region: West Virginia, sub_region: Summers}
+'54091': {region: West Virginia, sub_region: Taylor}
+'54093': {region: West Virginia, sub_region: Tucker}
+'54095': {region: West Virginia, sub_region: Tyler}
+'54097': {region: West Virginia, sub_region: Upshur}
+'54099': {region: West Virginia, sub_region: Wayne}
+'54101': {region: West Virginia, sub_region: Webster}
+'54103': {region: West Virginia, sub_region: Wetzel}
+'54105': {region: West Virginia, sub_region: Wirt}
+'54107': {region: West Virginia, sub_region: Wood}
+'54109': {region: West Virginia, sub_region: Wyoming}
+'55': {region: Wisconsin}
+'55001': {region: Wisconsin, sub_region: Adams}
+'55003': {region: Wisconsin, sub_region: Ashland}
+'55005': {region: Wisconsin, sub_region: Barron}
+'55007': {region: Wisconsin, sub_region: Bayfield}
+'55009': {region: Wisconsin, sub_region: Brown}
+'55011': {region: Wisconsin, sub_region: Buffalo}
+'55013': {region: Wisconsin, sub_region: Burnett}
+'55015': {region: Wisconsin, sub_region: Calumet}
+'55017': {region: Wisconsin, sub_region: Chippewa}
+'55019': {region: Wisconsin, sub_region: Clark}
+'55021': {region: Wisconsin, sub_region: Columbia}
+'55023': {region: Wisconsin, sub_region: Crawford}
+'55025': {region: Wisconsin, sub_region: Dane}
+'55027': {region: Wisconsin, sub_region: Dodge}
+'55029': {region: Wisconsin, sub_region: Door}
+'55031': {region: Wisconsin, sub_region: Douglas}
+'55033': {region: Wisconsin, sub_region: Dunn}
+'55035': {region: Wisconsin, sub_region: Eau Claire}
+'55037': {region: Wisconsin, sub_region: Florence}
+'55039': {region: Wisconsin, sub_region: Fond Du Lac}
+'55041': {region: Wisconsin, sub_region: Forest}
+'55043': {region: Wisconsin, sub_region: Grant}
+'55045': {region: Wisconsin, sub_region: Green}
+'55047': {region: Wisconsin, sub_region: Green Lake}
+'55049': {region: Wisconsin, sub_region: Iowa}
+'55051': {region: Wisconsin, sub_region: Iron}
+'55053': {region: Wisconsin, sub_region: Jackson}
+'55055': {region: Wisconsin, sub_region: Jefferson}
+'55057': {region: Wisconsin, sub_region: Juneau}
+'55059': {region: Wisconsin, sub_region: Kenosha}
+'55061': {region: Wisconsin, sub_region: Kewaunee}
+'55063': {region: Wisconsin, sub_region: La Crosse}
+'55065': {region: Wisconsin, sub_region: Lafayette}
+'55067': {region: Wisconsin, sub_region: Langlade}
+'55069': {region: Wisconsin, sub_region: Lincoln}
+'55071': {region: Wisconsin, sub_region: Manitowoc}
+'55073': {region: Wisconsin, sub_region: Marathon}
+'55075': {region: Wisconsin, sub_region: Marinette}
+'55077': {region: Wisconsin, sub_region: Marquette}
+'55078': {region: Wisconsin, sub_region: Menominee}
+'55079': {region: Wisconsin, sub_region: Milwaukee}
+'55081': {region: Wisconsin, sub_region: Monroe}
+'55083': {region: Wisconsin, sub_region: Oconto}
+'55085': {region: Wisconsin, sub_region: Oneida}
+'55087': {region: Wisconsin, sub_region: Outagamie}
+'55089': {region: Wisconsin, sub_region: Ozaukee}
+'55091': {region: Wisconsin, sub_region: Pepin}
+'55093': {region: Wisconsin, sub_region: Pierce}
+'55095': {region: Wisconsin, sub_region: Polk}
+'55097': {region: Wisconsin, sub_region: Portage}
+'55099': {region: Wisconsin, sub_region: Price}
+'55101': {region: Wisconsin, sub_region: Racine}
+'55103': {region: Wisconsin, sub_region: Richland}
+'55105': {region: Wisconsin, sub_region: Rock}
+'55107': {region: Wisconsin, sub_region: Rusk}
+'55109': {region: Wisconsin, sub_region: St. Croix}
+'55111': {region: Wisconsin, sub_region: Sauk}
+'55113': {region: Wisconsin, sub_region: Sawyer}
+'55115': {region: Wisconsin, sub_region: Shawano}
+'55117': {region: Wisconsin, sub_region: Sheboygan}
+'55119': {region: Wisconsin, sub_region: Taylor}
+'55121': {region: Wisconsin, sub_region: Trempealeau}
+'55123': {region: Wisconsin, sub_region: Vernon}
+'55125': {region: Wisconsin, sub_region: Vilas}
+'55127': {region: Wisconsin, sub_region: Walworth}
+'55129': {region: Wisconsin, sub_region: Washburn}
+'55131': {region: Wisconsin, sub_region: Washington}
+'55133': {region: Wisconsin, sub_region: Waukesha}
+'55135': {region: Wisconsin, sub_region: Waupaca}
+'55137': {region: Wisconsin, sub_region: Waushara}
+'55139': {region: Wisconsin, sub_region: Winnebago}
+'55141': {region: Wisconsin, sub_region: Wood}
+'56': {region: Wyoming}
+'56001': {region: Wyoming, sub_region: Albany}
+'56003': {region: Wyoming, sub_region: Big Horn}
+'56005': {region: Wyoming, sub_region: Campbell}
+'56007': {region: Wyoming, sub_region: Carbon}
+'56009': {region: Wyoming, sub_region: Converse}
+'56011': {region: Wyoming, sub_region: Crook}
+'56013': {region: Wyoming, sub_region: Fremont}
+'56015': {region: Wyoming, sub_region: Goshen}
+'56017': {region: Wyoming, sub_region: Hot Springs}
+'56019': {region: Wyoming, sub_region: Johnson}
+'56021': {region: Wyoming, sub_region: Laramie}
+'56023': {region: Wyoming, sub_region: Lincoln}
+'56025': {region: Wyoming, sub_region: Natrona}
+'56027': {region: Wyoming, sub_region: Niobrara}
+'56029': {region: Wyoming, sub_region: Park}
+'56031': {region: Wyoming, sub_region: Platte}
+'56033': {region: Wyoming, sub_region: Sheridan}
+'56035': {region: Wyoming, sub_region: Sublette}
+'56037': {region: Wyoming, sub_region: Sweetwater}
+'56039': {region: Wyoming, sub_region: Teton}
+'56041': {region: Wyoming, sub_region: Uinta}
+'56043': {region: Wyoming, sub_region: Washakie}
+'56045': {region: Wyoming, sub_region: Weston}
+'60': {region: America Samoa}
+'60010': {region: America Samoa, sub_region: Eastern (district)}
+'60020': {region: America Samoa, sub_region: Manu'a (district)}
+'60030': {region: America Samoa, sub_region: Rose Island}
+'60040': {region: America Samoa, sub_region: Swains Island}
+'60050': {region: America Samoa, sub_region: Western (district)}
+'64': {region: Federated States Of Micronesia}
+'64005': {region: Federated States Of Micronesia, sub_region: Kosrae}
+'64040': {region: Federated States Of Micronesia, sub_region: Pohnpeit}
+'64060': {region: Federated States Of Micronesia, sub_region: Yap}
+'64986': {region: Federated States Of Micronesia, sub_region: ''}
+'64989': {region: Federated States Of Micronesia, sub_region: October}
+'66': {region: Guam}
+'66010': {region: Guam, sub_region: Guam}
+'68': {region: Marshall Islands}
+'68007': {region: Marshall Islands, sub_region: Ailinginae}
+'68010': {region: Marshall Islands, sub_region: Ailinglaplap}
+'68030': {region: Marshall Islands, sub_region: Ailuk}
+'68040': {region: Marshall Islands, sub_region: Arno}
+'68050': {region: Marshall Islands, sub_region: Aur}
+'68060': {region: Marshall Islands, sub_region: Bikar}
+'68070': {region: Marshall Islands, sub_region: Bikini}
+'68073': {region: Marshall Islands, sub_region: Bokak}
+'68080': {region: Marshall Islands, sub_region: Ebon}
+'68090': {region: Marshall Islands, sub_region: Enewetak}
+'68100': {region: Marshall Islands, sub_region: Erikub}
+'68110': {region: Marshall Islands, sub_region: Jabat}
+'68120': {region: Marshall Islands, sub_region: Jaluit}
+'68130': {region: Marshall Islands, sub_region: Jemo}
+'68140': {region: Marshall Islands, sub_region: Kili}
+'68150': {region: Marshall Islands, sub_region: Kwajalein}
+'68160': {region: Marshall Islands, sub_region: Lae}
+'68170': {region: Marshall Islands, sub_region: Lib}
+'68180': {region: Marshall Islands, sub_region: Likiep}
+'68190': {region: Marshall Islands, sub_region: Majuro}
+'68300': {region: Marshall Islands, sub_region: Maloelap}
+'68310': {region: Marshall Islands, sub_region: Mejit}
+'68320': {region: Marshall Islands, sub_region: Mili}
+'68330': {region: Marshall Islands, sub_region: Namorik}
+'68340': {region: Marshall Islands, sub_region: Namu}
+'68350': {region: Marshall Islands, sub_region: Rongelap}
+'68360': {region: Marshall Islands, sub_region: Rongrik}
+'68385': {region: Marshall Islands, sub_region: Toke}
+'68390': {region: Marshall Islands, sub_region: Ujae}
+'68400': {region: Marshall Islands, sub_region: Ujelang}
+'68410': {region: Marshall Islands, sub_region: Utrik}
+'68420': {region: Marshall Islands, sub_region: Wotho}
+'68430': {region: Marshall Islands, sub_region: Wotle}
+'68986': {region: Marshall Islands, sub_region: November}
+'69': {region: Northern Mariana Islands}
+'69085': {region: Northern Mariana Islands, sub_region: Northern Islands}
+'69100': {region: Northern Mariana Islands, sub_region: Rota}
+'69110': {region: Northern Mariana Islands, sub_region: Saipan}
+'69120': {region: Northern Mariana Islands, sub_region: Tinian}
+'70': {region: Palau}
+'70002': {region: Palau, sub_region: Aimeliik}
+'70004': {region: Palau, sub_region: Airai}
+'70212': {region: Palau, sub_region: Melekeok}
+'70214': {region: Palau, sub_region: Ngaraard}
+'70228': {region: Palau, sub_region: Ngiwal}
+'72': {region: Puerto Rico}
+'72001': {region: Puerto Rico, sub_region: Adjuntas}
+'72003': {region: Puerto Rico, sub_region: Aguada}
+'72005': {region: Puerto Rico, sub_region: Aguadilla}
+'72007': {region: Puerto Rico, sub_region: Aguas Buenas}
+'72009': {region: Puerto Rico, sub_region: Aibonito}
+'72011': {region: Puerto Rico, sub_region: Anasco}
+'72013': {region: Puerto Rico, sub_region: Arecibo}
+'72015': {region: Puerto Rico, sub_region: Arroyo}
+'72017': {region: Puerto Rico, sub_region: Barceloneta}
+'72019': {region: Puerto Rico, sub_region: Barranquitas}
+'72021': {region: Puerto Rico, sub_region: Bayamo'n}
+'72023': {region: Puerto Rico, sub_region: Cabo Rojo}
+'72025': {region: Puerto Rico, sub_region: Caguas}
+'72027': {region: Puerto Rico, sub_region: Camuy}
+'72029': {region: Puerto Rico, sub_region: Canovanas}
+'72031': {region: Puerto Rico, sub_region: Carolina}
+'72033': {region: Puerto Rico, sub_region: Catano}
+'72035': {region: Puerto Rico, sub_region: Cayey}
+'72037': {region: Puerto Rico, sub_region: Ceiba}
+'72039': {region: Puerto Rico, sub_region: Ciales}
+'72041': {region: Puerto Rico, sub_region: Cidra}
+'72043': {region: Puerto Rico, sub_region: Coamo}
+'72045': {region: Puerto Rico, sub_region: Comerio}
+'72047': {region: Puerto Rico, sub_region: Corozal}
+'72049': {region: Puerto Rico, sub_region: Culebra}
+'72051': {region: Puerto Rico, sub_region: Dorado}
+'72053': {region: Puerto Rico, sub_region: Fajardo}
+'72054': {region: Puerto Rico, sub_region: Florida}
+'72055': {region: Puerto Rico, sub_region: Guanica}
+'72057': {region: Puerto Rico, sub_region: Guayama}
+'72059': {region: Puerto Rico, sub_region: Guayanilla}
+'72061': {region: Puerto Rico, sub_region: Guaynabo}
+'72063': {region: Puerto Rico, sub_region: Gurabo}
+'72065': {region: Puerto Rico, sub_region: Hatillo}
+'72067': {region: Puerto Rico, sub_region: Hormigueros}
+'72069': {region: Puerto Rico, sub_region: Humacao}
+'72071': {region: Puerto Rico, sub_region: Lsabela}
+'72073': {region: Puerto Rico, sub_region: Jayuya}
+'72075': {region: Puerto Rico, sub_region: Juana Diaz}
+'72077': {region: Puerto Rico, sub_region: Juncos}
+'72079': {region: Puerto Rico, sub_region: Lajas}
+'72081': {region: Puerto Rico, sub_region: Lares}
+'72083': {region: Puerto Rico, sub_region: Las Marias}
+'72085': {region: Puerto Rico, sub_region: Las Piedras}
+'72087': {region: Puerto Rico, sub_region: Loiza}
+'72089': {region: Puerto Rico, sub_region: Luquillo}
+'72091': {region: Puerto Rico, sub_region: Manati}
+'72093': {region: Puerto Rico, sub_region: Maricao}
+'72095': {region: Puerto Rico, sub_region: Maunabo}
+'72097': {region: Puerto Rico, sub_region: Mayaguez}
+'72099': {region: Puerto Rico, sub_region: Moca}
+'72101': {region: Puerto Rico, sub_region: Morovis}
+'72103': {region: Puerto Rico, sub_region: Naguabo}
+'72105': {region: Puerto Rico, sub_region: Naranjito}
+'72107': {region: Puerto Rico, sub_region: Orocovis}
+'72109': {region: Puerto Rico, sub_region: Patillas}
+'72111': {region: Puerto Rico, sub_region: Penuelas}
+'72113': {region: Puerto Rico, sub_region: Ponce}
+'72115': {region: Puerto Rico, sub_region: Quebradillas}
+'72117': {region: Puerto Rico, sub_region: Rincon}
+'72119': {region: Puerto Rico, sub_region: Rio Grande}
+'72121': {region: Puerto Rico, sub_region: Sabana Grande}
+'72123': {region: Puerto Rico, sub_region: Salinas}
+'72125': {region: Puerto Rico, sub_region: San German}
+'72127': {region: Puerto Rico, sub_region: San Juan}
+'72129': {region: Puerto Rico, sub_region: San Lorenzo}
+'72131': {region: Puerto Rico, sub_region: San Sebastian}
+'72133': {region: Puerto Rico, sub_region: Santa Isabel}
+'72135': {region: Puerto Rico, sub_region: Toa Alta}
+'72137': {region: Puerto Rico, sub_region: Toa Baja}
+'72139': {region: Puerto Rico, sub_region: Trujillo Alto}
+'72141': {region: Puerto Rico, sub_region: Utuado}
+'72143': {region: Puerto Rico, sub_region: Vega Alta}
+'72145': {region: Puerto Rico, sub_region: Vega Baja}
+'72147': {region: Puerto Rico, sub_region: Vieques}
+'72149': {region: Puerto Rico, sub_region: Villalba}
+'72151': {region: Puerto Rico, sub_region: Yabucoa}
+'72153': {region: Puerto Rico, sub_region: Yauco}
+'74': {region: U.s. Minor Outlying Islands}
+'74050': {region: U.s. Minor Outlying Islands, sub_region: Baker Island}
+'74100': {region: U.s. Minor Outlying Islands, sub_region: Howland Island}
+'74150': {region: U.s. Minor Outlying Islands, sub_region: Jarvis Island}
+'74200': {region: U.s. Minor Outlying Islands, sub_region: Johnston Island}
+'74250': {region: U.s. Minor Outlying Islands, sub_region: Kingman Reef}
+'74300': {region: U.s. Minor Outlying Islands, sub_region: Midway Islands}
+'74350': {region: U.s. Minor Outlying Islands, sub_region: Navassa Island}
+'74400': {region: U.s. Minor Outlying Islands, sub_region: Palmyra Atoll}
+'74450': {region: U.s. Minor Outlying Islands, sub_region: Wake Island}
+'78': {region: Virgin Islands Of The United States}
+'78010': {region: Virgin Islands Of The United States, sub_region: Angaur}
+'78020': {region: Virgin Islands Of The United States, sub_region: St. John}
+'78030': {region: Virgin Islands Of The United States, sub_region: St. Thomas}
+'78100': {region: Virgin Islands Of The United States, sub_region: Kayangel}
+'78150': {region: Virgin Islands Of The United States, sub_region: Koror}
+'78218': {region: Virgin Islands Of The United States, sub_region: Ngarchelong}
+'78222': {region: Virgin Islands Of The United States, sub_region: Ngardmau}
+'78224': {region: Virgin Islands Of The United States, sub_region: Ngatpang}
+'78226': {region: Virgin Islands Of The United States, sub_region: Ngchesar}
+'78350': {region: Virgin Islands Of The United States, sub_region: Peleliu}
+'78370': {region: Virgin Islands Of The United States, sub_region: Sonsorol}
