@@ -10,7 +10,7 @@ as 1.6 is released it will be the base version)
 * __numpy__, __scipy__, __matplotlib__, and __ipython__ are used for interactive
 work and scientific processing
 
-Ubuntu Package Names: __python3scipy python3-psycopg2 postgresql__
+Ubuntu Package Names: __python3scipy python3-psycopg2 postgresql python3-matplotlib__
 
 
 
