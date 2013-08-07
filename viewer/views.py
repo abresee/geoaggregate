@@ -7,7 +7,7 @@ import json
 
 def index(request):
     'Just a Map, yo'
-    return render_to_response('test_query/index.html',
+    return render_to_response('viewer/index.html',
         context_instance=RequestContext(request))
 
 def query(request):

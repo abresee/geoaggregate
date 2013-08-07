@@ -122,7 +122,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.gis',
-    'test_query'
+    'viewer'
 )
 
 # A sample logging configuration. The only tangible logging
