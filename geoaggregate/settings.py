@@ -12,7 +12,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis', 
-        'NAME': 'geodjango-test', #FIXME: reconfigure db for a better name                    
+        'NAME': 'geoaggregate',
         # The following settings are not used with sqlite3:
         'USER': 'postgres',
         'PASSWORD': '',
@@ -122,7 +122,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.gis',
-    'viewer'
+    'viewer',
+    'loader'
 )
 
 # A sample logging configuration. The only tangible logging
