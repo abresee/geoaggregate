@@ -89,3 +89,16 @@ me to have as a virtualenv package.
 ``` shell
 (geoagg) $ pip install django
 ``` 
+createdb geoaggregate
+psql -c 'CREATE EXTENSION postgis;' geoaggregate
+#!/bin/bash
+#works on arch
+systemd-tmpfiles --create postgresql.conf
+mkdir /var/lib/postgres/data
+chown -c -R postgres:postgres /var/lib/postgres
+su - postgres
+initdb -D '/var/lib/postgres/data'
+systemctl start postgresql
+systemctl enable postgresql
+#as postgres:
+createuser -s --interactive 
