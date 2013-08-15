@@ -2,6 +2,8 @@ from django.contrib.gis.db import models
 class Region(models.Model):
     code = models.CharField(max_length=5, unique=True)
     name = models.CharField(max_length=255)
+    class Meta:
+        abstract = True
 
 class StateEquiv(Region):
     def __str__(self):
