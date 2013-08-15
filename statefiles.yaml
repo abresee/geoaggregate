@@ -1,0 +1,252 @@
+'01': [tl_rd13_01_sldu.zip, tl_rd13_01_prisecroads.zip, tl_rd13_01_facesal.zip, tl_rd13_01_cousub10.zip,
+  tl_rd13_01_arealm.zip, tl_rd13_01_sldl.zip, tl_rd13_01_bg10.zip, tl_rd13_01_tract10.zip,
+  tl_rd13_01_county10.zip, tl_rd13_01_unsd10.zip, tl_rd13_01_cd111.zip, tl_rd13_01_cd113.zip,
+  tl_rd13_01_state10.zip, tl_rd13_01_place10.zip, tl_rd13_01_tabblock10.zip, tl_rd13_01_pointlm.zip]
+'02': [tl_rd13_02_facesal.zip, tl_rd13_02_cousub10.zip, tl_rd13_02_unsd10.zip, tl_rd13_02_cd113.zip,
+  tl_rd13_02_tract10.zip, tl_rd13_02_arealm.zip, tl_rd13_02_pointlm.zip, tl_rd13_02_sldl.zip,
+  tl_rd13_02_bg10.zip, tl_rd13_02_tabblock10.zip, tl_rd13_02_place10.zip, tl_rd13_02_cd111.zip,
+  tl_rd13_02_anrc10.zip, tl_rd13_02_state10.zip, tl_rd13_02_county10.zip, tl_rd13_02_prisecroads.zip,
+  tl_rd13_02_sldu.zip]
+'04': [tl_rd13_04_tract10.zip, tl_rd13_04_cd111.zip, tl_rd13_04_prisecroads.zip, tl_rd13_04_facesal.zip,
+  tl_rd13_04_state10.zip, tl_rd13_04_sldl.zip, tl_rd13_04_arealm.zip, tl_rd13_04_bg10.zip,
+  tl_rd13_04_pointlm.zip, tl_rd13_04_cd113.zip, tl_rd13_04_county10.zip, tl_rd13_04_unsd10.zip,
+  tl_rd13_04_cousub10.zip, tl_rd13_04_scsd10.zip, tl_rd13_04_place10.zip, tl_rd13_04_elsd10.zip,
+  tl_rd13_04_tabblock10.zip, tl_rd13_04_sldu.zip]
+'05': [tl_rd13_05_cd111.zip, tl_rd13_05_arealm.zip, tl_rd13_05_pointlm.zip, tl_rd13_05_county10.zip,
+  tl_rd13_05_unsd10.zip, tl_rd13_05_cd113.zip, tl_rd13_05_state10.zip, tl_rd13_05_bg10.zip,
+  tl_rd13_05_sldu.zip, tl_rd13_05_cousub10.zip, tl_rd13_05_tract10.zip, tl_rd13_05_prisecroads.zip,
+  tl_rd13_05_facesal.zip, tl_rd13_05_place10.zip, tl_rd13_05_sldl.zip, tl_rd13_05_tabblock10.zip]
+'06': [tl_rd13_06_state10.zip, tl_rd13_06_unsd10.zip, tl_rd13_06_arealm.zip, tl_rd13_06_sldu.zip,
+  tl_rd13_06_prisecroads.zip, tl_rd13_06_elsd10.zip, tl_rd13_06_pointlm.zip, tl_rd13_06_cd111.zip,
+  tl_rd13_06_cousub10.zip, tl_rd13_06_tabblock10.zip, tl_rd13_06_bg10.zip, tl_rd13_06_place10.zip,
+  tl_rd13_06_sldl.zip, tl_rd13_06_county10.zip, tl_rd13_06_cd113.zip, tl_rd13_06_scsd10.zip,
+  tl_rd13_06_facesal.zip, tl_rd13_06_tract10.zip]
+08: [tl_rd13_08_facesal.zip, tl_rd13_08_bg10.zip, tl_rd13_08_cousub10.zip, tl_rd13_08_pointlm.zip,
+  tl_rd13_08_unsd10.zip, tl_rd13_08_sldu.zip, tl_rd13_08_place10.zip, tl_rd13_08_state10.zip,
+  tl_rd13_08_tabblock10.zip, tl_rd13_08_cd113.zip, tl_rd13_08_tract10.zip, tl_rd13_08_county10.zip,
+  tl_rd13_08_sldl.zip, tl_rd13_08_arealm.zip, tl_rd13_08_prisecroads.zip, tl_rd13_08_cd111.zip]
+09: [tl_rd13_09_elsd10.zip, tl_rd13_09_concity10.zip, tl_rd13_09_cd111.zip, tl_rd13_09_sldl.zip,
+  tl_rd13_09_place10.zip, tl_rd13_09_pointlm.zip, tl_rd13_09_tabblock10.zip, tl_rd13_09_tract10.zip,
+  tl_rd13_09_unsd10.zip, tl_rd13_09_facesal.zip, tl_rd13_09_county10.zip, tl_rd13_09_arealm.zip,
+  tl_rd13_09_state10.zip, tl_rd13_09_cousub10.zip, tl_rd13_09_prisecroads.zip, tl_rd13_09_bg10.zip,
+  tl_rd13_09_cd113.zip, tl_rd13_09_sldu.zip, tl_rd13_09_scsd10.zip]
+'10': [tl_rd13_10_sldu.zip, tl_rd13_10_tract10.zip, tl_rd13_10_county10.zip, tl_rd13_10_pointlm.zip,
+  tl_rd13_10_bg10.zip, tl_rd13_10_facesal.zip, tl_rd13_10_sldl.zip, tl_rd13_10_cd113.zip,
+  tl_rd13_10_prisecroads.zip, tl_rd13_10_cousub10.zip, tl_rd13_10_state10.zip, tl_rd13_10_unsd10.zip,
+  tl_rd13_10_cd111.zip, tl_rd13_10_arealm.zip, tl_rd13_10_tabblock10.zip, tl_rd13_10_place10.zip]
+'11': [tl_rd13_11_tract10.zip, tl_rd13_11_unsd10.zip, tl_rd13_11_prisecroads.zip,
+  tl_rd13_11_pointlm.zip, tl_rd13_11_tabblock10.zip, tl_rd13_11_facesal.zip, tl_rd13_11_cd111.zip,
+  tl_rd13_11_county10.zip, tl_rd13_11_bg10.zip, tl_rd13_11_arealm.zip, tl_rd13_11_cd113.zip,
+  tl_rd13_11_cousub10.zip, tl_rd13_11_sldu.zip, tl_rd13_11_state10.zip, tl_rd13_11_place10.zip]
+'12': [tl_rd13_12_pointlm.zip, tl_rd13_12_place10.zip, tl_rd13_12_cd111.zip, tl_rd13_12_sldl.zip,
+  tl_rd13_12_tract10.zip, tl_rd13_12_county10.zip, tl_rd13_12_cd113.zip, tl_rd13_12_unsd10.zip,
+  tl_rd13_12_cousub10.zip, tl_rd13_12_state10.zip, tl_rd13_12_arealm.zip, tl_rd13_12_facesal.zip,
+  tl_rd13_12_bg10.zip, tl_rd13_12_tabblock10.zip, tl_rd13_12_prisecroads.zip, tl_rd13_12_sldu.zip]
+'13': [tl_rd13_13_arealm.zip, tl_rd13_13_county10.zip, tl_rd13_13_elsd10.zip, tl_rd13_13_bg10.zip,
+  tl_rd13_13_unsd10.zip, tl_rd13_13_cd113.zip, tl_rd13_13_sldl.zip, tl_rd13_13_state10.zip,
+  tl_rd13_13_pointlm.zip, tl_rd13_13_scsd10.zip, tl_rd13_13_tract10.zip, tl_rd13_13_sldu.zip,
+  tl_rd13_13_place10.zip, tl_rd13_13_cd111.zip, tl_rd13_13_prisecroads.zip, tl_rd13_13_facesal.zip,
+  tl_rd13_13_cousub10.zip, tl_rd13_13_tabblock10.zip, tl_rd13_13_concity10.zip]
+'15': [tl_rd13_15_tract10.zip, tl_rd13_15_sldu.zip, tl_rd13_15_prisecroads.zip, tl_rd13_15_bg10.zip,
+  tl_rd13_15_place10.zip, tl_rd13_15_pointlm.zip, tl_rd13_15_arealm.zip, tl_rd13_15_sldl.zip,
+  tl_rd13_15_unsd10.zip, tl_rd13_15_tabblock10.zip, tl_rd13_15_county10.zip, tl_rd13_15_cousub10.zip,
+  tl_rd13_15_facesal.zip, tl_rd13_15_state10.zip, tl_rd13_15_cd113.zip, tl_rd13_15_cd111.zip]
+'16': [tl_rd13_16_pointlm.zip, tl_rd13_16_arealm.zip, tl_rd13_16_cd113.zip, tl_rd13_16_cousub10.zip,
+  tl_rd13_16_prisecroads.zip, tl_rd13_16_tabblock10.zip, tl_rd13_16_state10.zip, tl_rd13_16_place10.zip,
+  tl_rd13_16_unsd10.zip, tl_rd13_16_county10.zip, tl_rd13_16_bg10.zip, tl_rd13_16_facesal.zip,
+  tl_rd13_16_tract10.zip, tl_rd13_16_cd111.zip, tl_rd13_16_sldu.zip, tl_rd13_16_sldl.zip]
+'17': [tl_rd13_17_sldu.zip, tl_rd13_17_prisecroads.zip, tl_rd13_17_cd113.zip, tl_rd13_17_arealm.zip,
+  tl_rd13_17_tabblock10.zip, tl_rd13_17_cousub10.zip, tl_rd13_17_scsd10.zip, tl_rd13_17_cd111.zip,
+  tl_rd13_17_pointlm.zip, tl_rd13_17_unsd10.zip, tl_rd13_17_bg10.zip, tl_rd13_17_county10.zip,
+  tl_rd13_17_facesal.zip, tl_rd13_17_state10.zip, tl_rd13_17_place10.zip, tl_rd13_17_elsd10.zip,
+  tl_rd13_17_tract10.zip, tl_rd13_17_sldl.zip]
+'18': [tl_rd13_18_tabblock10.zip, tl_rd13_18_concity10.zip, tl_rd13_18_pointlm.zip,
+  tl_rd13_18_tract10.zip, tl_rd13_18_prisecroads.zip, tl_rd13_18_sldu.zip, tl_rd13_18_state10.zip,
+  tl_rd13_18_county10.zip, tl_rd13_18_sldl.zip, tl_rd13_18_cd113.zip, tl_rd13_18_cd111.zip,
+  tl_rd13_18_place10.zip, tl_rd13_18_bg10.zip, tl_rd13_18_cousub10.zip, tl_rd13_18_unsd10.zip,
+  tl_rd13_18_facesal.zip, tl_rd13_18_arealm.zip]
+'19': [tl_rd13_19_pointlm.zip, tl_rd13_19_bg10.zip, tl_rd13_19_state10.zip, tl_rd13_19_county10.zip,
+  tl_rd13_19_cousub10.zip, tl_rd13_19_arealm.zip, tl_rd13_19_sldl.zip, tl_rd13_19_tract10.zip,
+  tl_rd13_19_facesal.zip, tl_rd13_19_sldu.zip, tl_rd13_19_unsd10.zip, tl_rd13_19_cd113.zip,
+  tl_rd13_19_place10.zip, tl_rd13_19_cd111.zip, tl_rd13_19_prisecroads.zip, tl_rd13_19_tabblock10.zip]
+'20': [tl_rd13_20_state10.zip, tl_rd13_20_sldu.zip, tl_rd13_20_cousub10.zip, tl_rd13_20_cd113.zip,
+  tl_rd13_20_bg10.zip, tl_rd13_20_tabblock10.zip, tl_rd13_20_county10.zip, tl_rd13_20_tract10.zip,
+  tl_rd13_20_pointlm.zip, tl_rd13_20_cd111.zip, tl_rd13_20_arealm.zip, tl_rd13_20_prisecroads.zip,
+  tl_rd13_20_sldl.zip, tl_rd13_20_unsd10.zip, tl_rd13_20_place10.zip, tl_rd13_20_facesal.zip]
+'21': [tl_rd13_21_concity10.zip, tl_rd13_21_cd113.zip, tl_rd13_21_arealm.zip, tl_rd13_21_facesal.zip,
+  tl_rd13_21_bg10.zip, tl_rd13_21_tabblock10.zip, tl_rd13_21_state10.zip, tl_rd13_21_place10.zip,
+  tl_rd13_21_county10.zip, tl_rd13_21_sldu.zip, tl_rd13_21_unsd10.zip, tl_rd13_21_tract10.zip,
+  tl_rd13_21_scsd10.zip, tl_rd13_21_cousub10.zip, tl_rd13_21_cd111.zip, tl_rd13_21_sldl.zip,
+  tl_rd13_21_elsd10.zip, tl_rd13_21_prisecroads.zip, tl_rd13_21_pointlm.zip]
+'22': [tl_rd13_22_arealm.zip, tl_rd13_22_cousub10.zip, tl_rd13_22_facesal.zip, tl_rd13_22_cd111.zip,
+  tl_rd13_22_sldl.zip, tl_rd13_22_tabblock10.zip, tl_rd13_22_cd113.zip, tl_rd13_22_unsd10.zip,
+  tl_rd13_22_pointlm.zip, tl_rd13_22_place10.zip, tl_rd13_22_county10.zip, tl_rd13_22_tract10.zip,
+  tl_rd13_22_prisecroads.zip, tl_rd13_22_state10.zip, tl_rd13_22_bg10.zip, tl_rd13_22_sldu.zip]
+'23': [tl_rd13_23_cousub10.zip, tl_rd13_23_county10.zip, tl_rd13_23_arealm.zip, tl_rd13_23_bg10.zip,
+  tl_rd13_23_scsd10.zip, tl_rd13_23_unsd10.zip, tl_rd13_23_sldu.zip, tl_rd13_23_tract10.zip,
+  tl_rd13_23_elsd10.zip, tl_rd13_23_state10.zip, tl_rd13_23_facesal.zip, tl_rd13_23_pointlm.zip,
+  tl_rd13_23_prisecroads.zip, tl_rd13_23_place10.zip, tl_rd13_23_sldl.zip, tl_rd13_23_tabblock10.zip,
+  tl_rd13_23_cd111.zip, tl_rd13_23_cd113.zip]
+'24': [tl_rd13_24_sldu.zip, tl_rd13_24_tract10.zip, tl_rd13_24_bg10.zip, tl_rd13_24_pointlm.zip,
+  tl_rd13_24_cd113.zip, tl_rd13_24_arealm.zip, tl_rd13_24_prisecroads.zip, tl_rd13_24_unsd10.zip,
+  tl_rd13_24_place10.zip, tl_rd13_24_county10.zip, tl_rd13_24_facesal.zip, tl_rd13_24_sldl.zip,
+  tl_rd13_24_cd111.zip, tl_rd13_24_state10.zip, tl_rd13_24_cousub10.zip, tl_rd13_24_tabblock10.zip]
+'25': [tl_rd13_25_cd111.zip, tl_rd13_25_scsd10.zip, tl_rd13_25_elsd10.zip, tl_rd13_25_prisecroads.zip,
+  tl_rd13_25_sldu.zip, tl_rd13_25_place10.zip, tl_rd13_25_facesal.zip, tl_rd13_25_unsd10.zip,
+  tl_rd13_25_county10.zip, tl_rd13_25_pointlm.zip, tl_rd13_25_state10.zip, tl_rd13_25_arealm.zip,
+  tl_rd13_25_sldl.zip, tl_rd13_25_tract10.zip, tl_rd13_25_bg10.zip, tl_rd13_25_tabblock10.zip,
+  tl_rd13_25_cd113.zip, tl_rd13_25_cousub10.zip]
+'26': [tl_rd13_26_elsd10.zip, tl_rd13_26_arealm.zip, tl_rd13_26_facesal.zip, tl_rd13_26_prisecroads.zip,
+  tl_rd13_26_sldu.zip, tl_rd13_26_unsd10.zip, tl_rd13_26_cd111.zip, tl_rd13_26_pointlm.zip,
+  tl_rd13_26_county10.zip, tl_rd13_26_place10.zip, tl_rd13_26_cd113.zip, tl_rd13_26_state10.zip,
+  tl_rd13_26_sldl.zip, tl_rd13_26_bg10.zip, tl_rd13_26_cousub10.zip, tl_rd13_26_tabblock10.zip,
+  tl_rd13_26_tract10.zip]
+'27': [tl_rd13_27_unsd10.zip, tl_rd13_27_cousub10.zip, tl_rd13_27_facesal.zip, tl_rd13_27_arealm.zip,
+  tl_rd13_27_place10.zip, tl_rd13_27_county10.zip, tl_rd13_27_sldl.zip, tl_rd13_27_cd111.zip,
+  tl_rd13_27_pointlm.zip, tl_rd13_27_state10.zip, tl_rd13_27_tabblock10.zip, tl_rd13_27_bg10.zip,
+  tl_rd13_27_prisecroads.zip, tl_rd13_27_tract10.zip, tl_rd13_27_sldu.zip, tl_rd13_27_cd113.zip]
+'28': [tl_rd13_28_state10.zip, tl_rd13_28_cd111.zip, tl_rd13_28_prisecroads.zip, tl_rd13_28_tabblock10.zip,
+  tl_rd13_28_arealm.zip, tl_rd13_28_county10.zip, tl_rd13_28_bg10.zip, tl_rd13_28_cousub10.zip,
+  tl_rd13_28_sldl.zip, tl_rd13_28_pointlm.zip, tl_rd13_28_cd113.zip, tl_rd13_28_place10.zip,
+  tl_rd13_28_unsd10.zip, tl_rd13_28_tract10.zip, tl_rd13_28_facesal.zip, tl_rd13_28_sldu.zip]
+'29': [tl_rd13_29_cd113.zip, tl_rd13_29_prisecroads.zip, tl_rd13_29_county10.zip,
+  tl_rd13_29_tabblock10.zip, tl_rd13_29_pointlm.zip, tl_rd13_29_sldu.zip, tl_rd13_29_elsd10.zip,
+  tl_rd13_29_arealm.zip, tl_rd13_29_cd111.zip, tl_rd13_29_unsd10.zip, tl_rd13_29_sldl.zip,
+  tl_rd13_29_facesal.zip, tl_rd13_29_state10.zip, tl_rd13_29_place10.zip, tl_rd13_29_tract10.zip,
+  tl_rd13_29_bg10.zip, tl_rd13_29_cousub10.zip]
+'30': [tl_rd13_30_sldu.zip, tl_rd13_30_scsd10.zip, tl_rd13_30_cd113.zip, tl_rd13_30_bg10.zip,
+  tl_rd13_30_prisecroads.zip, tl_rd13_30_cousub10.zip, tl_rd13_30_county10.zip, tl_rd13_30_elsd10.zip,
+  tl_rd13_30_sldl.zip, tl_rd13_30_concity10.zip, tl_rd13_30_unsd10.zip, tl_rd13_30_place10.zip,
+  tl_rd13_30_state10.zip, tl_rd13_30_arealm.zip, tl_rd13_30_facesal.zip, tl_rd13_30_cd111.zip,
+  tl_rd13_30_tabblock10.zip, tl_rd13_30_pointlm.zip, tl_rd13_30_tract10.zip]
+'31': [tl_rd13_31_prisecroads.zip, tl_rd13_31_bg10.zip, tl_rd13_31_unsd10.zip, tl_rd13_31_place10.zip,
+  tl_rd13_31_pointlm.zip, tl_rd13_31_sldu.zip, tl_rd13_31_cd113.zip, tl_rd13_31_facesal.zip,
+  tl_rd13_31_cd111.zip, tl_rd13_31_tract10.zip, tl_rd13_31_tabblock10.zip, tl_rd13_31_state10.zip,
+  tl_rd13_31_cousub10.zip, tl_rd13_31_arealm.zip, tl_rd13_31_county10.zip]
+'32': [tl_rd13_32_facesal.zip, tl_rd13_32_pointlm.zip, tl_rd13_32_sldu.zip, tl_rd13_32_arealm.zip,
+  tl_rd13_32_state10.zip, tl_rd13_32_tract10.zip, tl_rd13_32_county10.zip, tl_rd13_32_unsd10.zip,
+  tl_rd13_32_sldl.zip, tl_rd13_32_cousub10.zip, tl_rd13_32_tabblock10.zip, tl_rd13_32_cd113.zip,
+  tl_rd13_32_prisecroads.zip, tl_rd13_32_cd111.zip, tl_rd13_32_place10.zip, tl_rd13_32_bg10.zip]
+'33': [tl_rd13_33_scsd10.zip, tl_rd13_33_unsd10.zip, tl_rd13_33_bg10.zip, tl_rd13_33_sldu.zip,
+  tl_rd13_33_state10.zip, tl_rd13_33_facesal.zip, tl_rd13_33_sldl.zip, tl_rd13_33_pointlm.zip,
+  tl_rd13_33_place10.zip, tl_rd13_33_elsd10.zip, tl_rd13_33_prisecroads.zip, tl_rd13_33_cd113.zip,
+  tl_rd13_33_tract10.zip, tl_rd13_33_cd111.zip, tl_rd13_33_arealm.zip, tl_rd13_33_cousub10.zip,
+  tl_rd13_33_county10.zip, tl_rd13_33_tabblock10.zip]
+'34': [tl_rd13_34_cd111.zip, tl_rd13_34_sldu.zip, tl_rd13_34_cd113.zip, tl_rd13_34_scsd10.zip,
+  tl_rd13_34_sldl.zip, tl_rd13_34_cousub10.zip, tl_rd13_34_unsd10.zip, tl_rd13_34_prisecroads.zip,
+  tl_rd13_34_state10.zip, tl_rd13_34_arealm.zip, tl_rd13_34_pointlm.zip, tl_rd13_34_county10.zip,
+  tl_rd13_34_place10.zip, tl_rd13_34_bg10.zip, tl_rd13_34_facesal.zip, tl_rd13_34_tabblock10.zip,
+  tl_rd13_34_tract10.zip, tl_rd13_34_elsd10.zip]
+'35': [tl_rd13_35_pointlm.zip, tl_rd13_35_unsd10.zip, tl_rd13_35_sldl.zip, tl_rd13_35_cousub10.zip,
+  tl_rd13_35_sldu.zip, tl_rd13_35_prisecroads.zip, tl_rd13_35_county10.zip, tl_rd13_35_facesal.zip,
+  tl_rd13_35_cd113.zip, tl_rd13_35_tabblock10.zip, tl_rd13_35_bg10.zip, tl_rd13_35_state10.zip,
+  tl_rd13_35_arealm.zip, tl_rd13_35_place10.zip, tl_rd13_35_tract10.zip, tl_rd13_35_cd111.zip]
+'36': [tl_rd13_36_cousub10.zip, tl_rd13_36_tabblock10.zip, tl_rd13_36_cd111.zip, tl_rd13_36_pointlm.zip,
+  tl_rd13_36_place10.zip, tl_rd13_36_unsd10.zip, tl_rd13_36_state10.zip, tl_rd13_36_bg10.zip,
+  tl_rd13_36_cd113.zip, tl_rd13_36_tract10.zip, tl_rd13_36_arealm.zip, tl_rd13_36_prisecroads.zip,
+  tl_rd13_36_facesal.zip, tl_rd13_36_sldu.zip, tl_rd13_36_county10.zip, tl_rd13_36_scsd10.zip,
+  tl_rd13_36_elsd10.zip, tl_rd13_36_sldl.zip]
+'37': [tl_rd13_37_tract10.zip, tl_rd13_37_sldl.zip, tl_rd13_37_cd113.zip, tl_rd13_37_bg10.zip,
+  tl_rd13_37_pointlm.zip, tl_rd13_37_place10.zip, tl_rd13_37_cousub10.zip, tl_rd13_37_unsd10.zip,
+  tl_rd13_37_state10.zip, tl_rd13_37_cd111.zip, tl_rd13_37_sldu.zip, tl_rd13_37_tabblock10.zip,
+  tl_rd13_37_county10.zip, tl_rd13_37_facesal.zip, tl_rd13_37_prisecroads.zip, tl_rd13_37_arealm.zip]
+'38': [tl_rd13_38_state10.zip, tl_rd13_38_cd113.zip, tl_rd13_38_arealm.zip, tl_rd13_38_tabblock10.zip,
+  tl_rd13_38_sldl.zip, tl_rd13_38_unsd10.zip, tl_rd13_38_sldu.zip, tl_rd13_38_county10.zip,
+  tl_rd13_38_place10.zip, tl_rd13_38_tract10.zip, tl_rd13_38_cd111.zip, tl_rd13_38_facesal.zip,
+  tl_rd13_38_bg10.zip, tl_rd13_38_prisecroads.zip, tl_rd13_38_pointlm.zip, tl_rd13_38_cousub10.zip,
+  tl_rd13_38_elsd10.zip]
+'39': [tl_rd13_39_cd113.zip, tl_rd13_39_sldu.zip, tl_rd13_39_state10.zip, tl_rd13_39_bg10.zip,
+  tl_rd13_39_arealm.zip, tl_rd13_39_unsd10.zip, tl_rd13_39_prisecroads.zip, tl_rd13_39_facesal.zip,
+  tl_rd13_39_pointlm.zip, tl_rd13_39_cousub10.zip, tl_rd13_39_county10.zip, tl_rd13_39_cd111.zip,
+  tl_rd13_39_tract10.zip, tl_rd13_39_place10.zip, tl_rd13_39_tabblock10.zip, tl_rd13_39_sldl.zip]
+'40': [tl_rd13_40_prisecroads.zip, tl_rd13_40_unsd10.zip, tl_rd13_40_arealm.zip, tl_rd13_40_tract10.zip,
+  tl_rd13_40_bg10.zip, tl_rd13_40_sldu.zip, tl_rd13_40_county10.zip, tl_rd13_40_pointlm.zip,
+  tl_rd13_40_facesal.zip, tl_rd13_40_tabblock10.zip, tl_rd13_40_cd113.zip, tl_rd13_40_sldl.zip,
+  tl_rd13_40_cd111.zip, tl_rd13_40_state10.zip, tl_rd13_40_elsd10.zip, tl_rd13_40_cousub10.zip,
+  tl_rd13_40_place10.zip]
+'41': [tl_rd13_41_state10.zip, tl_rd13_41_pointlm.zip, tl_rd13_41_cousub10.zip, tl_rd13_41_cd113.zip,
+  tl_rd13_41_scsd10.zip, tl_rd13_41_arealm.zip, tl_rd13_41_county10.zip, tl_rd13_41_tabblock10.zip,
+  tl_rd13_41_facesal.zip, tl_rd13_41_bg10.zip, tl_rd13_41_sldu.zip, tl_rd13_41_cd111.zip,
+  tl_rd13_41_prisecroads.zip, tl_rd13_41_elsd10.zip, tl_rd13_41_place10.zip, tl_rd13_41_unsd10.zip,
+  tl_rd13_41_tract10.zip, tl_rd13_41_sldl.zip, tl_rd13_41_uga10.zip]
+'42': [tl_rd13_42_state10.zip, tl_rd13_42_cousub10.zip, tl_rd13_42_county10.zip, tl_rd13_42_place10.zip,
+  tl_rd13_42_prisecroads.zip, tl_rd13_42_arealm.zip, tl_rd13_42_sldl.zip, tl_rd13_42_cd113.zip,
+  tl_rd13_42_sldu.zip, tl_rd13_42_unsd10.zip, tl_rd13_42_facesal.zip, tl_rd13_42_cd111.zip,
+  tl_rd13_42_tabblock10.zip, tl_rd13_42_pointlm.zip, tl_rd13_42_tract10.zip]
+'44': [tl_rd13_44_state10.zip, tl_rd13_44_arealm.zip, tl_rd13_44_sldl.zip, tl_rd13_44_unsd10.zip,
+  tl_rd13_44_cd111.zip, tl_rd13_44_prisecroads.zip, tl_rd13_44_cd113.zip, tl_rd13_44_pointlm.zip,
+  tl_rd13_44_tract10.zip, tl_rd13_44_sldu.zip, tl_rd13_44_facesal.zip, tl_rd13_44_cousub10.zip,
+  tl_rd13_44_tabblock10.zip, tl_rd13_44_county10.zip, tl_rd13_44_elsd10.zip, tl_rd13_44_scsd10.zip,
+  tl_rd13_44_place10.zip]
+'45': [tl_rd13_45_tract10.zip, tl_rd13_45_cd113.zip, tl_rd13_45_sldu.zip, tl_rd13_45_cd111.zip,
+  tl_rd13_45_sldl.zip, tl_rd13_45_facesal.zip, tl_rd13_45_prisecroads.zip, tl_rd13_45_state10.zip,
+  tl_rd13_45_unsd10.zip, tl_rd13_45_scsd10.zip, tl_rd13_45_place10.zip, tl_rd13_45_arealm.zip,
+  tl_rd13_45_elsd10.zip, tl_rd13_45_tabblock10.zip, tl_rd13_45_bg10.zip, tl_rd13_45_cousub10.zip,
+  tl_rd13_45_pointlm.zip, tl_rd13_45_county10.zip]
+'46': [tl_rd13_46_pointlm.zip, tl_rd13_46_facesal.zip, tl_rd13_46_arealm.zip, tl_rd13_46_cousub10.zip,
+  tl_rd13_46_unsd10.zip, tl_rd13_46_place10.zip, tl_rd13_46_tabblock10.zip, tl_rd13_46_cd111.zip,
+  tl_rd13_46_bg10.zip, tl_rd13_46_state10.zip, tl_rd13_46_sldl.zip, tl_rd13_46_county10.zip,
+  tl_rd13_46_prisecroads.zip, tl_rd13_46_sldu.zip, tl_rd13_46_tract10.zip, tl_rd13_46_cd113.zip]
+'47': [tl_rd13_47_county10.zip, tl_rd13_47_facesal.zip, tl_rd13_47_pointlm.zip, tl_rd13_47_place10.zip,
+  tl_rd13_47_tract10.zip, tl_rd13_47_unsd10.zip, tl_rd13_47_sldu.zip, tl_rd13_47_scsd10.zip,
+  tl_rd13_47_elsd10.zip, tl_rd13_47_arealm.zip, tl_rd13_47_tabblock10.zip, tl_rd13_47_prisecroads.zip,
+  tl_rd13_47_state10.zip, tl_rd13_47_cd113.zip, tl_rd13_47_bg10.zip, tl_rd13_47_sldl.zip,
+  tl_rd13_47_cousub10.zip, tl_rd13_47_concity10.zip, tl_rd13_47_cd111.zip]
+'48': [tl_rd13_48_facesal.zip, tl_rd13_48_place10.zip, tl_rd13_48_scsd10.zip, tl_rd13_48_tabblock10.zip,
+  tl_rd13_48_pointlm.zip, tl_rd13_48_prisecroads.zip, tl_rd13_48_bg10.zip, tl_rd13_48_unsd10.zip,
+  tl_rd13_48_tract10.zip, tl_rd13_48_cd111.zip, tl_rd13_48_elsd10.zip, tl_rd13_48_sldu.zip,
+  tl_rd13_48_arealm.zip, tl_rd13_48_cd113.zip, tl_rd13_48_cousub10.zip, tl_rd13_48_sldl.zip,
+  tl_rd13_48_county10.zip, tl_rd13_48_state10.zip]
+'49': [tl_rd13_49_sldl.zip, tl_rd13_49_cd113.zip, tl_rd13_49_place10.zip, tl_rd13_49_arealm.zip,
+  tl_rd13_49_county10.zip, tl_rd13_49_pointlm.zip, tl_rd13_49_sldu.zip, tl_rd13_49_cd111.zip,
+  tl_rd13_49_tabblock10.zip, tl_rd13_49_state10.zip, tl_rd13_49_cousub10.zip, tl_rd13_49_unsd10.zip,
+  tl_rd13_49_facesal.zip, tl_rd13_49_bg10.zip, tl_rd13_49_tract10.zip, tl_rd13_49_prisecroads.zip]
+'50': [tl_rd13_50_prisecroads.zip, tl_rd13_50_sldl.zip, tl_rd13_50_facesal.zip, tl_rd13_50_cd113.zip,
+  tl_rd13_50_bg10.zip, tl_rd13_50_county10.zip, tl_rd13_50_tabblock10.zip, tl_rd13_50_elsd10.zip,
+  tl_rd13_50_cousub10.zip, tl_rd13_50_place10.zip, tl_rd13_50_pointlm.zip, tl_rd13_50_tract10.zip,
+  tl_rd13_50_unsd10.zip, tl_rd13_50_arealm.zip, tl_rd13_50_scsd10.zip, tl_rd13_50_sldu.zip,
+  tl_rd13_50_state10.zip, tl_rd13_50_cd111.zip]
+'51': [tl_rd13_51_sldl.zip, tl_rd13_51_place10.zip, tl_rd13_51_cousub10.zip, tl_rd13_51_tract10.zip,
+  tl_rd13_51_elsd10.zip, tl_rd13_51_state10.zip, tl_rd13_51_cd113.zip, tl_rd13_51_bg10.zip,
+  tl_rd13_51_prisecroads.zip, tl_rd13_51_arealm.zip, tl_rd13_51_pointlm.zip, tl_rd13_51_county10.zip,
+  tl_rd13_51_facesal.zip, tl_rd13_51_cd111.zip, tl_rd13_51_unsd10.zip, tl_rd13_51_tabblock10.zip,
+  tl_rd13_51_sldu.zip]
+'53': [tl_rd13_53_arealm.zip, tl_rd13_53_sldu.zip, tl_rd13_53_place10.zip, tl_rd13_53_cd111.zip,
+  tl_rd13_53_cd113.zip, tl_rd13_53_unsd10.zip, tl_rd13_53_tabblock10.zip, tl_rd13_53_bg10.zip,
+  tl_rd13_53_state10.zip, tl_rd13_53_prisecroads.zip, tl_rd13_53_pointlm.zip, tl_rd13_53_county10.zip,
+  tl_rd13_53_facesal.zip, tl_rd13_53_cousub10.zip, tl_rd13_53_tract10.zip, tl_rd13_53_sldl.zip,
+  tl_rd13_53_uga10.zip]
+'54': [tl_rd13_54_cd113.zip, tl_rd13_54_facesal.zip, tl_rd13_54_county10.zip, tl_rd13_54_tabblock10.zip,
+  tl_rd13_54_cousub10.zip, tl_rd13_54_bg10.zip, tl_rd13_54_arealm.zip, tl_rd13_54_sldu.zip,
+  tl_rd13_54_pointlm.zip, tl_rd13_54_place10.zip, tl_rd13_54_unsd10.zip, tl_rd13_54_sldl.zip,
+  tl_rd13_54_tract10.zip, tl_rd13_54_cd111.zip, tl_rd13_54_prisecroads.zip, tl_rd13_54_state10.zip]
+'55': [tl_rd13_55_tabblock10.zip, tl_rd13_55_cousub10.zip, tl_rd13_55_place10.zip,
+  tl_rd13_55_bg10.zip, tl_rd13_55_sldl.zip, tl_rd13_55_pointlm.zip, tl_rd13_55_prisecroads.zip,
+  tl_rd13_55_cd113.zip, tl_rd13_55_arealm.zip, tl_rd13_55_unsd10.zip, tl_rd13_55_facesal.zip,
+  tl_rd13_55_tract10.zip, tl_rd13_55_sldu.zip, tl_rd13_55_county10.zip, tl_rd13_55_scsd10.zip,
+  tl_rd13_55_cd111.zip, tl_rd13_55_state10.zip, tl_rd13_55_elsd10.zip]
+'56': [tl_rd13_56_sldu.zip, tl_rd13_56_cd111.zip, tl_rd13_56_sldl.zip, tl_rd13_56_county10.zip,
+  tl_rd13_56_place10.zip, tl_rd13_56_arealm.zip, tl_rd13_56_state10.zip, tl_rd13_56_cd113.zip,
+  tl_rd13_56_prisecroads.zip, tl_rd13_56_tract10.zip, tl_rd13_56_bg10.zip, tl_rd13_56_tabblock10.zip,
+  tl_rd13_56_cousub10.zip, tl_rd13_56_unsd10.zip, tl_rd13_56_pointlm.zip, tl_rd13_56_facesal.zip]
+'60': [tl_rd13_60_place10.zip, tl_rd13_60_bg10.zip, tl_rd13_60_pointlm.zip, tl_rd13_60_unsd10.zip,
+  tl_rd13_60_county10.zip, tl_rd13_60_cd113.zip, tl_rd13_60_tract10.zip, tl_rd13_60_prisecroads.zip,
+  tl_rd13_60_cd111.zip, tl_rd13_60_facesal.zip, tl_rd13_60_arealm.zip, tl_rd13_60_state10.zip,
+  tl_rd13_60_cousub10.zip, tl_rd13_60_tabblock10.zip]
+'66': [tl_rd13_66_facesal.zip, tl_rd13_66_prisecroads.zip, tl_rd13_66_arealm.zip,
+  tl_rd13_66_unsd10.zip, tl_rd13_66_pointlm.zip, tl_rd13_66_cd113.zip, tl_rd13_66_county10.zip,
+  tl_rd13_66_place10.zip, tl_rd13_66_cd111.zip, tl_rd13_66_cousub10.zip, tl_rd13_66_state10.zip,
+  tl_rd13_66_bg10.zip, tl_rd13_66_tabblock10.zip, tl_rd13_66_tract10.zip]
+'69': [tl_rd13_69_bg10.zip, tl_rd13_69_cd113.zip, tl_rd13_69_facesal.zip, tl_rd13_69_pointlm.zip,
+  tl_rd13_69_prisecroads.zip, tl_rd13_69_cd111.zip, tl_rd13_69_unsd10.zip, tl_rd13_69_cousub10.zip,
+  tl_rd13_69_tabblock10.zip, tl_rd13_69_county10.zip, tl_rd13_69_tract10.zip, tl_rd13_69_place10.zip,
+  tl_rd13_69_state10.zip, tl_rd13_69_arealm.zip]
+'72': [tl_rd13_72_sldl.zip, tl_rd13_72_cd113.zip, tl_rd13_72_arealm.zip, tl_rd13_72_unsd10.zip,
+  tl_rd13_72_tabblock10.zip, tl_rd13_72_tract10.zip, tl_rd13_72_sldu.zip, tl_rd13_72_submcd10.zip,
+  tl_rd13_72_county10.zip, tl_rd13_72_pointlm.zip, tl_rd13_72_bg10.zip, tl_rd13_72_prisecroads.zip,
+  tl_rd13_72_facesal.zip, tl_rd13_72_cd111.zip, tl_rd13_72_cousub10.zip, tl_rd13_72_place10.zip,
+  tl_rd13_72_state10.zip]
+'78': [tl_rd13_78_cd111.zip, tl_rd13_78_cd113.zip, tl_rd13_78_pointlm.zip, tl_rd13_78_cousub10.zip,
+  tl_rd13_78_tabblock10.zip, tl_rd13_78_prisecroads.zip, tl_rd13_78_bg10.zip, tl_rd13_78_tract10.zip,
+  tl_rd13_78_county10.zip, tl_rd13_78_submcd10.zip, tl_rd13_78_state10.zip, tl_rd13_78_arealm.zip,
+  tl_rd13_78_facesal.zip, tl_rd13_78_place10.zip, tl_rd13_78_unsd10.zip]
