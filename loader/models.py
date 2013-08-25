@@ -87,7 +87,12 @@ class Archive(models.Model):
             return False
         z = ZipFile(self.path)
         return z.testzip() == None
-        
+
+    def set_size(self):
+        with urllib.request.urlopen(self.url) as r:
+            size = int(r.info().get('Content-length'))
+        self.size = size
+        self.save()
 
     def download(self):
         if not self.exists:
@@ -98,8 +103,6 @@ class Archive(models.Model):
         os.makedirs(os.path.dirname(self.path),exist_ok=True)
         print('downloading {0}'.format(self.path))
         block = 4096
-        r = request.urlopen(self.url)
-        size = int(r.info().get('Content-length'))
         print("{0} blocks".format(ceil(size/block)))
         written = 0
         with open(self.path,'wb') as dest:
@@ -194,6 +197,7 @@ class CountyArchive(Archive):
         choices = FEATURE_CHOICES,
     )
 
+    size = models.BigIntegerField(null=True)
     extent = models.ForeignKey('CountyEquiv')
 
     @property
@@ -255,7 +259,7 @@ class StateArchive(Archive):
         max_length = len(max(FEATURE_CHOICES,key=lambda x: len(x[0]))[0]),
         choices = FEATURE_CHOICES,
     )
-
+    size = models.BigIntegerField(null=True)
     extent = models.ForeignKey('StateEquiv')
 
     @property
@@ -287,6 +291,8 @@ class NationalArchive(Archive):
         max_length = len(max(FEATURE_CHOICES,key=lambda x: len(x[0]))[0]),
         choices = FEATURE_CHOICES
     )
+
+    size = models.BigIntegerField(null=True)
 
     class _extent:
         def __str__(self):
