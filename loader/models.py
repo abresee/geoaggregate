@@ -1,8 +1,10 @@
 from django.contrib.gis.db import models
+from django.contrib.gis.utils import ogrinspect
 from django.conf import settings
 from zipfile import ZipFile, is_zipfile
 from os import makedirs
 from urllib import request
+from math import ceil
 import os.path
 
 class Region(models.Model):
@@ -27,11 +29,22 @@ class CountyEquiv(Region):
             str(self.parent)
         ])
 
+class DownloadError(Exception):
+    pass
+
+class ExtractionError(Exception):
+    pass
+
+class ModelError(Exception):
+    pass
+
+
 class Archive(models.Model):
     class Meta:
         abstract = True
 
     name_template = 'tl_rd13_{code}_{feature}.zip'
+    modelcache = {}
 
     @property
     def filename(self):
@@ -56,6 +69,15 @@ class Archive(models.Model):
         )
 
     @property
+    def extract_path(self):
+        return os.path.join(
+            settings.MEDIA_ROOT,
+            'extract',
+            self.folder,
+            self.filename
+        )
+
+    @property
     def exists(self):
         return os.path.exists(self.path) and is_zipfile(self.path)
 
@@ -74,14 +96,75 @@ class Archive(models.Model):
 
     def _download(self):
         os.makedirs(os.path.dirname(self.path),exist_ok=True)
+        print('downloading {0}'.format(self.path))
+        block = 4096
+        r = request.urlopen(self.url)
+        size = int(r.info().get('Content-length'))
+        print("{0} blocks".format(ceil(size/block)))
+        written = 0
         with open(self.path,'wb') as dest:
-            dest.write(request.urlopen(self.url).read())
+            while True:
+                data = r.read(block)
+                if data:
+                    dest.write(data)
+                    written+=block
+                    print("written: {0}\r".format(written),end='')
+                else:
+                    break
+
+    def extract(self):
+        if not self.exists:
+            if not self.download():
+                raise DownloadError("can't get {0}".format(str(self)))
+        if self.extracted:
+            print('already unzipped {0}'.format(str(self)))
+            return True
+        z = ZipFile(self.path)
+        z.extractall(self.extract_path)
+        return True
+
+    @property
+    def extracted(self):
+        return os.path.exists(self.extract_path)
+
+    @property
+    def model(self):
+        if self.feature not in Archive.modelcache:
+            return self._get_model()
+        else:
+            return Archive.modelcache[self.feature]
+    def _get_model(self):
+        if not self.extracted:
+            if not self.extract():
+                raise ExtractionError("can't extract {0}".format(str(self)))
+
+        #TODO: make this less shitty
+        shps = [
+            os.path.join(self.extract_path,filename) 
+            for filename in os.listdir(self.extract_path) 
+            if filename.endswith('shp')
+        ]
+        assert len(shps) == 1
+        filename = shps[0]
+
+        name = self.feature.capitalize()
+        model = ogrinspect(filename,name,srid=4269)
+        if name in Archive.modelcache:
+            if Archive.modelcache[name] == model:
+                print('match')
+                self._model = model
+            else:
+                raise ModelError("this shouldn't happen!")
+        Archive.modelcache[self.feature] = model
+        return model
+
 
     def __str__(self):
         return ', '.join([
             self.feature, 
             str(self.extent)
         ])
+
 
 class CountyArchive(Archive):
     ADDR = 'addr'
