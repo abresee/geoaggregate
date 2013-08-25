@@ -1,6 +1,7 @@
 from urllib.request import urlopen
 from json import loads,load,dump
 import os
+import matplotlib.pyplot as plt
 class ApiConnection:
     cachename = 'apicache'
     
@@ -34,5 +35,13 @@ class ApiConnection:
     def series(self, series_id):
         return self._call_cache("series", series_id)
 
+    def _get_data(self,series):
+        d= series["series"][0]["data"]
+        x=[int(i[0]) for i in d]
+        y=[int(i[1]) for i in d]
+        return x,y
 
-
+    def plot_series(self,series_id):
+        s=self.series(series_id)
+        x,y=self._get_data(s)
+        plt.plot(x,y)
