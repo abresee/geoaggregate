@@ -45,3 +45,5 @@ class ApiConnection:
         s=self.series(series_id)
         x,y=self._get_data(s)
         plt.plot(x,y)
+if __name__ == "__main__":
+    eia = ApiConnection()
