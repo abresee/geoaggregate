@@ -45,6 +45,7 @@ class Archive(models.Model):
 
     name_template = 'tl_rd13_{code}_{feature}.zip'
     modelcache = {}
+    skipped = set()
 
     @property
     def filename(self):
@@ -89,23 +90,25 @@ class Archive(models.Model):
         return z.testzip() == None
 
     def set_size(self):
-        with urllib.request.urlopen(self.url) as r:
+        with request.urlopen(self.url) as r:
             size = int(r.info().get('Content-length'))
         self.size = size
         self.save()
 
     def download(self):
-        if not self.exists:
+        if not self.good:
             self._download()
         return self.good
 
     def _download(self):
         os.makedirs(os.path.dirname(self.path),exist_ok=True)
         print('downloading {0}'.format(self.path))
-        block = 4096
-        print("{0} blocks".format(ceil(size/block)))
+        block = 4096*5
+        print("{size} bytes, {blocks} blocks".format(
+            size=self.size,
+            blocks=ceil(self.size/block)))
         written = 0
-        with open(self.path,'wb') as dest:
+        with request.urlopen(self.url) as r, open(self.path,'wb') as dest:
             while True:
                 data = r.read(block)
                 if data:
@@ -113,6 +116,7 @@ class Archive(models.Model):
                     written+=block
                     print("written: {0}\r".format(written),end='')
                 else:
+                    print("\ndone!")
                     break
 
     def extract(self):
@@ -147,11 +151,17 @@ class Archive(models.Model):
             for filename in os.listdir(self.extract_path) 
             if filename.endswith('shp')
         ]
-        assert len(shps) == 1
+        if len(shps) != 1:
+            Archive.skipped.add(str(self))
+            return ''
+
         filename = shps[0]
 
         name = self.feature.capitalize()
-        model = ogrinspect(filename,name,srid=4269)
+        model = ogrinspect(filename,name,
+            srid = 4269,
+            multi_geom = True,
+            imports = False)
         if name in Archive.modelcache:
             if Archive.modelcache[name] == model:
                 print('match')
@@ -271,7 +281,7 @@ class NationalArchive(Archive):
     AITSN10 = 'aitsn10'
     CD111 = 'cd111'
     CD113 = 'cd113'
-    MIL = 'MIL' 
+    MIL = 'mil' 
     STATE10 = 'state10'
     UAC10 = 'uac10'
     ZCTA510 = 'zcta510'
