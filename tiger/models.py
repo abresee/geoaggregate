@@ -1,5 +1,5 @@
-# e.g. file: tl_rd13_<state county FIPS>_addr.dbf
 class Addr(models.Model):
+    # e.g. file: tl_rd13_<state county FIPS>_addr.dbf
     tiger_id = models.IntegerField()
     from_house = models.CharField(max_length=12)
     to_house = models.CharField(max_length=12)
@@ -10,6 +10,8 @@ class Addr(models.Model):
     to_type = models.CharField(max_length=1)
     ar_id = models.CharField(max_length=22)
     mtfcc = models.CharField(max_length=5)
+    # this field found in tl_rd13_<state county fips>_addrfn.dbf
+    linear_id = models.CharField(max_length=22)
 
 addr_mapping = {
     'tiger_id' : 'TLID',
@@ -23,13 +25,9 @@ addr_mapping = {
     'ar_id' : 'ARID', 
     'mtfcc' : 'MTFCC'
 }
-
-class AddrFn(models.Model):
-    arid = models.CharField(max_length=22)
-    linear_id = models.CharField(max_length=22)
-
-# e.g. file: tl_rd13_<state county fips>_edges.shp
 class Edges(models.Model):
+    # e.g. file: tl_rd13_<state county fips>_edges.shp
+    # TODO: clean up
     tiger_id = models.IntegerField()
     state_fips = models.CharField(max_length=2)
     county_fips = models.CharField(max_length=3)
@@ -100,8 +98,58 @@ edges_mapping = {
     'geom' : 'LINESTRING'
 }
 
-# e.g. file: tl_rd13_<state county fips>_faces.shp
+# e.g. file: tl_rd13_<state fips>_facesal.dbf
+# TODO: turn this into a field on a model
+class FacesAL(models.Model):
+    tfid = models.IntegerField()
+    area_id = models.CharField(max_length=22)
+
+faces_al_mapping = {
+    'tfid' : 'TFID',
+    'area_id' : 'AREAID'
+}
+
+# e.g. file: tl_rd13_<state fips>_pointlm.shp
+class Landmark(models.Model):
+    state_fips = models.CharField(max_length=2)
+    ansi_code = models.CharField(max_length=8)
+    point_id = models.CharField(max_length=22)
+    full_name = models.CharField(max_length=100)
+    mtfcc = models.CharField(max_length=5)
+    geom = models.MultiPointField(srid=4269)
+    objects = models.GeoManager()
+
+landmark_mapping = {
+    'state_fips' : 'STATEFP',
+    'ansi_code' : 'ANSICODE',
+    'point_id' : 'POINTID',
+    'full_name' : 'FULLNAME',
+    'mtfcc' : 'MTFCC',
+    'geom' : 'MULTIPOINT'
+}
+
+#primary and secondary roads
+# e.g. file: tl_rd13_<state fips>_prisecroads.shp
+# TODO: figure if we even need this
+class PriSecRoads(models.Model):
+    linear_id = models.CharField(max_length=22)
+    full_name = models.CharField(max_length=100)
+    route_type = models.CharField(max_length=1)
+    mtfcc = models.CharField(max_length=5)
+    geom = models.MultiLineStringField(srid=4269)
+    objects = models.GeoManager()
+
+pri_sec_roads_mapping = {
+    'linear_id' : 'LINEARID',
+    'full_name' : 'FULLNAME',
+    'route_type' : 'RTTYP',
+    'mtfcc' : 'MTFCC',
+    'geom' : 'MULTILINESTRING'
+}
+
 class Faces(models.Model):
+    # e.g. file: tl_rd13_<state county fips>_faces.shp
+    # TODO: clean up
     tiger_id = models.IntegerField()
     state_fips = models.CharField(max_length=2)
     county_fips = models.CharField(max_length=3)
@@ -175,7 +223,8 @@ faces_mapping = {
 }
 
 class FeatNames(models.Model): 
-    tlid = models.IntegerField()
+#TODO: figure out how necessary this is
+    tiger_id = models.IntegerField()
     full_name = models.CharField(max_length=100)
     name = models.CharField(max_length=100)
     pre_dir_abrv = models.CharField(max_length=15)
@@ -194,7 +243,7 @@ class FeatNames(models.Model):
     pa_flag = models.Charfield(max_length=1)
 
 feat_names_mapping = {
-    'tlid' : 'TLID',
+    'tiger_id' : 'TLID',
     'full_name' : 'FULLNAME',
     'name' : 'NAME',
     'pre_dir_abrv' : 'PREDIRABRV',
@@ -211,24 +260,31 @@ feat_names_mapping = {
     'mtfcc' : 'MTFCC',
     'pa_flag' : 'PAFLAG'
 }
+
 class FacesAH(models.Model):
+#TODO: make this a field
     tfid = models.IntegerField()
     area_id = models.CharField(max_length=22)
 
-class AreaWater(models.Model):
+#### Places
+class BasePlace(models.Model):
+    class Meta:
+        abstract = True
+    land_area = models.FloatField()
+    water_area = models.FloatField()
+    lat = models.CharField(max_length=11)
+    lon = models.CharField(max_length=12)
+    geom = models.MultiPolygonField(srid=4269)
+    objects = models.GeoManager()
+
+class AreaWater(BasePlace):
+    #TODO: eg
     state_fips = models.CharField(max_length=2)
     county_fips = models.CharField(max_length=3)
     ansi = models.CharField(max_length=8)
     area_id = models.CharField(max_length=22)
     name = models.CharField(max_length=100)
     mtfcc = models.CharField(max_length=5)
-    land_area = models.FloatField()
-    water_area = models.FloatField()
-    lat = models.CharField(max_length=11)
-    lon = models.CharField(max_length=12)
-
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
 
 area_water_mapping = {
     'state_fips' : 'STATEFP',
@@ -243,142 +299,19 @@ area_water_mapping = {
     'lon' : 'INTPTLON',
     'geom' : 'MULTIPOLYGON'
 }
-
-#e.g. file; tl_rd13_<state county fips>_linearwater.shp
-class Linearwater(models.Model):
-    ansi = models.CharField(max_length=8)
-    linear_id = models.CharField(max_length=22)
-    full_name = models.CharField(max_length=100)
-    art_path = models.CharField(max_length=1)
-    mtfcc = models.CharField(max_length=5)
-    geom = models.MultiLineStringField(srid=4269)
-    objects = models.GeoManager()
-
-linearwater_mapping = {
-    'ansi' : 'ANSICODE',
-    'linear_id' : 'LINEARID',
-    'full_name' : 'FULLNAME',
-    'art_path' : 'ARTPATH',
-    'mtfcc' : 'MTFCC',
-    'geom' : 'LINESTRING'
-}
-
-# e.g. file: tl_rd13_<state county fips>_roads.shp
-class Roads(models.Model):
-    linear_id = models.CharField(max_length=22)
-    full_name = models.CharField(max_length=100)
-    route_type = models.CharField(max_length=1)
-    mtfcc = models.CharField(max_length=5)
-
-    geom = models.MultiLineStringField(srid=4269)
-    objects = models.GeoManager()
-
-roads_mapping = {
-    'linear_id' : 'LINEARID',
-    'full_name' : 'FULLNAME',
-    'route_type' : 'RTTYP',
-    'mtfcc' : 'MTFCC'
-}
-
-# e.g. file: tl_rd13_<state county fips>_vtd10.shp
-class VotingDist(models.Model):
-    state_fips = models.CharField(max_length=2)
-    county_fips = models.CharField(max_length=3)
-    voting_dist = models.CharField(max_length=6)
-    geoid = models.CharField(max_length=11)
-    voting_dist_flag = models.CharField(max_length=1)
-    name = models.CharField(max_length=100)
-    namelsad = models.CharField(max_length=100)
-    lsad = models.CharField(max_length=2)
-    mtfcc = models.CharField(max_length=5)
-    func_status = models.CharField(max_length=1)
-    land_area = models.FloatField()
-    water_area = models.FloatField()
-    lat = models.CharField(max_length=11)
-    lon = models.CharField(max_length=12)
-
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
-
-voting_dist_mapping = {
-    'state_fips' : 'STATEFP10',
-    'county_fips' : 'COUNTYFP10',
-    'voting_dist' : 'VTDST10',
-    'name' : 'NAME10',
-    'namelsad' : 'NAMELSAD10',
-    'lsad' : 'LSAD10',
-    'mtfcc' : 'MTFCC10',
-    'func_status' : 'FUNCSTAT10',
-    'land_area' : 'ALAND10',
-    'water_area' : 'AWATER10',
-    'lat' : 'INTPTLAT10',
-    'lon' : 'INTPTLON10',
-    'geom' : 'POLYGON'
-}
-# e.g. file: tl_rd13_02_anrc10.shp
-# note: by its very nature, this only applies to AK (02)
-class Anrc(models.Model):
-    anrc_fips = models.CharField(max_length=5)
-    anrc_ansi = models.CharField(max_length=8)
-    geo_id = models.CharField(max_length=7)
-    name = models.CharField(max_length=100)
-    lsad = models.CharField(max_length=100)
-    class_fips = models.CharField(max_length=2)
-    mtfcc = models.CharField(max_length=5)
-    func_status = models.CharField(max_length=1)
-    land_area = models.FloatField()
-    water_area = models.FloatField()
-    lat = models.CharField(max_length=11)
-    lon = models.CharField(max_length=12)
-    geom = models.PolygonField(srid=4269)
-    objects = models.GeoManager()
-
-anrc_mapping = {
-    'anrc_fips' : 'ANRCFP10',
-    'anrc_ansi' : 'ANRCNS10',
-    'geo_id': 'GEOID10',
-    'name' : 'NAME10',
-    'lsad' : 'LSAD10',
-    'class_fips' : 'CLASSFP10',
-    'mtfcc' : 'MTFCC10',
-    'func_state' : 'FUNCSTAT10',
-    'land_area' : 'ALAND10',
-    'water_area' : 'AWATER10',
-    'lat' : 'INTPTLAT10',
-    'lon' : 'INTPTLON10',
-    'geom' : 'POLYGON'
-}
-
-# e.g. file: tl_rd13_<state fips>_facesal.dbf
-# TODO: turn this into a field on a model
-class FacesAL(models.Model):
-    tfid = models.IntegerField()
-    area_id = models.CharField(max_length=22)
-
-faces_al_mapping = {
-    'tfid' : 'TFID',
-    'area_id' : 'AREAID'
-}
-
+class CongressDist(BasePlace):
 # e.g. file: tl_rd13_<state fips>_cd11{n}.shp
 # n in ['1', '3']
-class CensusDist(models.Model):
     state_fips = models.CharField(max_length=2)
     dist_fips = models.CharField(max_length=2)
+
     geoid = models.CharField(max_length=4)
-    namelsad = models.CharField(max_length=41)
     lsad = models.CharField(max_length=2)
     session = models.CharField(max_length=3)
     mtfcc = models.CharField(max_length=5)
     func_status = models.CharField(max_length=1)
-    land_area = models.FloatField()
-    water_area = models.FloatField()
-    lat = models.CharField(max_length=11)
-    lon = models.CharField(max_length=12)
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
 
-census_dist_mapping = {
+congresss_dist_mapping = {
     'state_fips' : 'STATEFP10',
     'dist_fips' : 'CD11{N}FP', # N in ['1','3']
     'geoid' : 'GEOID10',
@@ -393,25 +326,46 @@ census_dist_mapping = {
     'lon' : 'INTPTLON10',
     'geom' : 'MULTIPOLYGON'
 }
+class StateLegDist(BasePlace):
+    # e.g. file: tl_rd13_<state fips>_sld{t}.shp
+    # t in ['u', 'l']
+    state_fips = models.CharField(max_length=2)
+    state_leg = models.CharField(max_length=3)
+    geoid = models.CharField(max_length=5)
+    namelsad = models.CharField(max_length=100)
+    lsad = models.CharField(max_length=2)
+    year = models.CharField(max_length=4) #legislative session year
+    mtfcc = models.CharField(max_length=5)
+    func_status = models.CharField(max_length=1)
 
-# e.g. file: tl_rd13_<state fips>_state10.shp
-class State(models.Model):
+state_leg_mapping = {
+    'state_fips' : 'STATEFP',
+    'state_leg' : 'SLD{T}ST', # T in ['U', 'L']
+    'geoid' : 'GEOID',
+    'namelsad' : 'NAMELSAD',
+    'lsad' : 'LSAD',
+    'year' : 'LSY',
+    'mtfcc' : 'MTFCC',
+    'funcstat' : 'FUNCSTAT',
+    'land_area' : 'ALAND',
+    'water_area' : 'AWATER',
+    'lat' : 'INTPTLAT',
+    'lon' : 'INTPTLON',
+    'geom' : 'MULTIPOLYGON'
+}
+class State(BasePlace):
+    # e.g. file: tl_rd13_{state_fips}_state10.shp
     region = models.CharField(max_length=2)
     division = models.CharField(max_length=2)
     state_fips = models.CharField(max_length=2)
     state_ansi = models.CharField(max_length=8)
-    geoid = models.CharField(max_length=2)
     usps_code = models.CharField(max_length=2)
+
+    geoid = models.CharField(max_length=2)
     name = models.CharField(max_length=100)
     lsad = models.CharField(max_length=2)
     mtfcc = models.CharField(max_length=5)
     func_status = models.CharField(max_length=1)
-    land_area = models.FloatField()
-    water_area = models.FloatField()
-    lat = models.CharField(max_length=11)
-    lon = models.CharField(max_length=12)
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager() 
 
 state_mapping = {
     'region' : 'REGION10',
@@ -430,11 +384,11 @@ state_mapping = {
     'lon' : 'INTPTLON10',
     'geom' : 'MULTIPOLYGON'
 }
-
-#Consolidated city
-# state_fips in [09, 13, 18, 21, 30, 47] 
-# file: tl_rd13_<state_fips>_concity.shp
-class Concity(models.Model):
+class Concity(BasePlace):
+    # e.g. file: tl_rd13_{state_fips}_concity.shp
+    #Consolidated city
+    # state_fips in [09, 13, 18, 21, 30, 47] 
+    # TODO: what is this
     state_fips = models.CharField(max_length=2)
     concity_fips = models.CharField(max_length=5)
     concity_ansi = models.CharField(max_length=8)
@@ -444,12 +398,6 @@ class Concity(models.Model):
     class_fips = models.CharField(max_length=2)
     mtfcc = models.CharField(max_length=5)
     func_status = models.CharField(max_length=1)
-    land_area = models.FloatField()
-    water_area = models.FloatField()
-    lat = models.CharField(max_length=11)
-    lon = models.CharField(max_length=12)
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
 
 concity_mapping = {
     'state_fips' : 'STATEFP10',
@@ -467,9 +415,8 @@ concity_mapping = {
     'lon' : 'INTPTLON10',
     'geom' : 'MULTIPOLYGON'
 }
-
-# e.g. file: tl_rd13_<state fips>_place10.shp
-class Place(models.Model):
+class Place(BasePlace):
+    # e.g. file: tl_rd13_{state_fips}_place10.shp
     state_fips = models.CharField(max_length=2)
     place_fips = models.CharField(max_length=5)
     place_ansi = models.CharField(max_length=8)
@@ -481,12 +428,6 @@ class Place(models.Model):
     necta = models.CharField(max_length=1)
     mtfcc = models.CharField(max_length=5)
     func_status = models.CharField(max_length=1)
-    land = models.FloatField()
-    water = models.FloatField()
-    lat = models.CharField(max_length=11)
-    lon = models.CharField(max_length=12)
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
 
 place_mapping = {
     'state_fips' : 'STATEFP10',
@@ -506,9 +447,8 @@ place_mapping = {
     'lon' : 'INTPTLON10',
     'geom' : 'MULTIPOLYGON'
 }
-
-# e.g. file: tl_rd13_<state fips>_tabblock10.shp
-class Tabblock(models.Model):
+class Tabblock(BasePlace):
+    #TODO: e.g.
     state_fips = models.CharField(max_length=2)
     county_fips = models.CharField(max_length=3)
     tract_code = models.CharField(max_length=6)
@@ -520,12 +460,6 @@ class Tabblock(models.Model):
     ua_code = models.CharField(max_length=5)
     ua_type = models.CharField(max_length=1)
     func_status = models.CharField(max_length=1)
-    land_area = models.FloatField()
-    water_area = models.FloatField()
-    lat = models.CharField(max_length=11)
-    lon = models.CharField(max_length=12)
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
 
 tabblock_mapping = {
     'state_fips' : 'STATEFP10',
@@ -544,9 +478,8 @@ tabblock_mapping = {
     'lat' : 'INTPTLAT10',
     'lon' : 'INTPTLAT10'
 }
-
-# e.g. file: tl_rd13_<state fips>_uga10.shp
-class UrbanGrowthArea(models.Model):
+class UrbanGrowthArea(BasePlace):
+    # e.g. file: tl_rd13_{state_fips}_uga10.shp
     state_fips = models.CharField(max_length=2)
     local_code = models.CharField(max_length=5)
     local_type = models.CharField(max_length=1)
@@ -555,12 +488,6 @@ class UrbanGrowthArea(models.Model):
     lsad = models.CharField(max_length=2)
     mtfcc = models.CharField(max_length=5)
     func_status = models.CharField(max_length=1)
-    land_area = models.FloatField()
-    water_area= models.FloatField()
-    lat = models.CharField(max_length=11)
-    lon = models.CharField(max_length=12)
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
 
 urban_growth_area_mapping = {
     'state_fips' : 'STATEFP10',
@@ -575,9 +502,8 @@ urban_growth_area_mapping = {
     'lat' : 'INTPTLAT10',
     'lon' : 'INTPTLON10'
 }
-
-# e.g. file: tl_rd13_<state fips>_county10.shp
-class County(models.Model):
+class County(BasePlace):
+    # e.g. file: tl_rd13_{state_fips}_county10.shp
     state_fips = models.CharField(max_length=2)
     county_fips = models.CharField(max_length=3)
     county_ansi = models.CharField(max_length=8)
@@ -590,12 +516,6 @@ class County(models.Model):
     cbsa_fips = models.CharField(max_length=5)
     met_div = models.CharField(max_length=5)
     func_status = models.CharField(max_length=1)
-    land_area = models.FloatField()
-    water_area = models.FloatField()
-    lat = models.CharField(max_length=11)
-    lon = models.CharField(max_length=12)
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
 
 county_mapping = {
     'state_fips' : 'STATEFP10',
@@ -614,9 +534,8 @@ county_mapping = {
     'lon' : 'INTPTLON10',
     'geom' : 'MULTIPOLYGON' 
 }
-
-# e.g. file: tl_rd13_<state fips>_cousub10.shp
-class CountySub(models.Model):
+class CountySub(BasePlace):
+    # e.g. file: tl_rd13_{state_fips}_cousub10.shp
     state_fips = models.CharField(max_length=2)
     county_fips = models.CharField(max_length=3)
     sub_fips = models.CharField(max_length=5)
@@ -630,12 +549,6 @@ class CountySub(models.Model):
     necta_fips = models.CharField(max_length=5)
     necta_div = models.CharField(max_length=5)
     func_status = models.CharField(max_length=1)
-    land_area = models.FloatField()
-    water_area = models.FloatField()
-    lat = models.CharField(max_length=11)
-    lon = models.CharField(max_length=12)
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
 
 county_sub_mapping = {
     'state_fips' : 'STATEFP10',
@@ -657,9 +570,8 @@ county_sub_mapping = {
     'lon' : 'INTPTLON10',
     'geom' : 'MULTIPOLYGON'
 }
-# e.g. file: tl_rd13_{state_fips}_submcd10.shp
-# state_fips
-class SubminorCD(models.Model):
+class SubminorCD(BasePlace):
+    # e.g. file: tl_rd13_{state_fips}_submcd10.shp
     state_fips = models.CharField(max_length=2)
     county_fips = models.CharField(max_length=3)
     sub_fips = models.CharField(max_length=5)
@@ -671,12 +583,6 @@ class SubminorCD(models.Model):
     class_fips = models.CharField(max_length=2)
     mtfcc = models.CharField(max_length=5)
     func_status = models.CharField(max_length=1)
-    land_area = models.FloatField()
-    water_area = models.FloatField()
-    lat = models.CharField(max_length=11)
-    lon = models.CharField(max_lenght=12)
-    geom = models.PolygonField(srid=4269)
-    objects = models.GeoManager()
 
 subminor_cd_mapping = {
     'state_fips' : 'STATEFP10',
@@ -696,39 +602,41 @@ subminor_cd_mapping = {
     'lon' : 'INTPTLON10',
     'geom' : 'POLYGON'
 }
-
-# e.g. file: tl_rd13_<state fips>_pointlm.shp
-class Landmark(models.Model):
+class VotingDist(BasePlace):
+    # e.g. file: tl_rd13_<state county fips>_vtd10.shp
     state_fips = models.CharField(max_length=2)
-    ansi_code = models.CharField(max_length=8)
-    point_id = models.CharField(max_length=22)
-    full_name = models.CharField(max_length=100)
+    county_fips = models.CharField(max_length=3)
+    voting_dist = models.CharField(max_length=6)
+    voting_dist_flag = models.CharField(max_length=1)
+
+    geoid = models.CharField(max_length=11)
+    name = models.CharField(max_length=100)
+    lsad = models.CharField(max_length=2)
     mtfcc = models.CharField(max_length=5)
-    geom = models.MultiPointField(srid=4269)
-    objects = models.GeoManager()
+    func_status = models.CharField(max_length=1)
 
-landmark_mapping = {
-    'state_fips' : 'STATEFP',
-    'ansi_code' : 'ANSICODE',
-    'point_id' : 'POINTID',
-    'full_name' : 'FULLNAME',
-    'mtfcc' : 'MTFCC',
-    'geom' : 'MULTIPOINT'
+voting_dist_mapping = {
+    'state_fips' : 'STATEFP10',
+    'county_fips' : 'COUNTYFP10',
+    'voting_dist' : 'VTDST10',
+    'name' : 'NAME10',
+    'namelsad' : 'NAMELSAD10',
+    'lsad' : 'LSAD10',
+    'mtfcc' : 'MTFCC10',
+    'func_status' : 'FUNCSTAT10',
+    'land_area' : 'ALAND10',
+    'water_area' : 'AWATER10',
+    'lat' : 'INTPTLAT10',
+    'lon' : 'INTPTLON10',
+    'geom' : 'POLYGON'
 }
-
-# e.g. file: tl_rd13_<state fips>_arealm.shp
-class AreaLandmark(models.Model):
+class AreaLandmark(BasePlace):
+    # e.g. file: tl_rd13_<state fips>_arealm.shp
     state_fips = models.CharField(max_length=2)
     ansi_code = models.CharField(max_length=8)
     area_id = models.CharField(max_length=22)
     full_name = models.CharField(max_length=120)
     mtfcc = models.CharField(max_length=5)
-    land_area = models.FloatField()
-    water_area = models.FloatField()
-    lat = models.CharField(max_length=11)
-    lon = models.CharField(max_length=12)
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
 
 area_landmark_mapping = {
     'state_fips' : 'STATEFP',
@@ -741,27 +649,8 @@ area_landmark_mapping = {
     'lat' : 'INTPTLAT',
     'lon' : 'INTPTLON'
 }
-
-#primary and secondary roads
-# e.g. file: tl_rd13_<state fips>_prisecroads.shp
-class PriSecRoads(models.Model):
-    linear_id = models.CharField(max_length=22)
-    full_name = models.CharField(max_length=100)
-    route_type = models.CharField(max_length=1)
-    mtfcc = models.CharField(max_length=5)
-    geom = models.MultiLineStringField(srid=4269)
-    objects = models.GeoManager()
-
-pri_sec_roads_mapping = {
-    'linear_id' : 'LINEARID',
-    'full_name' : 'FULLNAME',
-    'route_type' : 'RTTYP',
-    'mtfcc' : 'MTFCC',
-    'geom' : 'MULTILINESTRING'
-}
-
+class BlockGroup(BasePlace):
 # e.g. file: tl_rd13_<state fips>_bg10.shp
-class BlockGroup(models.Model):
     state_fips = models.CharField(max_length=2)
     county_fips = models.CharField(max_length=3)
     tract_code = models.CharField(max_length=6)
@@ -770,12 +659,6 @@ class BlockGroup(models.Model):
     namelsad = models.CharField(max_length=13)
     mtfcc = models.CharField(max_length=5)
     func_status = models.CharField(max_length=1)
-    land_area = models.FloatField()
-    water_area = models.FloatField()
-    lat = models.CharField(max_length=11)
-    lon = models.CharField(max_length=12)
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
 
 block_group_mapping = {
     'state_fips' : 'STATEFP10',
@@ -791,12 +674,10 @@ block_group_mapping = {
     'lon' : 'INTPTLON10',
     'geom' : 'MULTIPOLYGON'
 } 
-
-
-# model for 3 shapefiles: 
-# tl_rd13_<state fips>_{t}sd10.shp
-# t in ['el','sc','un']
-class SchoolDist(models.Model):
+class SchoolDist(BasePlace):
+    # model for 3 shapefiles: 
+    # tl_rd13_<state fips>_{t}sd10.shp
+    # t in ['el','sc','un']
     state_fips = models.CharField(max_length=2)
     local_code= models.CharField(max_length=5)
     geoid = models.CharField(max_length=7)
@@ -807,12 +688,6 @@ class SchoolDist(models.Model):
     mtfcc = models.CharField(max_length=5)
     school_dist_type = models.CharField(max_length=1)
     func_status = models.CharField(max_length=1)
-    land_area = models.FloatField()
-    water_area = models.FloatField()
-    lat = models.CharField(max_length=11)
-    lon = models.CharField(max_length=12)
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
 
 school_dist_mapping = {
     'state_fips' : 'STATEFP10',
@@ -831,368 +706,117 @@ school_dist_mapping = {
     'lon' : 'INTPTLON10',
     'geom' : 'MULTIPOLYGON'
 }
+class Anrc(BasePlace):
+    # e.g. file: tl_rd13_02_anrc10.shp
+    # note: by its very nature, this only applies to AK (02)
+    class_fips = models.CharField(max_length=2)
+    anrc_fips = models.CharField(max_length=5)
+    anrc_ansi = models.CharField(max_length=8)
 
-# e.g. file: tl_rd13_<state fips>_sld{t}.shp
-# t in ['u', 'l']
-class StateLeg(models.Model):
-    state_fips = models.CharField(max_length=2)
-    state_leg = models.CharField(max_length=3)
-    geoid = models.CharField(max_length=5)
-    namelsad = models.CharField(max_length=100)
+    geoid = models.CharField(max_length=7)
+    name = models.CharField(max_length=100)
     lsad = models.CharField(max_length=2)
-    year = models.CharField(max_length=4) #legislative session year
     mtfcc = models.CharField(max_length=5)
     func_status = models.CharField(max_length=1)
-    land_area = models.FloatField()
-    water_area = models.FloatField()
-    lat = models.CharField(max_length=11)
-    lon = models.CharField(max_length=12)
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
 
-state_leg_mapping = {
-    'state_fips' : 'STATEFP',
-    'state_leg' : 'SLD{T}ST', # T in ['U', 'L']
-    'geoid' : 'GEOID',
-    'namelsad' : 'NAMELSAD',
-    'lsad' : 'LSAD',
-    'year' : 'LSY',
-    'mtfcc' : 'MTFCC',
-    'funcstat' : 'FUNCSTAT',
-    'land_area' : 'ALAND',
-    'water_area' : 'AWATER',
-    'lat' : 'INTPTLAT',
-    'lon' : 'INTPTLON',
-    'geom' : 'MULTIPOLYGON'
+anrc_mapping = {
+    'anrc_fips' : 'ANRCFP10',
+    'anrc_ansi' : 'ANRCNS10',
+    'geoid': 'GEOID10',
+    'name' : 'NAME10',
+    'lsad' : 'LSAD10',
+    'class_fips' : 'CLASSFP10',
+    'mtfcc' : 'MTFCC10',
+    'func_state' : 'FUNCSTAT10',
+    'land_area' : 'ALAND10',
+    'water_area' : 'AWATER10',
+    'lat' : 'INTPTLAT10',
+    'lon' : 'INTPTLON10',
+    'geom' : 'POLYGON'
 }
-#American Indian / Alaska Native / Native Hawaiian area
-class Aiannh10(models.Model):
-    # census code
-    aiannhce10 = models.CharField(max_length=4)
-
-    # ANSI code
-    aiannhns10 = models.CharField(max_length=8)
-
-    # yet another identifier. what is this one for? a mystery
-    geoid10 = models.CharField(max_length=5)
-
-    # area name
-    name10 = models.CharField(max_length=100)
-
-    # another area name, with description?
-    namelsad10 = models.CharField(max_length=100)
-
-    # description code
-    lsad10 = models.CharField(max_length=2)
-
-    # FIPS class code
-    classfp10 = models.CharField(max_length=2)
-
-    # "2010 Census American Indian/Alaska Native/Native Hawaiian area 
-    # reservation/statistical area or off-reservation trust land Hawaiian 
-    # home land indicator" your guess is as good as mine
-    comptyp10 = models.CharField(max_length=1)
-
-    # "2010 Census American Indian/Alaska Native/Native Hawaiian area 
-    # federal/state recognition flag" yeah i dunno
-    aiannhr10 = models.CharField(max_length=1)
-
-    # MAF / TIGER feature class code
-    mtfcc10 = models.CharField(max_length=5)
-
-    # functional status
-    funcstat10 = models.CharField(max_length=1)
-
-    # land area
-    aland10 = models.FloatField()
-
-    # water area
-    awater10 = models.FloatField()
-
-    # lat of an internal point
-    intptlat10 = models.CharField(max_length=11)
-
-    # lon of an internal point
-    intptlon10 = models.CharField(max_length=12)
-
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
-
-# American Indian Tribal subdivision 
-class Aitsn10(models.Model):
-    # AIANNH census code
-    aiannhce10 = models.CharField(max_length=4)
-
-    # tribal subdivision code
-    trsubce10 = models.CharField(max_length=3)
-
-    # tribal subdivision ANSI code
-    trsubns10 = models.CharField(max_length=8)
-
-    # yet another identifier
-    geoid10 = models.CharField(max_length=7)
-
-    # name
-    name10 = models.CharField(max_length=100)
-
-    # name with description
-    namelsad10 = models.CharField(max_length=100)
-
-    # description code
-    lsad10 = models.CharField(max_length=2)
-
-    # FIPS class code
-    classfp10 = models.CharField(max_length=2)
-
-    # MAF/TIGER class code
-    mtfcc10 = models.CharField(max_length=5)
-
-    # functional status (what is this)
-    funcstat10 = models.CharField(max_length=1)
-
-    # land area
-    aland10 = models.FloatField()
-
-    # water area
-    awater10 = models.FloatField()
-
-    # lat of internal point
-    intptlat10 = models.CharField(max_length=11)
-
-    # long of internal point
-    intptlon10 = models.CharField(max_length=12)
-
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
-
-# 111th congressional districts
-class Cd111(models.Model):
-    # state fips code
-    statefp10 = models.CharField(max_length=2)
-
-    # 111th congressional district FIPS code
-    cd111fp = models.CharField(max_length=2)
-
-    # identifier - concat of state fips code and 111th FIPS code
-    geoid10 = models.CharField(max_length=4)
-
-    # name with description
-    namelsad10 = models.CharField(max_length=41)
-
-    # description code
-    lsad10 = models.CharField(max_length=2)
-
-    # session code
-    cdsessn = models.CharField(max_length=3)
-
-    # MAF / TIGER class code
-    mtfcc10 = models.CharField(max_length=5)
-
-    # functional statue (?)
-    funcstat10 = models.CharField(max_length=1)
-
-    # land area
-    aland10 = models.FloatField()
-
-    # water area 
-    awater10 = models.FloatField()
-     
-    # lat of internal point
-    intptlat10 = models.CharField(max_length=11)
-
-    # long of internal point
-    intptlon10 = models.CharField(max_length=12)
-
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
-
-# 113th congressional districts
-class Cd113(models.Model):
-    # state fips code
-    statefp = models.CharField(max_length=2)
-
-    # 113th congressional district fips codes
-    cd113fp = models.CharField(max_length=2)
-
-    # identifier
-    geoid = models.CharField(max_length=4)
-
-    # name with description
-    namelsad = models.CharField(max_length=41)
-
-    # description code
+class AIANNHArea(BasePlace):
+    # TODO: mapping
+    #American Indian / Alaska Native / Native Hawaiian area
+    aiannhce = models.CharField(max_length=4)
+    aiannhns = models.CharField(max_length=8)
+    geoid = models.CharField(max_length=5)
+    name = models.CharField(max_length=100)
     lsad = models.CharField(max_length=2)
-
-    # session code
-    cdsessn = models.CharField(max_length=3)
-
-    # MTF/TIGER code
+    class_fips = models.CharField(max_length=2)
+    comptyp = models.CharField(max_length=1)
+    aiannhr = models.CharField(max_length=1)
     mtfcc = models.CharField(max_length=5)
-
-    # Functional status
-    funcstat = models.CharField(max_length=1)
-
-    # land area
-    aland = models.FloatField()
-
-    # water area
-    awater = models.FloatField()
-
-    # lat of internal point
-    intptlat = models.CharField(max_length=11)
-
-    # lon of internal point
-    intptlon = models.CharField(max_length=12)
-
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
-
-# Military Installations
-class Mil(models.Model):
-    # ANSI code for the installation
+    func_status = models.CharField(max_length=1)
+class Aitsn10(BasePlace):
+    # TODO: mapping
+    # American Indian Tribal subdivision 
+    aiannhce10 = models.CharField(max_length=4)
+    trsubce10 = models.CharField(max_length=3)
+    trsubns10 = models.CharField(max_length=8)
+    geoid = models.CharField(max_length=7)
+    name = models.CharField(max_length=100)
+    lsad = models.CharField(max_length=2)
+    class_fips = models.CharField(max_length=2)
+    mtfcc = models.CharField(max_length=5)
+    func_status = models.CharField(max_length=1)
+class Mil(BasePlace):
+    # TODO: mapping
+    # Military Installations
     ansicode = models.CharField(max_length=8)
-
-    # area landmark identifier
     areaid = models.CharField(max_length=22)
-
-    # name
     fullname = models.CharField(max_length=100)
-
-    # MTF/TIGER code
     mtfcc = models.CharField(max_length=5)
-
-    # land area
-    aland = models.FloatField()
-
-    # water area
-    awater = models.FloatField()
-
-    # lat of internal point
-    intptlat = models.CharField(max_length=11)
-
-    # lon of internal point
-    intptlon = models.CharField(max_length=12)
-
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
-
-# State
-class State10(models.Model):
-    # region code
-    region10 = models.CharField(max_length=2)
-
-    # division code
-    division10 = models.CharField(max_length=2)
-
-    # fips code
-    statefp10 = models.CharField(max_length=2)
-
-    # ANSI code
-    statens10 = models.CharField(max_length=8)
-
-    # identifier
-    geoid10 = models.CharField(max_length=2)
-
-    # postal service abbreviation
-    stusps10 = models.CharField(max_length=2)
-
-    # name
-    name10 = models.CharField(max_length=100)
-
-    # description code
-    lsad10 = models.CharField(max_length=2)
-
-    # MTF/TIGER class code
-    mtfcc10 = models.CharField(max_length=5)
-
-    # functional status
-    funcstat10 = models.CharField(max_length=1)
-
-    # land area
-    aland10 = models.FloatField()
-     
-    # water area
-    awater10 = models.FloatField()
-
-    # lat of internal point
-    intptlat10 = models.CharField(max_length=11)
-
-    # long of internal point
-    intptlon10 = models.CharField(max_length=12)
-
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
-
-# Urban areas
-class Uac10(models.Model):
-    # Urban area code
-    uace10 = models.CharField(max_length=5)
-
-    # identifier
-    geoid10 = models.CharField(max_length=5)
-
-    # name
-    name10 = models.CharField(max_length=100)
-
-    # name with description
-    namelsad10 = models.CharField(max_length=100)
-
-    # description code
-    lsad10 = models.CharField(max_length=2)
-
-    # MTF/TIGER class code
-    mtfcc10 = models.CharField(max_length=5)
-
-    # Urban area type
+class UrbanArea(BasePlace):
+    # TODO: mapping
+    # Urban areas
+    uace = models.CharField(max_length=5)
+    geoid = models.CharField(max_length=5)
+    name = models.CharField(max_length=100)
+    lsad = models.CharField(max_length=2)
+    mtfcc = models.CharField(max_length=5)
     uatyp10 = models.CharField(max_length=1)
 
-    # Functional status
-    funcstat10 = models.CharField(max_length=1)
+    func_status = models.CharField(max_length=1)
+class Zcta5(BasePlace):
+    # TODO: mapping
+    # 5-digit zip code tabulation area
+    zcta5 = models.CharField(max_length=5)
+    geoid = models.CharField(max_length=5)
+    class_fips = models.CharField(max_length=2)
+    mtfcc = models.CharField(max_length=5)
 
-    # land area
-    aland10 = models.FloatField()
+    func_status = models.CharField(max_length=1)
 
-    # water area
-    awater10 = models.FloatField()
-
-    # lat of internal point
-    intptlat10 = models.CharField(max_length=11)
-
-    # long of internal point
-    intptlon10 = models.CharField(max_length=12)
-
-    geom = models.MultiPolygonField(srid=4269)
+#### Lines
+class BaseLine(models.Model):
+    class Meta:
+        abstract = True
+    linear_id = models.CharField(max_length=22)
+    full_name = models.CharField(max_length=100)
+    mtfcc = models.CharField(max_length=5)
+    geom = models.MultiLineStringField(srid=4269)
     objects = models.GeoManager()
+class LineWater(BaseLine):
+    #e.g. file; tl_rd13_<state county fips>_linearwater.shp
+    art_path = models.CharField(max_length=1)
+    ansi = models.CharField(max_length=8)
 
-#5-digit zip code tabulation area
-class Zcta510(models.Model):
+line_water_mapping = {
+    'ansi' : 'ANSICODE',
+    'linear_id' : 'LINEARID',
+    'full_name' : 'FULLNAME',
+    'art_path' : 'ARTPATH',
+    'mtfcc' : 'MTFCC',
+    'geom' : 'LINESTRING'
+}
+class Roads(BaseLine):
+    # e.g. file: tl_rd13_<state county fips>_roads.shp
+    route_type = models.CharField(max_length=1)
 
-    #2010 5 digit zip code tabulation area code
-    zcta5ce10 = models.CharField(max_length=5)
-    
-    #2010 5 digit zip code tabulation identifier (how is this different from above?)
-    geoid10 = models.CharField(max_length=5)
+roads_mapping = {
+    'linear_id' : 'LINEARID',
+    'full_name' : 'FULLNAME',
+    'route_type' : 'RTTYP',
+    'mtfcc' : 'MTFCC'
+}
 
-    #2010 census FIPS 55 class code
-    classfp10 = models.CharField(max_length=2)
-
-    #MAF/TIGER feature class code
-    mtfcc10 = models.CharField(max_length=5)
-
-    #2010 census functional status (what is this?)
-    funcstat10 = models.CharField(max_length=1)
-
-    #2010 census land area
-    aland10 = models.FloatField()
-    
-    #2010 census water area
-    awater10 = models.FloatField()
-
-    #2010 census lat of internal point
-    intptlat10 = models.CharField(max_length=11)
-
-    #2010 census long of internal point
-    intptlon10 = models.CharField(max_length=12)
-
-    geom = models.MultiPolygonField(srid=4269)
-    objects = models.GeoManager()
