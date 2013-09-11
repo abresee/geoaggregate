@@ -277,10 +277,11 @@ class BasePlace(models.Model):
     geom = models.MultiPolygonField(srid=4269)
     objects = models.GeoManager()
 
+
 class AreaWater(BasePlace):
     #TODO: eg
-    state_fips = models.CharField(max_length=2)
-    county_fips = models.CharField(max_length=3)
+    state = models.ForeignKey('State')
+    count = models.ForeignKey('County')
     ansi = models.CharField(max_length=8)
     area_id = models.CharField(max_length=22)
     name = models.CharField(max_length=100)
@@ -502,14 +503,15 @@ urban_growth_area_mapping = {
     'lat' : 'INTPTLAT10',
     'lon' : 'INTPTLON10'
 }
+
 class County(BasePlace):
     # e.g. file: tl_rd13_{state_fips}_county10.shp
-    state_fips = models.CharField(max_length=2)
+    state = models.ForeignKey('State')
     county_fips = models.CharField(max_length=3)
     county_ansi = models.CharField(max_length=8)
     geoid = models.CharField(max_length=5)
     name = models.CharField(max_length=100)
-    lsad0 = models.CharField(max_length=2)
+    lsad = models.CharField(max_length=2)
     class_fips = models.CharField(max_length=2)
     mtfcc = models.CharField(max_length=5)
     csa_fips = models.CharField(max_length=3)
