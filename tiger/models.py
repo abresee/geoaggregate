@@ -1,3 +1,4 @@
+from django.contrib.gis.db import models
 class Addr(models.Model):
     # e.g. file: tl_rd13_<state county FIPS>_addr.dbf
     tiger_id = models.IntegerField()
@@ -240,7 +241,7 @@ class FeatNames(models.Model):
     suf_qual = models.CharField(max_length=3)
     linear_id = models.CharField(max_length=22)
     mtfcc = models.CharField(max_length=5)
-    pa_flag = models.Charfield(max_length=1)
+    pa_flag = models.CharField(max_length=1)
 
 feat_names_mapping = {
     'tiger_id' : 'TLID',
@@ -374,7 +375,7 @@ state_mapping = {
     'state_fips' : 'STATEFP10',
     'state_ansi' : 'GEOID10',
     'geoid' : 'GEOID10',
-    'usps_code' : 'STUSPS10'
+    'usps_code' : 'STUSPS10',
     'name' : 'NAME10',
     'lsad' : 'LSAD10',
     'mtfcc' : 'MTFCC',
@@ -440,7 +441,7 @@ place_mapping = {
     'class_fips' : 'CLASSFP10',
     'cbsa' : 'PCICBSA10',
     'necta' : 'PCINECTA10',
-    'mtfcc' ; 'MTFCC10',
+    'mtfcc' : 'MTFCC10',
     'func_status' : 'FUNCSTAT10',
     'land_area' : 'ALAND10',
     'water_area' : 'AWATER10',
@@ -506,7 +507,7 @@ urban_growth_area_mapping = {
 
 class County(BasePlace):
     # e.g. file: tl_rd13_{state_fips}_county10.shp
-    state = models.ForeignKey('State')
+    state_fips = models.CharField(max_length=2)
     county_fips = models.CharField(max_length=3)
     county_ansi = models.CharField(max_length=8)
     geoid = models.CharField(max_length=5)
@@ -519,23 +520,26 @@ class County(BasePlace):
     met_div = models.CharField(max_length=5)
     func_status = models.CharField(max_length=1)
 
-county_mapping = {
-    'state_fips' : 'STATEFP10',
-    'county_fips' : 'COUNTYFP10',
-    'county_ansi' : 'COUNTYNS10',
-    'geoid' : 'GEOID10',
-    'name' : 'NAME10',
-    'lsad' : 'LSAD10',
-    'class_fips' : 'CLASSFP10',
-    'mtfcc' : 'MTFCC10',
-    'csa_fips' : 'CSAFP10',
-    'cbsa_fips' : 'CBSAFP10',
-    'met_div' : 'METDIVFP10',
-    'func_status' : 'FUNCSTAT10',
-    'lat' : 'INTPTLAT10',
-    'lon' : 'INTPTLON10',
-    'geom' : 'MULTIPOLYGON' 
-}
+    mapping = {
+        'state_fips' : 'STATEFP10',
+        'county_fips' : 'COUNTYFP10',
+        'county_ansi' : 'COUNTYNS10',
+        'geoid' : 'GEOID10',
+        'name' : 'NAME10',
+        'lsad' : 'LSAD10',
+        'class_fips' : 'CLASSFP10',
+        'mtfcc' : 'MTFCC10',
+        'csa_fips' : 'CSAFP10',
+        'cbsa_fips' : 'CBSAFP10',
+        'met_div' : 'METDIVFP10',
+        'func_status' : 'FUNCSTAT10',
+        'land_area' : 'ALAND10',
+        'water_area' : 'AWATER10',
+        'lat' : 'INTPTLAT10',
+        'lon' : 'INTPTLON10',
+        'geom' : 'MULTIPOLYGON' 
+    }
+
 class CountySub(BasePlace):
     # e.g. file: tl_rd13_{state_fips}_cousub10.shp
     state_fips = models.CharField(max_length=2)
@@ -552,26 +556,26 @@ class CountySub(BasePlace):
     necta_div = models.CharField(max_length=5)
     func_status = models.CharField(max_length=1)
 
-county_sub_mapping = {
-    'state_fips' : 'STATEFP10',
-    'county_fips' : 'COUNTYFP10',
-    'sub_fips' : 'COUSUBFP10',
-    'sub_ansi' : 'COUSUBNS10',
-    'geoid' : 'GEOID10',
-    'name' : 'NAME10',
-    'lsad' : 'LSAD10',
-    'class_fips' : 'CLASSFP10',
-    'mtfcc' : 'MTFCC10',
-    'cnecta_fips' : 'CNECTAFP10',
-    'necta_fips' : 'NECTAFP10',
-    'necta_div' : 'NCTADVFP10',
-    'func_status' : 'FUNCSTAT10',
-    'land_area' : 'ALAND10',
-    'water_area' : 'AWATER10',
-    'lat' : 'INTPTLAT10',
-    'lon' : 'INTPTLON10',
-    'geom' : 'MULTIPOLYGON'
-}
+    mapping = {
+        'state_fips' : 'STATEFP10',
+        'county_fips' : 'COUNTYFP10',
+        'sub_fips' : 'COUSUBFP10',
+        'sub_ansi' : 'COUSUBNS10',
+        'geoid' : 'GEOID10',
+        'name' : 'NAME10',
+        'lsad' : 'LSAD10',
+        'class_fips' : 'CLASSFP10',
+        'mtfcc' : 'MTFCC10',
+        'cnecta_fips' : 'CNECTAFP10',
+        'necta_fips' : 'NECTAFP10',
+        'necta_div' : 'NCTADVFP10',
+        'func_status' : 'FUNCSTAT10',
+        'land_area' : 'ALAND10',
+        'water_area' : 'AWATER10',
+        'lat' : 'INTPTLAT10',
+        'lon' : 'INTPTLON10',
+        'geom' : 'MULTIPOLYGON'
+    }
 class SubminorCD(BasePlace):
     # e.g. file: tl_rd13_{state_fips}_submcd10.shp
     state_fips = models.CharField(max_length=2)
