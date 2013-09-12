@@ -369,23 +369,23 @@ class State(BasePlace):
     mtfcc = models.CharField(max_length=5)
     func_status = models.CharField(max_length=1)
 
-state_mapping = {
-    'region' : 'REGION10',
-    'division' : 'DIVISION10',
-    'state_fips' : 'STATEFP10',
-    'state_ansi' : 'GEOID10',
-    'geoid' : 'GEOID10',
-    'usps_code' : 'STUSPS10',
-    'name' : 'NAME10',
-    'lsad' : 'LSAD10',
-    'mtfcc' : 'MTFCC',
-    'func_status' : 'FUNCSTAT10',
-    'land_area' : 'ALAND10',
-    'water_area' : 'AWATER10',
-    'lat' : 'INTPTLAT10', 
-    'lon' : 'INTPTLON10',
-    'geom' : 'MULTIPOLYGON'
-}
+    mapping = {
+        'region' : 'REGION10',
+        'division' : 'DIVISION10',
+        'state_fips' : 'STATEFP10',
+        'state_ansi' : 'GEOID10',
+        'geoid' : 'GEOID10',
+        'usps_code' : 'STUSPS10',
+        'name' : 'NAME10',
+        'lsad' : 'LSAD10',
+        'mtfcc' : 'MTFCC',
+        'func_status' : 'FUNCSTAT10',
+        'land_area' : 'ALAND10',
+        'water_area' : 'AWATER10',
+        'lat' : 'INTPTLAT10', 
+        'lon' : 'INTPTLON10',
+        'geom' : 'MULTIPOLYGON'
+    }
 class Concity(BasePlace):
     # e.g. file: tl_rd13_{state_fips}_concity.shp
     #Consolidated city
@@ -507,6 +507,8 @@ urban_growth_area_mapping = {
 
 class County(BasePlace):
     # e.g. file: tl_rd13_{state_fips}_county10.shp
+    class Meta(BasePlace.Meta):
+        unique_together = ('state_fips','county_fips')
     state_fips = models.CharField(max_length=2)
     county_fips = models.CharField(max_length=3)
     county_ansi = models.CharField(max_length=8)
@@ -519,6 +521,9 @@ class County(BasePlace):
     cbsa_fips = models.CharField(max_length=5)
     met_div = models.CharField(max_length=5)
     func_status = models.CharField(max_length=1)
+
+    def __str__(self):
+        return ', '.join([self.name, self.state_fips])
 
     mapping = {
         'state_fips' : 'STATEFP10',
