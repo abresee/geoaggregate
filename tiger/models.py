@@ -356,12 +356,13 @@ state_leg_mapping = {
     'geom' : 'MULTIPOLYGON'
 }
 class State(BasePlace):
+    #TODO: foreign keyize
     # e.g. file: tl_rd13_{state_fips}_state10.shp
     region = models.CharField(max_length=2)
     division = models.CharField(max_length=2)
-    state_fips = models.CharField(max_length=2)
-    state_ansi = models.CharField(max_length=8)
-    usps_code = models.CharField(max_length=2)
+    fips = models.CharField(max_length=2)
+    ansi = models.CharField(max_length=8)
+    usps = models.CharField(max_length=2)
 
     geoid = models.CharField(max_length=2)
     name = models.CharField(max_length=100)
@@ -454,7 +455,7 @@ class Tabblock(BasePlace):
     state_fips = models.CharField(max_length=2)
     county_fips = models.CharField(max_length=3)
     tract_code = models.CharField(max_length=6)
-    tabblock_code = models.CharField(max_length=4)
+    code = models.CharField(max_length=4)
     geoid = models.CharField(max_length=15)
     name = models.CharField(max_length=10)
     mtfcc = models.CharField(max_length=5)
@@ -547,10 +548,11 @@ class County(BasePlace):
 
 class CountySub(BasePlace):
     # e.g. file: tl_rd13_{state_fips}_cousub10.shp
+    # TODO: foreign-keyize
     state_fips = models.CharField(max_length=2)
     county_fips = models.CharField(max_length=3)
-    sub_fips = models.CharField(max_length=5)
-    sub_ansi = models.CharField(max_length=8)
+    fips = models.CharField(max_length=5)
+    ansi = models.CharField(max_length=8)
     geoid = models.CharField(max_length=10)
     name = models.CharField(max_length=100)
     lsad = models.CharField(max_length=2)
@@ -564,8 +566,8 @@ class CountySub(BasePlace):
     mapping = {
         'state_fips' : 'STATEFP10',
         'county_fips' : 'COUNTYFP10',
-        'sub_fips' : 'COUSUBFP10',
-        'sub_ansi' : 'COUSUBNS10',
+        'fips' : 'COUSUBFP10',
+        'ansi' : 'COUSUBNS10',
         'geoid' : 'GEOID10',
         'name' : 'NAME10',
         'lsad' : 'LSAD10',
