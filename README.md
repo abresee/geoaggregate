@@ -80,25 +80,15 @@ Now that you have a python 3 virtualenv with a project folder, clone the repo!
 
 That will clone into the project dir from before. use a different second arg to
 `git clone` if you need a different location.
-
-now, install the submodules you need! __Django__ is all you need, but i like to
-have my ipython installed in my env too (rather than installed on system-wide).
-You can actually install this as a system level package if you want, but since
-__Django__ is critical and a new release is coming soon it makes more sense to 
-me to have as a virtualenv package.
-``` shell
-(geoagg) $ pip install django
-``` 
-createdb geoaggregate
-psql -c 'CREATE EXTENSION postgis;' geoaggregate
-#!/bin/bash
-#works on arch
+``` bash
 systemd-tmpfiles --create postgresql.conf
 mkdir /var/lib/postgres/data
 chown -c -R postgres:postgres /var/lib/postgres
-su - postgres
 initdb -D '/var/lib/postgres/data'
 systemctl start postgresql
-systemctl enable postgresql
-#as postgres:
+su - postgres
 createuser -s --interactive 
+exit
+createdb geoaggregate
+psql -c 'CREATE EXTENSION postgis;' geoaggregate
+```
