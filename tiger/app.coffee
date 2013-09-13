@@ -5,8 +5,12 @@ $(document).ready ->
         center: new google.maps.LatLng(42.358431, -71.059773),
         mapTypeId: google.maps.MapTypeId.SATELLITE
 
-    $('#go').click ->
-        $.get 'demo', (data) ->
+    $('#query_form').submit ->
+        #state = $('#state').val()
+        #county = $('#county').val()       
+        state = 'Texas'
+        county = 'Travis'
+        $.get "demo/#{state}/#{county}", (data) ->
             p = $.parseJSON data
             latlng = new google.maps.LatLng p.lat, p.lon
             map.panTo latlng

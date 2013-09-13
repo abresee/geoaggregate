@@ -3,4 +3,6 @@
 *.log
 *.pot
 local_settings.py
+app.js
+static/
 cruft/

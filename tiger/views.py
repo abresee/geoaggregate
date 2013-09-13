@@ -6,9 +6,7 @@ import json
 def index(request):
     return render_to_response('tiger/index.html')
 
-def demo(request):
-    county = request['county']
-    state = request['state']
+def demo(request,county,state):
     
     state_f = State.objects.get(name=state).fips
     c = County.objects.get(name=county,state_fips=state_f)

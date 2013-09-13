@@ -6,5 +6,5 @@ admin.autodiscover()
 urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'tiger.views.index'),
-    url(r'^demo/?', 'tiger.views.demo')
+    url(r'^demo/(?P<state>)/(?P<county>)', 'tiger.views.demo')
 )
