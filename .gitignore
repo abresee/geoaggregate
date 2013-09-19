@@ -2,7 +2,7 @@
 *.swp
 *.log
 *.pot
-local_settings.py
+
 app.js
+GeoJSON.js
 static/
-cruft/

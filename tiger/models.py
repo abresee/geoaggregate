@@ -373,13 +373,13 @@ class State(BasePlace):
     mapping = {
         'region' : 'REGION10',
         'division' : 'DIVISION10',
-        'state_fips' : 'STATEFP10',
-        'state_ansi' : 'GEOID10',
+        'fips' : 'STATEFP10',
+        'ansi' : 'GEOID10',
         'geoid' : 'GEOID10',
-        'usps_code' : 'STUSPS10',
+        'usps' : 'STUSPS10',
         'name' : 'NAME10',
         'lsad' : 'LSAD10',
-        'mtfcc' : 'MTFCC',
+        'mtfcc' : 'MTFCC10',
         'func_status' : 'FUNCSTAT10',
         'land_area' : 'ALAND10',
         'water_area' : 'AWATER10',
@@ -387,6 +387,10 @@ class State(BasePlace):
         'lon' : 'INTPTLON10',
         'geom' : 'MULTIPOLYGON'
     }
+
+    def __str__(self):
+        return ', '.join([self.name, self.fips])
+
 class Concity(BasePlace):
     # e.g. file: tl_rd13_{state_fips}_concity.shp
     #Consolidated city

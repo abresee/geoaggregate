@@ -3,22 +3,20 @@
     <head>
         {% load staticfiles %}
         <script src="//maps.google.com/maps/api/js?key=AIzaSyB_F1CnN0RgU3SbH-j6Mr3LehaB5Sr-DBE&sensor=false"></script>
-        <script src="{% static "tiger/jquery-2.0.3.js" %}"></script>
-        <script src="{% static "tiger/GeoJSON.js" %}"></script>
-        <script src="{% static "tiger/app.js" %}"></script>
-        <link rel="stylesheet" type="text/css" href="/static/tiger/style.css">
+        <script src="{% static "tiger/scripts/jquery.js" %}"></script>
+        <script src="{% static "tiger/scripts/jquery-ui.js" %}"></script>
+        <script src="{% static "tiger/scripts/GeoJSON.js" %}"></script>
+        <script src="{% static "tiger/scripts/app.js" %}"></script>
+        <link rel="stylesheet" type="text/css" href="{% static "tiger/style/style.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "tiger/style/jquery.css" %}">
     </head>
     <body>
         <div id="map-wrapper">
             <div id="map-canvas"></div>
         </div>
         <div id="side-wrapper">
-            <form id="query_form">
-              <input id="county" value="Travis">
-              <input id="state" value="Texas">
-              <input id="go" type="submit" value="go">
-            </form>
-            <div id="report"></div>
+          <button id="go">go</button>
+          <div id="report"></div>
         </div>
     </body>
 </html>
