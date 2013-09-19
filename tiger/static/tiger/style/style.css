@@ -1,0 +1,31 @@
+html, body, #map-wrapper, #map-canvas {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map-wrapper {
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+}
+
+#map-canvas {
+    width: 60%;
+    float: left;
+}
+
+#side-wrapper {
+    width: 40%;
+    float: right;
+    z-index: 1;
+}
+
+#report {
+    z-index: 1;
+
+#go {
+    position: relative;
+    z-index: 1;
+}
+

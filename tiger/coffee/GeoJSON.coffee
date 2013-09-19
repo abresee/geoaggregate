@@ -11,19 +11,19 @@ _make_point = (coord, opts, props) ->
     return r
 
 _make_linestring = (coords, opts, props) ->
-    opts.path = [_make_latlng(coord) for coord in coords]
+    opts.path = _make_latlng(coord) for coord in coords
     r = new google.maps.Polyline opts
     if props then r.set "geojsonProperties", props
     return r
 
 _make_multipoint = (coords, opts, props) ->
-    [_make_point(coord, opts, props) for coord in coords]
+    _make_point(coord, opts, props) for coord in coords
 
 _make_multilinestring = (coords, opts, props) ->
-    [_make_linestring(coord, opts, props) for coord in coords]
+    _make_linestring(coord, opts, props) for coord in coords
 
 _make_path = (line) ->
-    [_make_latlng(coord) for coord in line]
+    _make_latlng(coord) for coord in line
 
 _make_polygon = (coords, opts, props) ->
     paths = []
@@ -57,17 +57,17 @@ _make_polygon = (coords, opts, props) ->
     return r
 
 _make_multipolygon = (coords, opts, props) ->
-    [_make_polygon(coord, opts, props) for coord in coords]
+    _make_polygon(coord, opts, props) for coord in coords
 
 _make_geometrycollection = (geoms, opts, props) ->
-    [_geom_to_gmaps geom, opts, props for geom in geoms]
+    _geom_to_gmaps geom, opts, props for geom in geoms
 
 _geom_to_gmaps = ( geom, opts, props ) ->
     
     r = null
     coords = geom.coordinates
     
-    switch geojsonGeometry.type
+    switch geom.type
         when "Point"
             r = _make_point coords, opts, props
 
@@ -99,17 +99,16 @@ _error = () ->
 
 _ccw = (path) ->
     a = 0
-    for i in [0..path.length-2] by 1
-        a += ( # I'm pretty sure the below is finding the determinant
-            ((path[i+1].lat() - path[i].lat()) * (path[i+2].lng() - path[i].lng())) - (path[i+2].lat() - path[i].lat()) * (path[i+1].lng() - path[i].lng())
-        )
+    for i in [0..path.length-3] by 1
+        a += ((path[i+1].lat() - path[i].lat()) * (path[i+2].lng() - path[i].lng())) - (path[i+2].lat() - path[i].lat()) * (path[i+1].lng() - path[i].lng())
     return a > 0
 
 _make_featurecollection = (feats) ->
     feats = geojson.features
-    [_geom_to_gmaps(feat.geometry, opts, feat.properties) for feat in feats]
+    _geom_to_gmaps(feat.geometry, opts, feat.properties) for feat in feats
 
-GeoJSON = (geojson, options ) ->
+root = exports ? @
+root.GeoJSON = (geojson, options ) ->
     opts = options or {}
     r = null
     switch geojson.type
@@ -125,7 +124,7 @@ GeoJSON = (geojson, options ) ->
             r = _geom_to_gmaps geojson.geometry, opts, geojson.properties
 
         when "Point", "MultiPoint", "LineString", "MultiLineString", "Polygon", "MultiPolygon"
-            r = _geometryToGoogleMaps(geojson, opts)
+            r = _geom_to_gmaps(geojson, opts)
 
         else
             r = _error()
