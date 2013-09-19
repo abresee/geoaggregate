@@ -12,9 +12,9 @@ srs = SpatialReference(4269)
 
 load_tups = [
     (County, county_src),
-    (State, state_src)
+    #(State, state_src)
 ]
 
-for model, src in load_tups:
-    lm = LayerMapping(model, src, model.mapping, source_srs=srs)
-    lm.save(verbose=True)
+#for model, src in load_tups:
+lm = LayerMapping(model, src, model.mapping, source_srs=srs)
+lm.save(verbose=True)
