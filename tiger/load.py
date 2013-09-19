@@ -16,5 +16,6 @@ load_tups = [
 ]
 
 #for model, src in load_tups:
-lm = LayerMapping(model, src, model.mapping, source_srs=srs)
+#lm = LayerMapping(model, src, model.mapping, source_srs=srs)
+lm = LayerMapping(County, county_src, County.mapping, source_srs=srs)
 lm.save(verbose=True)
